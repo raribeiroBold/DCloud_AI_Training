@@ -1,0 +1,9 @@
+Oct  5 03:24:18 bkp-02 CRON[6648]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  5 07:06:03 bkp-02 sshd[2965]: Accepted publickey for deploy from 10.0.3.168 port 40868 ssh2
+Oct  5 14:15:36 bkp-02 bacula-fd[7777]: backup job 1301 completed OK
+Oct  5 19:53:59 bkp-02 CRON[3294]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  5 23:10:18 bkp-02 chronyd[657]: Selected source 10.0.0.7
+Oct  6 02:38:00 bkp-02 bacula-fd[9095]: backup job 4277 completed OK
+Oct  6 14:59:49 bkp-02 bacula-fd[3754]: backup job 7067 completed OK
+Oct  7 16:37:36 bkp-02 systemd[1]: Started Session 429 of User deploy.
+Oct  7 20:11:10 bkp-02 CRON[7256]: (root) CMD (/usr/local/bin/health-report.sh)

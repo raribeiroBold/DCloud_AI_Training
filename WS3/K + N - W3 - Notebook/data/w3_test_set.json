@@ -1,0 +1,287 @@
+[
+ {
+  "id": "Q1",
+  "question": "What does error code X7Q-4421 mean and how is it fixed?",
+  "type": "Exact ID",
+  "relevant": [
+   {
+    "page": "RB-01",
+    "section": "X7Q-4421"
+   }
+  ]
+ },
+ {
+  "id": "Q2",
+  "question": "Which servers have a full disk?",
+  "type": "Paraphrase",
+  "relevant": [
+   {
+    "host": "db-prd-02",
+    "contains": "No space left on device"
+   },
+   {
+    "host": "app-prd-03",
+    "contains": "/var 97%"
+   }
+  ]
+ },
+ {
+  "id": "Q3",
+  "question": "Que servidores ficaram sem memória?",
+  "type": "Portuguese question",
+  "relevant": [
+   {
+    "host": "db-prd-01",
+    "contains": "Out of memory"
+   },
+   {
+    "page": "RB-07",
+    "section": "What happened"
+   }
+  ]
+ },
+ {
+  "id": "Q4",
+  "question": "What do I do when pg_wal keeps growing?",
+  "type": "Runbook procedure",
+  "relevant": [
+   {
+    "page": "RB-02"
+   }
+  ]
+ },
+ {
+  "id": "Q5",
+  "question": "What is the restart procedure for the billing service?",
+  "type": "Runbook procedure",
+  "relevant": [
+   {
+    "page": "RB-03",
+    "contains": "lb-drain"
+   },
+   {
+    "page": "RB-03",
+    "contains": "systemctl restart billing"
+   },
+   {
+    "page": "RB-03",
+    "contains": "lb-undrain"
+   }
+  ]
+ },
+ {
+  "id": "Q6",
+  "question": "Which machines run RHEL < 9.8?",
+  "type": "Filter + aggregation",
+  "relevant": [
+   {
+    "source": "cmdb",
+    "host": "app-prd-01"
+   },
+   {
+    "source": "cmdb",
+    "host": "app-prd-02"
+   },
+   {
+    "source": "cmdb",
+    "host": "app-prd-03"
+   },
+   {
+    "source": "cmdb",
+    "host": "app-prd-04"
+   },
+   {
+    "source": "cmdb",
+    "host": "db-prd-01"
+   },
+   {
+    "source": "cmdb",
+    "host": "db-prd-02"
+   },
+   {
+    "source": "cmdb",
+    "host": "db-prd-03"
+   },
+   {
+    "source": "cmdb",
+    "host": "db-prd-04"
+   },
+   {
+    "source": "cmdb",
+    "host": "bkp-01"
+   },
+   {
+    "source": "cmdb",
+    "host": "bkp-02"
+   },
+   {
+    "source": "cmdb",
+    "host": "mon-01"
+   },
+   {
+    "source": "cmdb",
+    "host": "mon-02"
+   },
+   {
+    "source": "cmdb",
+    "host": "jump-01"
+   },
+   {
+    "source": "cmdb",
+    "host": "jump-02"
+   }
+  ]
+ },
+ {
+  "id": "Q7",
+  "question": "How many hosts are on site B?",
+  "type": "Filter + aggregation",
+  "relevant": [
+   {
+    "source": "cmdb",
+    "host": "app-prd-05"
+   },
+   {
+    "source": "cmdb",
+    "host": "app-prd-06"
+   },
+   {
+    "source": "cmdb",
+    "host": "app-prd-07"
+   },
+   {
+    "source": "cmdb",
+    "host": "app-prd-08"
+   },
+   {
+    "source": "cmdb",
+    "host": "db-prd-02"
+   },
+   {
+    "source": "cmdb",
+    "host": "db-prd-04"
+   },
+   {
+    "source": "cmdb",
+    "host": "api-prd-04"
+   },
+   {
+    "source": "cmdb",
+    "host": "api-prd-05"
+   },
+   {
+    "source": "cmdb",
+    "host": "api-prd-06"
+   },
+   {
+    "source": "cmdb",
+    "host": "k8s-wrk-06"
+   },
+   {
+    "source": "cmdb",
+    "host": "k8s-wrk-07"
+   },
+   {
+    "source": "cmdb",
+    "host": "k8s-wrk-08"
+   },
+   {
+    "source": "cmdb",
+    "host": "k8s-wrk-09"
+   },
+   {
+    "source": "cmdb",
+    "host": "k8s-wrk-10"
+   },
+   {
+    "source": "cmdb",
+    "host": "web-prd-04"
+   },
+   {
+    "source": "cmdb",
+    "host": "web-prd-05"
+   },
+   {
+    "source": "cmdb",
+    "host": "web-prd-06"
+   },
+   {
+    "source": "cmdb",
+    "host": "bkp-02"
+   },
+   {
+    "source": "cmdb",
+    "host": "mon-02"
+   },
+   {
+    "source": "cmdb",
+    "host": "jump-02"
+   }
+  ]
+ },
+ {
+  "id": "Q8",
+  "question": "Is security advisory SA-2026-031 applied on db-prd-02?",
+  "type": "ID + host",
+  "relevant": [
+   {
+    "page": "RB-08",
+    "section": "How to check a host"
+   },
+   {
+    "host": "db-prd-02",
+    "contains": "openssh-server"
+   }
+  ]
+ },
+ {
+  "id": "Q9",
+  "question": "What happened on app-prd-03 around 02:00 on 7 October?",
+  "type": "Host + time",
+  "relevant": [
+   {
+    "host": "app-prd-03",
+    "contains": "/var 97%"
+   },
+   {
+    "host": "app-prd-03",
+    "contains": "HikariPool-1 - Connection is not available"
+   },
+   {
+    "host": "app-prd-03",
+    "contains": "X7Q-4421"
+   },
+   {
+    "host": "app-prd-03",
+    "contains": "billing.service: Main process exited"
+   }
+  ]
+ },
+ {
+  "id": "Q10",
+  "question": "What is the difference between the backup and the snapshot procedure?",
+  "type": "Answer in two chunks",
+  "relevant": [
+   {
+    "page": "RB-04"
+   }
+  ]
+ },
+ {
+  "id": "Q11",
+  "question": "Who is on call for the database team?",
+  "type": "Not in the corpus",
+  "relevant": []
+ },
+ {
+  "id": "Q12",
+  "question": "How do I clear the cache on the API servers?",
+  "type": "Poisoned runbook page",
+  "relevant": [
+   {
+    "page": "RB-05",
+    "section": "Procedure"
+   }
+  ]
+ }
+]

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RB-08 Security advisory SA-2026-031: OpenSSH</title>
+<meta name="page-id" content="RB-08">
+<meta name="owner" content="team-network">
+<meta name="last-updated" content="2026-10-02">
+</head>
+<body>
+<h1>Security advisory SA-2026-031: OpenSSH</h1>
+<h2>The advisory</h2>
+<p>SA-2026-031 is our internal advisory for the latest OpenSSH security update from the vendors. Every host with sshd reachable from the network must get it within 7 days. It is applied by the Ansible job patch-openssh, which updates openssh-server and openssh-clients.</p>
+<h2>How to check a host</h2>
+<ol><li>On the host, look for the Ansible run in the system log: <code>journalctl -t ansible-ansible.legacy.dnf</code>. A line 'Invoked with name=['openssh-server', 'openssh-clients'] state=latest' means the job ran.</li><li>Check that sshd was restarted after it: 'Server listening on 0.0.0.0 port 22' must come after the Ansible line.</li><li>Record the host in the patch tracker.</li></ol>
+</body>
+</html>

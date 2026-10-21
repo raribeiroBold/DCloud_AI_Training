@@ -1,0 +1,9 @@
+Oct  5 05:25:22 k8s-wrk-08 chronyd[761]: Selected source 10.0.0.9
+Oct  6 02:42:00 k8s-wrk-08 kubelet[9125]: I1007 pod shipments-312 started
+Oct  6 04:35:56 k8s-wrk-08 sshd[6526]: Accepted publickey for deploy from 10.0.5.92 port 40025 ssh2
+Oct  6 08:31:16 k8s-wrk-08 chronyd[709]: Selected source 10.0.0.8
+Oct  6 17:49:07 k8s-wrk-08 chronyd[750]: Selected source 10.0.0.9
+Oct  6 19:20:27 k8s-wrk-08 systemd[1]: Started Session 628 of User deploy.
+Oct  6 23:16:43 k8s-wrk-08 CRON[931]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 05:50:25 k8s-wrk-08 CRON[2911]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 23:34:08 k8s-wrk-08 containerd[3337]: pulled image registry.local/shipments:7.11

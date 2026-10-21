@@ -1,0 +1,9 @@
+Oct  5 09:48:26 web-prd-03.corp.local nginx[1216]: GET /tracking 200 240ms
+Oct  5 13:40:06 web-prd-03.corp.local chronyd[882]: Selected source 10.0.0.6
+Oct  6 12:07:24 web-prd-03.corp.local nginx[5671]: worker process 1 started
+Oct  6 13:28:01 web-prd-03.corp.local systemd[1]: Started Session 825 of User deploy.
+Oct  6 15:04:15 web-prd-03.corp.local nginx[6335]: GET /tracking 200 217ms
+Oct  6 15:05:15 web-prd-03.corp.local sshd[5915]: Accepted publickey for deploy from 10.0.8.112 port 51769 ssh2
+Oct  6 15:56:50 web-prd-03.corp.local nginx[8923]: GET /tracking 200 206ms
+Oct  7 01:54:57 web-prd-03.corp.local sshd[9606]: Accepted publickey for deploy from 10.0.7.118 port 57065 ssh2
+Oct  7 21:56:15 web-prd-03.corp.local sshd[4516]: Accepted publickey for deploy from 10.0.5.171 port 51999 ssh2

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RB-09 Draining a Kubernetes node</title>
+<meta name="page-id" content="RB-09">
+<meta name="owner" content="team-platform">
+<meta name="last-updated" content="2026-09-09">
+</head>
+<body>
+<h1>Draining a Kubernetes node</h1>
+<h2>Procedure</h2>
+<ol><li>Cordon the node: <code>kubectl cordon k8s-wrk-NN</code></li><li>Drain it: <code>kubectl drain k8s-wrk-NN --ignore-daemonsets --delete-emptydir-data</code></li><li>Do the maintenance, then <code>kubectl uncordon k8s-wrk-NN</code>.</li></ol>
+</body>
+</html>

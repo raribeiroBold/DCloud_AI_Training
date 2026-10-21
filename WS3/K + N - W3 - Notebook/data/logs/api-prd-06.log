@@ -1,0 +1,9 @@
+2026-10-05T01:04:31.268939+01:00 api-prd-06 nginx[911]: GET /v1/shipments/22149 200 272ms
+2026-10-06T06:44:26.010236+01:00 api-prd-06 CRON[6286]: (root) CMD (/usr/local/bin/health-report.sh)
+2026-10-06T10:51:58.927013+01:00 api-prd-06 systemd[1]: Started Session 767 of User deploy.
+2026-10-06T11:35:22.722145+01:00 api-prd-06 systemd[1]: Started Session 649 of User deploy.
+2026-10-06T13:26:34.762425+01:00 api-prd-06 sshd[2489]: Accepted publickey for deploy from 10.0.7.186 port 49357 ssh2
+2026-10-06T15:51:13.718386+01:00 api-prd-06 api-gateway[1433]: INFO cache hit ratio 74%
+2026-10-06T18:19:10.959321+01:00 api-prd-06 systemd[1]: Started Session 644 of User deploy.
+2026-10-06T18:52:21.488687+01:00 api-prd-06 nginx[911]: GET /v1/shipments/77665 200 37ms
+2026-10-07T04:40:11.809077+01:00 api-prd-06 nginx[911]: GET /v1/shipments/19793 200 243ms

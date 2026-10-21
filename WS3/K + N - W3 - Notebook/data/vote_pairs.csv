@@ -1,0 +1,4 @@
+pair,A,B,C
+1,Que servidores ficaram sem memória?,kernel: Out of memory: Killed process 4127 (postgres),WARN filesystem /var 97% used
+2,the disk on /var is full,the disk on /var is not full,/var has no space left
+3,which hosts run RHEL older than 9.8?,app-prd-04 · RHEL 9.6,app-prd-08 · RHEL 9.8

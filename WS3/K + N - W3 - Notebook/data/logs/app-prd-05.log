@@ -1,0 +1,9 @@
+Oct  5 08:13:02 app-prd-05 billing[1260]: INFO request 18237 completed in 233 ms
+Oct  5 10:10:47 app-prd-05 systemd[1]: Started Session 843 of User deploy.
+Oct  5 10:36:38 app-prd-05 billing[1260]: INFO invoice batch 480 closed
+Oct  5 23:48:53 app-prd-05 CRON[7657]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 09:29:30 app-prd-05 billing[1260]: INFO invoice batch 467 closed
+Oct  6 11:35:02 app-prd-05 sshd[8931]: Accepted publickey for deploy from 10.0.5.112 port 51084 ssh2
+Oct  6 15:29:17 app-prd-05 chronyd[786]: Selected source 10.0.0.2
+Oct  7 04:53:35 app-prd-05 billing[1260]: INFO request 34498 completed in 251 ms
+Oct  7 15:02:12 app-prd-05 chronyd[751]: Selected source 10.0.0.8

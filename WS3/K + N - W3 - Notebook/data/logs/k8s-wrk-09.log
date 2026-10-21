@@ -1,0 +1,9 @@
+Oct  5 02:37:10 k8s-wrk-09 kubelet[3798]: I1007 pod shipments-204 started
+Oct  5 04:41:01 k8s-wrk-09 kubelet[7672]: I1007 pod shipments-728 started
+Oct  5 17:45:35 k8s-wrk-09 CRON[3043]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  5 20:05:55 k8s-wrk-09 chronyd[817]: Selected source 10.0.0.6
+Oct  6 04:09:57 k8s-wrk-09 containerd[3250]: pulled image registry.local/shipments:9.19
+Oct  6 10:30:54 k8s-wrk-09 systemd[1]: Started Session 128 of User deploy.
+Oct  6 15:59:53 k8s-wrk-09 chronyd[868]: Selected source 10.0.0.6
+Oct  7 03:46:08 k8s-wrk-09 containerd[8817]: pulled image registry.local/shipments:4.14
+Oct  7 20:24:03 k8s-wrk-09 containerd[1243]: pulled image registry.local/shipments:9.13

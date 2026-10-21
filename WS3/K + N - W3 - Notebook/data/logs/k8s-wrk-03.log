@@ -1,0 +1,9 @@
+Oct  5 00:27:44 k8s-wrk-03 kubelet[4833]: I1007 pod shipments-677 started
+Oct  6 00:10:31 k8s-wrk-03 containerd[4499]: pulled image registry.local/shipments:7.12
+Oct  6 01:49:56 k8s-wrk-03 containerd[4595]: pulled image registry.local/shipments:4.4
+Oct  6 11:58:27 k8s-wrk-03 sshd[5836]: Accepted publickey for deploy from 10.0.8.16 port 42149 ssh2
+Oct  6 16:55:36 k8s-wrk-03 chronyd[582]: Selected source 10.0.0.2
+Oct  6 20:26:05 k8s-wrk-03 containerd[9610]: pulled image registry.local/shipments:6.9
+Oct  6 22:46:06 k8s-wrk-03 chronyd[776]: Selected source 10.0.0.2
+Oct  7 09:35:44 k8s-wrk-03 containerd[5785]: pulled image registry.local/shipments:9.20
+Oct  7 13:20:27 k8s-wrk-03 kubelet[1902]: I1007 pod shipments-936 started

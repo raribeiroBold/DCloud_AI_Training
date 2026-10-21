@@ -1,0 +1,21 @@
+line,high
+WARN disk /var 97% used on app-prd-03 (+2 GB/h),1
+kernel: Out of memory: Killed process 4127 (postgres),1
+"HikariPool-1 - Connection is not available, request timed out after 30000ms.",1
+"postgres[7712]: PANIC: could not write to file ""pg_wal/xlogtemp.7712"": No space left on device",1
+haproxy: backend api-prd has no server available!,1
+sshd[812]: Failed password for root from 198.51.100.7 port 40022 ssh2 (x48 in 5 min),1
+kernel: EXT4-fs error (device sdb1): ext4_find_entry: reading directory lblock 0,1
+"smartd[611]: Device: /dev/sda, 24 Currently unreadable (pending) sectors",1
+ntpd[455]: time reset +0.183 s,0
+systemd[1]: Started Daily apt download activities.,0
+CRON[5120]: (root) CMD (/usr/local/bin/backup.sh),0
+"nginx: 192.0.2.30 - - ""GET /health HTTP/1.1"" 200 2",0
+postgres[7712]: LOG: checkpoint complete: wrote 1532 buffers (9.4%),0
+WARN disk /home 71% used on dev-02,0
+sshd[3001]: Accepted publickey for deploy from 192.0.2.10 port 50122 ssh2,0
+logrotate: rotating log /var/log/nginx/access.log,0
+dockerd: Container 3f2a health status changed to healthy,0
+INFO app[1203]: request completed in 182 ms (p95 210 ms),0
+WARN app[1203]: slow query 2.1 s on reports (threshold 2 s),0
+kernel: usb 1-1: new high-speed USB device number 3 using xhci_hcd,0

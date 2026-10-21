@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RB-02 pg_wal filling up on PostgreSQL</title>
+<meta name="page-id" content="RB-02">
+<meta name="owner" content="team-dba">
+<meta name="last-updated" content="2026-08-30">
+</head>
+<body>
+<h1>pg_wal filling up on PostgreSQL</h1>
+<h2>Why pg_wal grows</h2>
+<p>PostgreSQL keeps write-ahead log (WAL) files until nothing needs them. pg_wal grows without limit when a replication slot is no longer consumed, when archive_command keeps failing, or when wal_keep_size is set too high. Never delete files in pg_wal by hand: the database needs them to recover after a crash.</p>
+<h2>What to do</h2>
+<ol><li>Check the slots: <code>SELECT slot_name, active, restart_lsn FROM pg_replication_slots;</code> Drop a slot that is inactive and no longer needed with <code>pg_drop_replication_slot()</code>.</li><li>Check archiving: <code>SELECT failed_count, last_failed_wal FROM pg_stat_archiver;</code> If failed_count grows, fix archive_command (space or access on the archive target).</li><li>Check <code>SHOW wal_keep_size;</code> against the size of the volume.</li><li>Run <code>CHECKPOINT;</code> and check again with <code>du -sh /var/lib/pgsql/data/pg_wal</code>: files no longer needed are removed or recycled.</li></ol>
+</body>
+</html>

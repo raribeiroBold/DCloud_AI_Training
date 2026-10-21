@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+models/
+# written by the W3 notebook on each participant's laptop
+WS3/*/data/w3_store.json
+WS3/*/data/w3_wall.csv

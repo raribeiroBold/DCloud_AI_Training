@@ -1,0 +1,41 @@
+host,role,site,os,os_version,owner_team,timezone
+app-prd-01,app,A,RHEL,9.6,team-app,Europe/Lisbon
+app-prd-02,app,A,RHEL,9.6,team-app,Europe/Lisbon
+app-prd-03,app,A,RHEL,9.6,team-app,Europe/Lisbon
+app-prd-04,app,A,RHEL,9.6,team-app,Europe/Lisbon
+app-prd-05,app,B,RHEL,9.8,team-app,Europe/Lisbon
+app-prd-06,app,B,RHEL,9.8,team-app,Europe/Lisbon
+app-prd-07,app,B,RHEL,9.8,team-app,Europe/Lisbon
+app-prd-08,app,B,RHEL,9.8,team-app,Europe/Lisbon
+db-prd-01,database,A,RHEL,9.6,team-dba,Europe/Lisbon
+db-prd-02,database,B,RHEL,9.6,team-dba,Europe/Lisbon
+db-prd-03,database,A,RHEL,9.4,team-dba,Europe/Lisbon
+db-prd-04,database,B,RHEL,9.4,team-dba,Europe/Lisbon
+api-prd-01,api,A,Ubuntu,22.04,team-app,Europe/Lisbon
+api-prd-02,api,A,Ubuntu,22.04,team-app,Europe/Lisbon
+api-prd-03,api,A,Ubuntu,24.04,team-app,Europe/Lisbon
+api-prd-04,api,B,Ubuntu,24.04,team-app,Europe/Lisbon
+api-prd-05,api,B,Ubuntu,24.04,team-app,Europe/Lisbon
+api-prd-06,api,B,Ubuntu,24.04,team-app,Europe/Lisbon
+k8s-wrk-01,kubernetes worker,A,RHEL,10.0,team-platform,UTC
+k8s-wrk-02,kubernetes worker,A,RHEL,10.0,team-platform,UTC
+k8s-wrk-03,kubernetes worker,A,RHEL,10.0,team-platform,UTC
+k8s-wrk-04,kubernetes worker,A,RHEL,10.0,team-platform,UTC
+k8s-wrk-05,kubernetes worker,A,RHEL,10.0,team-platform,UTC
+k8s-wrk-06,kubernetes worker,B,RHEL,10.0,team-platform,UTC
+k8s-wrk-07,kubernetes worker,B,RHEL,10.0,team-platform,UTC
+k8s-wrk-08,kubernetes worker,B,RHEL,10.0,team-platform,UTC
+k8s-wrk-09,kubernetes worker,B,Ubuntu,22.04,team-platform,UTC
+k8s-wrk-10,kubernetes worker,B,Ubuntu,22.04,team-platform,UTC
+web-prd-01,web,A,RHEL,9.8,team-platform,Europe/Lisbon
+web-prd-02,web,A,RHEL,9.8,team-platform,Europe/Lisbon
+web-prd-03,web,A,RHEL,9.8,team-platform,Europe/Lisbon
+web-prd-04,web,B,RHEL,9.8,team-platform,Europe/Lisbon
+web-prd-05,web,B,RHEL,9.8,team-platform,Europe/Lisbon
+web-prd-06,web,B,RHEL,9.8,team-platform,Europe/Lisbon
+bkp-01,backup,A,RHEL,8.10,team-dba,Europe/Lisbon
+bkp-02,backup,B,RHEL,8.10,team-dba,Europe/Lisbon
+mon-01,monitoring,A,RHEL,8.10,team-platform,Europe/Lisbon
+mon-02,monitoring,B,RHEL,9.4,team-platform,Europe/Lisbon
+jump-01,bastion,A,RHEL,8.10,team-network,Europe/Lisbon
+jump-02,bastion,B,RHEL,9.4,team-network,Europe/Lisbon

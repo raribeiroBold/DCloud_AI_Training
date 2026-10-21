@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RB-06 Disk full on /var</title>
+<meta name="page-id" content="RB-06">
+<meta name="owner" content="team-platform">
+<meta name="last-updated" content="2026-08-11">
+</head>
+<body>
+<h1>Disk full on /var</h1>
+<h2>Symptoms</h2>
+<p>Services stop writing logs or data; PostgreSQL stops with 'No space left on device'; the disk-check script logs 'WARN filesystem /var 97% used' and the monitoring alert 'filesystem /var above 95%' fires.</p>
+<h2>Procedure</h2>
+<ol><li>Find what grows: <code>sudo du -xh /var | sort -h | tail -20</code></li><li>Compress or remove rotated logs older than 7 days in /var/log.</li><li>On database hosts, never delete files in pg_wal: follow RB-02.</li><li>If /var is still above 90%, extend the logical volume and open a ticket for team-platform.</li></ol>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Oct  5 03:30:23 app-prd-07 billing[1260]: INFO invoice batch 782 closed
+Oct  5 05:02:42 app-prd-07 sshd[8942]: Accepted publickey for deploy from 10.0.6.232 port 54454 ssh2
+Oct  5 05:52:06 app-prd-07 billing[1260]: INFO invoice batch 434 closed
+Oct  5 11:33:09 app-prd-07 systemd[1]: Started Session 589 of User deploy.
+Oct  5 23:03:38 app-prd-07 CRON[8801]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 01:05:50 app-prd-07 billing[1260]: INFO invoice batch 529 closed
+Oct  6 01:44:21 app-prd-07 billing[1260]: INFO invoice batch 594 closed
+Oct  6 11:29:42 app-prd-07 billing[1260]: INFO invoice batch 644 closed
+Oct  6 21:35:47 app-prd-07 billing[1260]: INFO invoice batch 676 closed
