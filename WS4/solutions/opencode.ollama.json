@@ -1,6 +1,23 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "model": "ollama/qwen3.5:9b",
+  "provider": {
+    "ollama": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ollama (local)",
+      "options": {
+        "baseURL": "http://127.0.0.1:11434/v1"
+      },
+      "models": {
+        "qwen3.5-w4": {
+          "name": "Qwen 3.5 9B, 32k (Ollama)",
+          "options": {
+            "reasoningEffort": "none"
+          }
+        }
+      }
+    }
+  },
+  "model": "ollama/qwen3.5-w4",
   "share": "disabled",
   "disabled_providers": [
     "opencode"

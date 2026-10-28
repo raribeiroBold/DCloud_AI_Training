@@ -1,0 +1,4 @@
+# K+N W4: Qwen 3.5 9B with a 32k context, whatever the Ollama app setting.
+# From the W4 folder: ollama create qwen3.5-w4 -f templates/Modelfile
+FROM qwen3.5:9b
+PARAMETER num_ctx 32768

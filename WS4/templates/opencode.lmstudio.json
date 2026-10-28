@@ -10,7 +10,10 @@
       },
       "models": {
         "qwen/qwen3.5-9b": {
-          "name": "Qwen 3.5 9B (LM Studio)"
+          "name": "Qwen 3.5 9B (LM Studio)",
+          "options": {
+            "reasoningEffort": "none"
+          }
         }
       }
     }

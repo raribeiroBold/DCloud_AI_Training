@@ -1,4 +1,4 @@
-"""Build the Chroma collection for the W4 Part 1 RAG demo (slide 78).
+"""Build the Chroma collection for the W4 Part 1 RAG demo (slide 79).
 
 Loads the W3 runbooks (one chunk per <h2> section, with page-id, title and owner
 as metadata) into a persistent Chroma collection, using Chroma's default local
