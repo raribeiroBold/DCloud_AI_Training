@@ -1,0 +1,78 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "ollama/qwen3.5:9b",
+  "share": "disabled",
+  "disabled_providers": [
+    "opencode"
+  ],
+  "agent": {
+    "build": {
+      "permission": {
+        "edit": "ask",
+        "bash": "ask",
+        "webfetch": "ask",
+        "create_ticket": "ask",
+        "skill": "deny",
+        "runbooks_write_file": "deny",
+        "runbooks_edit_file": "deny",
+        "runbooks_move_file": "deny",
+        "runbooks_create_directory": "deny",
+        "rag_chroma_create_collection": "deny",
+        "rag_chroma_modify_collection": "deny",
+        "rag_chroma_fork_collection": "deny",
+        "rag_chroma_delete_collection": "deny",
+        "rag_chroma_add_documents": "deny",
+        "rag_chroma_update_documents": "deny",
+        "rag_chroma_delete_documents": "deny"
+      }
+    },
+    "plan": {
+      "permission": {
+        "bash": "ask",
+        "webfetch": "ask",
+        "skill": "deny",
+        "runbooks_write_file": "deny",
+        "runbooks_edit_file": "deny",
+        "runbooks_move_file": "deny",
+        "runbooks_create_directory": "deny",
+        "rag_chroma_create_collection": "deny",
+        "rag_chroma_modify_collection": "deny",
+        "rag_chroma_fork_collection": "deny",
+        "rag_chroma_delete_collection": "deny",
+        "rag_chroma_add_documents": "deny",
+        "rag_chroma_update_documents": "deny",
+        "rag_chroma_delete_documents": "deny"
+      }
+    }
+  },
+  "mcp": {
+    "servers": {
+      "runbooks": {
+        "type": "local",
+        "command": [
+          "npx",
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "./runbooks"
+        ],
+        "codemode": false
+      },
+      "rag": {
+        "type": "local",
+        "command": [
+          "uvx",
+          "--python",
+          "3.12",
+          "--with",
+          "pydantic<2.12",
+          "chroma-mcp",
+          "--client-type",
+          "persistent",
+          "--data-dir",
+          "./rag/chroma_db"
+        ],
+        "codemode": false
+      }
+    }
+  }
+}

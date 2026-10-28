@@ -1,0 +1,10 @@
+Oct  5 06:08:34 JUMP-01 CRON[2484]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  5 09:11:02 JUMP-01 sshd[7290]: Accepted publickey for deploy from 10.0.2.47 port 50144 ssh2
+Oct  5 09:12:03 JUMP-01 sshd[2210]: Accepted publickey for deploy from 10.0.4.12 port 51022 ssh2
+Oct  6 01:59:40 JUMP-01 systemd[1]: Started Session 648 of User deploy.
+Oct  6 03:57:14 JUMP-01 sshd[6570]: Accepted publickey for ops from 10.0.1.224 port 51384 ssh2
+Oct  6 07:24:51 JUMP-01 systemd[1]: Started Session 365 of User deploy.
+Oct  6 08:28:32 JUMP-01 sshd[4795]: Accepted publickey for ops from 10.0.8.232 port 44122 ssh2
+Oct  6 19:11:00 JUMP-01 sshd[3382]: Accepted publickey for ops from 10.0.8.210 port 47497 ssh2
+Oct  7 13:18:17 JUMP-01 sshd[8981]: Accepted publickey for deploy from 10.0.6.47 port 53341 ssh2
+Oct  7 23:41:51 JUMP-01 sshd[6511]: Accepted publickey for ops from 10.0.5.56 port 50975 ssh2

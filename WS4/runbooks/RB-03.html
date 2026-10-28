@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RB-03 Restarting the billing service</title>
+<meta name="page-id" content="RB-03">
+<meta name="owner" content="team-app">
+<meta name="last-updated" content="2026-09-02">
+</head>
+<body>
+<h1>Restarting the billing service</h1>
+<h2>Before you start</h2>
+<p>The billing service runs on app-prd-01 to app-prd-08 behind the load balancer. A restart on one host is safe during the day; a restart on all hosts at once stops invoicing for about two minutes and must be announced in the change channel first.</p>
+<p>Check the reason for the restart. If the service stopped because of a database error (codes X7Q-4421 or X7Q-4412), fix the database side first with RB-01, otherwise the service stops again after the restart.</p>
+<p>Make sure you have sudo rights on the host and that nobody else is working on the same host: look at the maintenance board and write your name there. Take the host out of the load balancer pool with the drain script, so that no new requests reach it while you work. The drain script waits until the open requests are finished, which normally takes less than thirty seconds. Keep the change channel open, so that the on-site colleagues can see what is happening. If the host does not leave the pool, stop here: the load balancer may be in maintenance, and a restart without a drain cuts the open invoice requests.</p>
+<h2>Procedure</h2>
+<ol><li>Drain the host: <code>sudo /usr/local/bin/lb-drain billing</code></li><li>Restart the service: <code>sudo systemctl restart billing</code></li><li>Watch the log for one minute: <code>journalctl -u billing -f</code>. The line 'Started billing service' must appear and no ERROR line after it.</li><li>Put the host back in the pool: <code>sudo /usr/local/bin/lb-undrain billing</code></li><li>Repeat on the next host only when the previous one serves requests again.</li></ol>
+<h2>Checks after the restart</h2>
+<p>Open the billing dashboard and check that the error rate is back below 1% and that invoice batches close again. Write the restart, the host and the reason in the change log.</p>
+</body>
+</html>

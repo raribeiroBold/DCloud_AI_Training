@@ -1,0 +1,9 @@
+Oct  5 01:12:24 k8s-wrk-01 kubelet[5399]: I1007 pod shipments-870 started
+Oct  5 14:25:18 k8s-wrk-01 containerd[6901]: pulled image registry.local/shipments:9.19
+Oct  5 15:54:22 k8s-wrk-01 containerd[6592]: pulled image registry.local/shipments:4.18
+Oct  5 18:49:16 k8s-wrk-01 systemd[1]: Started Session 872 of User deploy.
+Oct  6 04:30:22 k8s-wrk-01 kubelet[3081]: I1007 pod shipments-110 started
+Oct  6 12:17:44 k8s-wrk-01 containerd[6980]: pulled image registry.local/shipments:9.7
+Oct  6 18:00:32 k8s-wrk-01 containerd[5500]: pulled image registry.local/shipments:5.8
+Oct  7 07:34:22 k8s-wrk-01 systemd[1]: Started Session 394 of User deploy.
+Oct  7 23:17:11 k8s-wrk-01 kubelet[3486]: I1007 pod shipments-484 started

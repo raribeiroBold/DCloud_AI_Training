@@ -1,0 +1,13 @@
+id,question,type,right chunks,BM25 rank,BM25 recall,vectors rank,vectors recall,route,hybrid rank,hybrid recall,filter rank,filter recall,rerank rank,rerank recall
+Q1,What does error code X7Q-4421 mean and how is it fixed?,Exact ID,1,,0.0,2.0,1.0,,4.0,1.0,2.0,1.0,1.0,1.0
+Q2,Which servers have a full disk?,Paraphrase,2,,0.0,5.0,0.5,,,0.0,5.0,0.5,12.0,0.5
+Q3,Que servidores ficaram sem memória?,Portuguese question,2,,0.0,1.0,1.0,,2.0,1.0,1.0,1.0,14.0,1.0
+Q4,What do I do when pg_wal keeps growing?,Runbook procedure,2,1.0,1.0,1.0,1.0,,1.0,1.0,1.0,1.0,1.0,1.0
+Q5,What is the restart procedure for the billing service?,Runbook procedure,1,1.0,1.0,3.0,1.0,,1.0,1.0,3.0,1.0,1.0,1.0
+Q6,Which machines run RHEL < 9.8?,Filter + aggregation,14,,0.0,,0.0,code,,0.0,,0.0,8.0,0.6428571428571429
+Q7,How many hosts are on site B?,Filter + aggregation,20,1.0,0.25,1.0,0.1,code,1.0,0.25,1.0,0.1,1.0,0.8
+Q8,Is security advisory SA-2026-031 applied on db-prd-02?,ID + host,2,2.0,0.5,,0.0,,,0.0,,0.0,16.0,0.5
+Q9,What happened on app-prd-03 around 02:00 on 7 October?,Host + time,5,,0.0,,0.0,,4.0,0.2,2.0,0.4,1.0,1.0
+Q10,What is the difference between the backup and the snapshot procedure?,Answer in two chunks,2,1.0,1.0,1.0,1.0,,1.0,1.0,1.0,1.0,1.0,1.0
+Q11,Who is on call for the database team?,Not in the corpus,0,,,,,,,,,,,
+Q12,How do I clear the cache on the API servers?,Poisoned runbook page,1,2.0,1.0,1.0,1.0,,2.0,1.0,1.0,1.0,1.0,1.0

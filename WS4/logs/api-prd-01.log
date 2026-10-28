@@ -1,0 +1,9 @@
+Oct  5 00:24:53 api-prd-01 sshd[9187]: Accepted publickey for deploy from 10.0.5.42 port 51525 ssh2
+Oct  5 07:30:13 api-prd-01 sshd[7007]: Accepted publickey for deploy from 10.0.1.144 port 56038 ssh2
+Oct  5 10:22:04 api-prd-01 sshd[4053]: Accepted publickey for deploy from 10.0.5.91 port 50570 ssh2
+Oct  5 10:49:32 api-prd-01 nginx[911]: GET /v1/shipments/88852 200 246ms
+Oct  6 17:28:20 api-prd-01 api-gateway[1433]: INFO cache hit ratio 85%
+Oct  6 18:40:29 api-prd-01 nginx[911]: GET /v1/shipments/93680 200 258ms
+Oct  6 21:28:28 api-prd-01 sshd[9505]: Accepted publickey for deploy from 10.0.8.93 port 41025 ssh2
+Oct  7 04:32:52 api-prd-01 api-gateway[1433]: INFO cache hit ratio 93%
+Oct  7 06:43:29 api-prd-01 systemd[1]: Started Session 411 of User deploy.

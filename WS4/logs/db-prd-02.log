@@ -1,0 +1,22 @@
+Oct  5 08:23:11 db-prd-02 postgres[7934]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct  5 10:28:19 db-prd-02 chronyd[522]: Selected source 10.0.0.7
+Oct  5 12:46:19 db-prd-02 postgres[8364]: LOG:  checkpoint complete: wrote 6172 buffers
+Oct  5 15:10:20 db-prd-02 chronyd[686]: Selected source 10.0.0.5
+Oct  5 19:34:37 db-prd-02 postgres[5990]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct  5 20:22:33 db-prd-02 postgres[2136]: LOG:  checkpoint complete: wrote 3739 buffers
+Oct  5 22:04:52 db-prd-02 CRON[8846]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 06:08:36 db-prd-02 postgres[8668]: LOG:  checkpoint complete: wrote 6623 buffers
+Oct  6 10:02:11 db-prd-02 ansible-ansible.legacy.dnf[3381]: Invoked with name=['openssh-server', 'openssh-clients'] state=latest update_only=True
+Oct  6 10:02:48 db-prd-02 sshd[3417]: Server listening on 0.0.0.0 port 22.
+Oct  6 13:42:44 db-prd-02 postgres[7535]: LOG:  checkpoint complete: wrote 6180 buffers
+Oct  6 23:14:52 db-prd-02 postgres[7712]: PANIC: could not write to file "pg_wal/xlogtemp.7712": No space left on device
+Oct  6 23:14:52 db-prd-02 postgres[1102]: LOG:  WAL writer process (PID 7712) was terminated by signal 6: Aborted
+Oct  6 23:14:52 db-prd-02 postgres[1102]: LOG:  terminating any other active server processes
+Oct  6 23:21:07 db-prd-02 postgres[1102]: LOG:  database system is ready to accept connections
+Oct 20 03:12:01 db-prd-02 diskmon[2211]: /var/lib/postgresql used=88% (440G of 500G) threshold=85% WARNING
+Oct 20 03:12:01 db-prd-02 diskmon[2211]: / used=41% (16G of 40G) threshold=85% OK
+Oct 20 14:02:37 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 20 14:02:37 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000E7 bkp-01:/srv/wal/
+Oct 21 03:12:01 db-prd-02 diskmon[2214]: /var/lib/postgresql used=93% (465G of 500G) threshold=90% CRITICAL
+Oct 21 03:12:01 db-prd-02 diskmon[2214]: / used=41% (16G of 40G) threshold=85% OK
+Oct 21 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003A000000F2" failed too many times, will try again later

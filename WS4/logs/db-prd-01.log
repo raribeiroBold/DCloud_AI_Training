@@ -1,0 +1,13 @@
+Oct  5 06:03:45 db-prd-01 postgres[8113]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct  5 06:36:57 db-prd-01 postgres[2495]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct  5 10:03:07 db-prd-01 sshd[6087]: Accepted publickey for deploy from 10.0.7.230 port 50951 ssh2
+Oct  5 10:56:00 db-prd-01 postgres[1770]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct  5 19:46:58 db-prd-01 CRON[5864]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 12:30:23 db-prd-01 systemd[1]: Started Session 849 of User deploy.
+Oct  6 18:18:53 db-prd-01 chronyd[730]: Selected source 10.0.0.5
+Oct  7 00:16:35 db-prd-01 sshd[1199]: Accepted publickey for deploy from 10.0.9.100 port 47020 ssh2
+Oct  7 04:40:18 db-prd-01 kernel: Out of memory: Killed process 4127 (postgres) total-vm:18342216kB, anon-rss:15206928kB
+Oct  7 04:40:19 db-prd-01 postgres[1088]: LOG:  server process (PID 4127) was terminated by signal 9: Killed
+Oct  7 04:40:19 db-prd-01 postgres[1088]: LOG:  terminating any other active server processes
+Oct  7 23:25:00 db-prd-01 postgres[9213]: LOG:  checkpoint complete: wrote 4301 buffers
+Oct 21 03:12:03 db-prd-01 diskmon[1987]: /var/lib/postgresql used=71% (355G of 500G) threshold=85% OK

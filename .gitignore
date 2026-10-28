@@ -6,3 +6,12 @@ models/
 # written by the W3 notebook on each participant's laptop
 WS3/*/data/w3_store.json
 WS3/*/data/w3_wall.csv
+# written in class on each participant's laptop (W4)
+WS4/opencode.json
+WS4/AGENTS.md
+WS4/AGENTS-*.md
+WS4/.opencode/
+WS4/my_task.md
+WS4/tickets/*
+!WS4/tickets/.gitkeep
+WS4/rag/chroma_db/

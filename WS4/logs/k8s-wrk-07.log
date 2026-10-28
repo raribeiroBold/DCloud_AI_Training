@@ -1,0 +1,9 @@
+Oct  5 14:56:03 k8s-wrk-07 sshd[9776]: Accepted publickey for deploy from 10.0.9.220 port 49043 ssh2
+Oct  5 18:13:41 k8s-wrk-07 kubelet[5487]: I1007 pod shipments-794 started
+Oct  5 22:49:37 k8s-wrk-07 kubelet[5739]: I1007 pod shipments-332 started
+Oct  5 23:39:13 k8s-wrk-07 containerd[3358]: pulled image registry.local/shipments:7.9
+Oct  6 10:18:55 k8s-wrk-07 systemd[1]: Started Session 482 of User deploy.
+Oct  6 12:14:11 k8s-wrk-07 kubelet[4847]: I1007 pod shipments-264 started
+Oct  6 18:12:14 k8s-wrk-07 chronyd[876]: Selected source 10.0.0.7
+Oct  7 01:06:13 k8s-wrk-07 containerd[4819]: pulled image registry.local/shipments:9.8
+Oct  7 11:11:46 k8s-wrk-07 kubelet[5033]: I1007 pod shipments-480 started

@@ -1,0 +1,9 @@
+Oct  5 18:24:04 k8s-wrk-02 CRON[6000]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 05:55:21 k8s-wrk-02 containerd[5694]: pulled image registry.local/shipments:1.4
+Oct  6 07:36:38 k8s-wrk-02 sshd[4508]: Accepted publickey for deploy from 10.0.1.16 port 40433 ssh2
+Oct  6 09:22:53 k8s-wrk-02 sshd[4802]: Accepted publickey for deploy from 10.0.3.165 port 55299 ssh2
+Oct  6 10:55:11 k8s-wrk-02 sshd[6137]: Accepted publickey for deploy from 10.0.4.207 port 42026 ssh2
+Oct  7 06:36:46 k8s-wrk-02 systemd[1]: Started Session 677 of User deploy.
+Oct  7 14:29:15 k8s-wrk-02 sshd[2283]: Accepted publickey for deploy from 10.0.4.44 port 50964 ssh2
+Oct  7 20:09:05 k8s-wrk-02 kubelet[7288]: I1007 pod shipments-893 started
+Oct  7 23:38:37 k8s-wrk-02 sshd[9082]: Accepted publickey for deploy from 10.0.2.19 port 44543 ssh2

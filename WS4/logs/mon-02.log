@@ -1,0 +1,9 @@
+Oct  5 12:39:44 mon-02 systemd[1]: Started Session 536 of User deploy.
+Oct  5 13:40:19 mon-02 prometheus[8389]: compaction completed in 235 ms
+Oct  5 17:42:49 mon-02 sshd[3488]: Accepted publickey for deploy from 10.0.6.169 port 46218 ssh2
+Oct  7 00:24:12 mon-02 CRON[6928]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 02:24:53 mon-02 systemd[1]: Started Session 926 of User deploy.
+Oct  7 05:36:35 mon-02 chronyd[615]: Selected source 10.0.0.9
+Oct  7 09:49:53 mon-02 CRON[6574]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 18:07:14 mon-02 chronyd[689]: Selected source 10.0.0.7
+Oct  7 21:39:02 mon-02 prometheus[2792]: compaction completed in 3752 ms

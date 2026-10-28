@@ -1,0 +1,23 @@
+2026-10-07 01:03:57.440  INFO 1260 --- [http-nio-8080-exec-1] c.e.billing.InvoiceController        : invoice 92058 closed in 112 ms
+2026-10-07 01:05:28.641  INFO 1260 --- [http-nio-8080-exec-2] c.e.billing.InvoiceController        : invoice 99722 closed in 358 ms
+2026-10-07 01:05:43.300  INFO 1260 --- [http-nio-8080-exec-2] c.e.billing.InvoiceController        : invoice 15130 closed in 267 ms
+2026-10-07 01:06:30.173  INFO 1260 --- [http-nio-8080-exec-2] c.e.billing.InvoiceController        : invoice 52058 closed in 189 ms
+2026-10-07 01:15:52.302  INFO 1260 --- [http-nio-8080-exec-9] c.e.billing.InvoiceController        : invoice 12295 closed in 318 ms
+2026-10-07 01:19:41.944  INFO 1260 --- [http-nio-8080-exec-9] c.e.billing.InvoiceController        : invoice 61646 closed in 318 ms
+2026-10-07 01:21:30.995  INFO 1260 --- [http-nio-8080-exec-9] c.e.billing.InvoiceController        : invoice 40438 closed in 98 ms
+2026-10-07 01:31:42.155  INFO 1260 --- [http-nio-8080-exec-7] c.e.billing.InvoiceController        : invoice 75178 closed in 183 ms
+2026-10-07 01:33:52.667  INFO 1260 --- [http-nio-8080-exec-8] c.e.billing.InvoiceController        : invoice 62920 closed in 286 ms
+2026-10-07 01:45:34.778  INFO 1260 --- [http-nio-8080-exec-7] c.e.billing.InvoiceController        : invoice 36415 closed in 142 ms
+2026-10-07 01:52:00.624  INFO 1260 --- [http-nio-8080-exec-8] c.e.billing.InvoiceController        : invoice 47089 closed in 277 ms
+2026-10-07 01:52:23.239  INFO 1260 --- [http-nio-8080-exec-1] c.e.billing.InvoiceController        : invoice 23743 closed in 86 ms
+2026-10-07 01:56:57.590  INFO 1260 --- [http-nio-8080-exec-5] c.e.billing.InvoiceController        : invoice 81661 closed in 240 ms
+2026-10-07 02:00:41.212 ERROR 1260 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.HikariPool    : HikariPool-1 - Connection is not available, request timed out after 30000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:181)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:146)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at com.example.billing.InvoiceRepository.save(InvoiceRepository.java:57)
+	at com.example.billing.InvoiceService.close(InvoiceService.java:112)
+2026-10-07 02:01:00.005 ERROR 1260 --- [http-nio-8080-exec-7] c.e.billing.InvoiceService           : Invoice batch 731 not closed: X7Q-4421
+2026-10-07 02:03:29.870  WARN 1260 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown    : Commencing graceful shutdown. Waiting for active requests to complete

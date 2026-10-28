@@ -1,0 +1,10 @@
+2026-10-05T02:59:59.458306+01:00 api-prd-04 CRON[7921]: (root) CMD (/usr/local/bin/health-report.sh)
+2026-10-05T21:16:51.075131+01:00 api-prd-04 nginx[911]: GET /v1/shipments/96496 200 212ms
+2026-10-05T21:18:50.760570+01:00 api-prd-04 nginx[911]: GET /v1/shipments/86822 200 236ms
+2026-10-06T09:07:14.186203+01:00 api-prd-04 sshd[2885]: Accepted publickey for deploy from 10.0.6.22 port 52806 ssh2
+2026-10-06T16:45:29.435823+01:00 api-prd-04 systemd[1]: Started Session 505 of User deploy.
+2026-10-06T20:46:15.033343+01:00 api-prd-04 sshd[4725]: Accepted publickey for deploy from 10.0.9.26 port 40362 ssh2
+2026-10-07T02:03:11.909028+01:00 api-prd-04 nginx[911]: upstream timed out (110: Connection timed out) while reading response header from upstream "billing"
+2026-10-07T08:28:32.187220+01:00 api-prd-04 api-gateway[1433]: INFO cache hit ratio 87%
+2026-10-07T16:56:49.887062+01:00 api-prd-04 chronyd[557]: Selected source 10.0.0.2
+2026-10-07T23:03:52.433611+01:00 api-prd-04 api-gateway[1433]: INFO cache hit ratio 94%

@@ -1,0 +1,9 @@
+2026-10-05T08:47:13.244881+01:00 api-prd-05 chronyd[662]: Selected source 10.0.0.9
+2026-10-06T13:24:47.374520+01:00 api-prd-05 api-gateway[1433]: INFO cache hit ratio 84%
+2026-10-06T17:59:54.442316+01:00 api-prd-05 nginx[911]: GET /v1/shipments/44971 200 226ms
+2026-10-06T19:14:23.059311+01:00 api-prd-05 nginx[911]: GET /v1/shipments/49713 200 31ms
+2026-10-06T21:03:12.977310+01:00 api-prd-05 chronyd[894]: Selected source 10.0.0.7
+2026-10-06T23:44:11.000648+01:00 api-prd-05 chronyd[704]: Selected source 10.0.0.3
+2026-10-07T01:32:53.911407+01:00 api-prd-05 sshd[4398]: Accepted publickey for deploy from 10.0.7.62 port 54242 ssh2
+2026-10-07T06:01:47.070069+01:00 api-prd-05 api-gateway[1433]: INFO cache hit ratio 80%
+2026-10-07T16:58:46.910755+01:00 api-prd-05 api-gateway[1433]: INFO cache hit ratio 73%

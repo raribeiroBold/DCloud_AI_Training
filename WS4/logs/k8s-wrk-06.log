@@ -1,0 +1,9 @@
+Oct  5 08:32:32 k8s-wrk-06 systemd[1]: Started Session 277 of User deploy.
+Oct  5 10:15:40 k8s-wrk-06 containerd[3859]: pulled image registry.local/shipments:6.15
+Oct  5 15:59:55 k8s-wrk-06 sshd[4818]: Accepted publickey for deploy from 10.0.3.59 port 58942 ssh2
+Oct  5 20:18:20 k8s-wrk-06 systemd[1]: Started Session 797 of User deploy.
+Oct  5 22:25:59 k8s-wrk-06 chronyd[594]: Selected source 10.0.0.7
+Oct  6 01:39:30 k8s-wrk-06 containerd[5353]: pulled image registry.local/shipments:4.9
+Oct  6 08:12:41 k8s-wrk-06 CRON[2162]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 11:41:55 k8s-wrk-06 systemd[1]: Started Session 591 of User deploy.
+Oct  6 15:35:25 k8s-wrk-06 sshd[3749]: Accepted publickey for deploy from 10.0.6.120 port 45316 ssh2

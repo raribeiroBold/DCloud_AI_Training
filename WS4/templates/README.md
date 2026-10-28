@@ -1,0 +1,6 @@
+# Templates
+
+- `opencode.lmstudio.json` / `opencode.ollama.json`: copy the one for your runtime to `opencode.json` in the W4 folder (slide 17). Model: Qwen 3.5 9B (`qwen/qwen3.5-9b` in LM Studio, `qwen3.5:9b` in Ollama). Two MCP servers are already in it, switched off (`"disabled": true`) until unit 6, both with `"codemode": false` and their write tools denied: `runbooks` (the files in `runbooks/`, through `npx`) and `rag` (the Chroma collection in `rag/chroma_db`, through `uvx`). Local models only, sharing off, shell and edit ask, skills off (skills come in Part 2).
+- `calculator.ts`, `create_ticket.ts`: OpenCode 2 plugins. Copy to `.opencode/plugins/` (slides 50 and 59), write the description in the copy, restart OpenCode. (OpenCode 2 ignores the old `.opencode/tools/` folder.)
+- `disk_usage.py` + `disk_usage.ts`: a Python tool (slide 52). Copy `disk_usage.ts` to `.opencode/plugins/` and `disk_usage.py` to `.opencode/`, write the description in the `.ts` copy, restart OpenCode. Test the script alone with `python3 .opencode/disk_usage.py db-prd-02` (Windows: `python`).
+- `../rag/build_chroma.py`: builds the Chroma collection for the `rag` server. From the W4 folder: `uv run --python 3.12 --no-project --with chroma-mcp python rag/build_chroma.py`.

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RB-01 Error codes of the billing application</title>
+<meta name="page-id" content="RB-01">
+<meta name="owner" content="team-app">
+<meta name="last-updated" content="2026-09-14">
+</head>
+<body>
+<h1>Error codes of the billing application</h1>
+<h2>X7Q-4421</h2>
+<p>Meaning: the billing service could not open a database connection because pgbouncer refused it. The pgbouncer pool for the billing database is exhausted or pgbouncer is down.</p>
+<p>Fix: on the pgbouncer console of the database host, run SHOW POOLS. If cl_waiting keeps growing, look in the pgbouncer log for 'no more connections allowed', raise default_pool_size or find the client that holds the connections, then restart the billing service (RB-03).</p>
+<h2>X7Q-4412</h2>
+<p>Meaning: the billing service opened a database connection but the login was rejected. The password of the billing database user expired or was rotated without updating the application secret.</p>
+<p>Fix: update the secret billing-db-password in the vault and restart the billing service (RB-03). Do not reset the database password by hand.</p>
+<h2>B2K-9001</h2>
+<p>Meaning: an invoice batch was closed twice. The second close is ignored and no data is lost.</p>
+<p>Fix: none needed. If it repeats every night, open a ticket for team-app with the batch numbers.</p>
+<h2>Q3N-1180</h2>
+<p>Meaning: the exchange-rate feed did not answer in time; invoices in foreign currency wait in the queue.</p>
+<p>Fix: the queue drains by itself when the feed answers again. If it lasts more than one hour, warn the finance contact.</p>
+</body>
+</html>

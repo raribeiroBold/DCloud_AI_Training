@@ -1,0 +1,12 @@
+Oct  5 16:59:41 app-prd-03 CRON[8178]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  5 22:11:48 app-prd-03 billing[1260]: INFO invoice batch 154 closed
+Oct  6 03:09:17 app-prd-03 systemd[1]: Started Session 797 of User deploy.
+Oct  6 04:34:20 app-prd-03 billing[1260]: INFO invoice batch 640 closed
+Oct  6 05:55:02 app-prd-03 billing[1260]: INFO invoice batch 136 closed
+Oct  6 13:52:24 app-prd-03 sshd[6076]: Accepted publickey for deploy from 10.0.8.137 port 49810 ssh2
+Oct  7 01:45:05 app-prd-03 billing[1260]: INFO request 64570 completed in 181 ms
+Oct  7 01:58:10 app-prd-03 disk-check[2210]: WARN filesystem /var 97% used (+2 GB/h)
+Oct  7 02:01:00 app-prd-03 billing[1260]: ERROR code X7Q-4421: failed to open database connection
+Oct  7 02:03:30 app-prd-03 systemd[1]: billing.service: Main process exited, code=exited, status=1/FAILURE
+Oct  7 11:03:45 app-prd-03 CRON[5723]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 15:44:38 app-prd-03 systemd[1]: Started Session 579 of User deploy.

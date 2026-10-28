@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RB-04 Backup and snapshot of the billing database</title>
+<meta name="page-id" content="RB-04">
+<meta name="owner" content="team-dba">
+<meta name="last-updated" content="2026-07-21">
+</head>
+<body>
+<h1>Backup and snapshot of the billing database</h1>
+<h2>Backup</h2>
+<p>The nightly backup is a full logical backup taken by bacula at 01:00 from db-prd-01 and db-prd-02, kept for 30 days on bkp-01 and bkp-02. It is consistent, portable to another PostgreSQL version and slow to restore (about 2 hours for the billing database). Use it to restore a single table or to move the data to another server.</p>
+<h2>Snapshot</h2>
+<p>A snapshot is a copy of the storage volume taken in seconds by the storage array, kept for 48 hours. It restores the whole volume in minutes, but only on the same array and the same PostgreSQL version. Take one before every upgrade or schema change, and never treat it as a backup: if the array fails, the snapshot is lost with it.</p>
+</body>
+</html>
