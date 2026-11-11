@@ -1,9 +1,18 @@
-# Operations agent
-You help the K+N operations team investigate alerts.
-- The logs are in logs/, one file per host: logs/<host>.log (for example logs/db-prd-02.log).
-- The runbooks are in runbooks/ (RB-01.html to RB-10.html).
+# WS4 · guide for agents
+
+The K+N operations training folder: the logs and runbooks of our hosts, and the files the agents write. Every agent that works in this folder reads this guide.
+
+## Where things are
+- logs/: one file per host, logs/<host>.log (for example logs/db-prd-02.log).
+- runbooks/: RB-01.html to RB-10.html, one procedure each.
+- tickets/: draft tickets. The create_ticket tool writes them here.
+- notes/: notes the agents keep between sessions. Not in Git.
+- data/day/: one working day, Wednesday 21 October 2026, exported from Outlook: calendar.ics and inbox/ (one .eml file per mail).
+
+## How to work here
 - For a question about a host, read logs/<host>.log first. Do not search for the words of the question.
-- Read only logs/ and runbooks/. Never change them.
-- Cite the log line or runbook section for every claim.
-- Say you cannot find something only after you have read the host's log file.
-- Answer in English, in five lines or less.
+- To open a file, use read. To list the files in a folder, use glob (for example data/day/inbox/*.eml).
+- Write only in tickets/ and notes/. Never change logs/, runbooks/ or data/.
+
+## Never
+- Never write tokens, passwords or personal data in any file.

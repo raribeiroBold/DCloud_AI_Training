@@ -15,3 +15,5 @@ WS4/my_task.md
 WS4/tickets/*
 !WS4/tickets/.gitkeep
 WS4/rag/chroma_db/
+WS4/notes/*
+!WS4/notes/.gitkeep

@@ -1,0 +1,15 @@
+From: Ana Costa <ana.costa@corp.example>
+To: you@corp.example
+Subject: Capacity numbers for tomorrow's review
+Date: Tue, 20 Oct 2026 18:42:10 +0100
+Message-ID: <01-capacity-forecast@corp.example>
+Importance: High
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi,
+
+For the Q4 capacity review tomorrow at 14:00 I need, for db-prd-02, the current usage of the PostgreSQL volume and when it will be full at the current rate. One line is enough, but I need it before 13:00 so I can add it to the slides.
+
+Thanks,
+Ana

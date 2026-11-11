@@ -22,45 +22,24 @@
   "disabled_providers": [
     "opencode"
   ],
-  "agent": {
-    "build": {
-      "permission": {
-        "edit": "ask",
-        "bash": "ask",
-        "webfetch": "ask",
-        "create_ticket": "ask",
-        "skill": "deny",
-        "runbooks_write_file": "deny",
-        "runbooks_edit_file": "deny",
-        "runbooks_move_file": "deny",
-        "runbooks_create_directory": "deny",
-        "rag_chroma_create_collection": "deny",
-        "rag_chroma_modify_collection": "deny",
-        "rag_chroma_fork_collection": "deny",
-        "rag_chroma_delete_collection": "deny",
-        "rag_chroma_add_documents": "deny",
-        "rag_chroma_update_documents": "deny",
-        "rag_chroma_delete_documents": "deny"
-      }
-    },
-    "plan": {
-      "permission": {
-        "bash": "ask",
-        "webfetch": "ask",
-        "skill": "deny",
-        "runbooks_write_file": "deny",
-        "runbooks_edit_file": "deny",
-        "runbooks_move_file": "deny",
-        "runbooks_create_directory": "deny",
-        "rag_chroma_create_collection": "deny",
-        "rag_chroma_modify_collection": "deny",
-        "rag_chroma_fork_collection": "deny",
-        "rag_chroma_delete_collection": "deny",
-        "rag_chroma_add_documents": "deny",
-        "rag_chroma_update_documents": "deny",
-        "rag_chroma_delete_documents": "deny"
-      }
-    }
+  "default_agent": "ops",
+  "permission": {
+    "edit": "ask",
+    "bash": "ask",
+    "webfetch": "ask",
+    "create_ticket": "ask",
+    "skill": "deny",
+    "runbooks_write_file": "deny",
+    "runbooks_edit_file": "deny",
+    "runbooks_move_file": "deny",
+    "runbooks_create_directory": "deny",
+    "rag_chroma_create_collection": "deny",
+    "rag_chroma_modify_collection": "deny",
+    "rag_chroma_fork_collection": "deny",
+    "rag_chroma_delete_collection": "deny",
+    "rag_chroma_add_documents": "deny",
+    "rag_chroma_update_documents": "deny",
+    "rag_chroma_delete_documents": "deny"
   },
   "mcp": {
     "servers": {
@@ -69,7 +48,9 @@
         "command": [
           "npx",
           "-y",
-          "@modelcontextprotocol/server-filesystem",
+          "@modelcontextprotocol/server-filesystem@2.2.0",
+          "--read-only",
+          "--confine-roots",
           "./runbooks"
         ],
         "codemode": false,

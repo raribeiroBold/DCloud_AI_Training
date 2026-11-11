@@ -1,0 +1,16 @@
+From: Mark Weber <mark.weber@corp.example>
+To: you@corp.example
+Subject: WAL archiving to bkp-01 - did anyone check?
+Date: Tue, 20 Oct 2026 21:17:02 +0100
+Message-ID: <05-wal-archiving@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi,
+
+I saw "archive command failed" lines on db-prd-02 in the last days. Did anyone look at the WAL archiving to bkp-01? If it keeps failing, pg_wal grows until the volume is full, like on 6 Oct.
+
+Let's talk about it in the incident review.
+
+Mark

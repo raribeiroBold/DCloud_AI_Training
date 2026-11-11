@@ -1,0 +1,15 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-20931 assigned to you: users cannot log in to jump-02
+Date: Wed, 21 Oct 2026 07:58:41 +0100
+Message-ID: <04-inc-20931@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-20931 has been assigned to your group.
+Priority: P3. Resolution target: 8 business hours (by 16:00 today).
+
+Description: two users report "Permission denied (publickey)" when connecting to jump-02 since this morning. jump-01 works.
+
+Service Desk

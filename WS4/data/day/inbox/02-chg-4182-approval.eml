@@ -1,0 +1,16 @@
+From: Change Management <change.management@corp.example>
+To: you@corp.example
+Subject: Action required: CHG-4182 needs your technical approval before CAB
+Date: Tue, 20 Oct 2026 16:05:33 +0100
+Message-ID: <02-chg-4182-approval@corp.example>
+Importance: High
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+CHG-4182 - OS patching on app-prd-05
+Window: Wednesday 21 Oct, 22:00-23:00
+Risk: medium. Rollback: snapshot before patching.
+
+You are listed as technical approver. Please review and approve or reject in the change tool before the CAB starts (Wednesday 10:00). Changes without technical approval are deferred to next week.
+
+Change Management

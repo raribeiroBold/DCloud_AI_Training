@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:Calendar
+X-WR-TIMEZONE:Europe/Lisbon
+BEGIN:VEVENT
+UID:ops-standup-1021@corp.example
+SUMMARY:Ops daily stand-up
+DTSTART;TZID=Europe/Lisbon:20261021T090000
+DTEND;TZID=Europe/Lisbon:20261021T091500
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN=Ana Costa:mailto:ana.costa@corp.example
+DESCRIPTION:Daily stand-up. Each person: yesterday, today, blockers.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cab-1021@corp.example
+SUMMARY:Change Advisory Board
+DTSTART;TZID=Europe/Lisbon:20261021T100000
+DTEND;TZID=Europe/Lisbon:20261021T110000
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN=Change Management:mailto:change.management@corp.example
+DESCRIPTION:Changes for approval this week: CHG-4182 (app-prd-05 OS patching, tonight 22:00-23:00).
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:one-on-one-1021@corp.example
+SUMMARY:1:1 Ana / you
+DTSTART;TZID=Europe/Lisbon:20261021T113000
+DTEND;TZID=Europe/Lisbon:20261021T120000
+LOCATION:Room 2.14
+ORGANIZER;CN=Ana Costa:mailto:ana.costa@corp.example
+DESCRIPTION:Monthly 1:1.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:inc-review-1021@corp.example
+SUMMARY:Incident review: db-prd-02 crash of 6 Oct
+DTSTART;TZID=Europe/Lisbon:20261021T113000
+DTEND;TZID=Europe/Lisbon:20261021T121500
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN=Mark Weber:mailto:mark.weber@corp.example
+DESCRIPTION:Post-incident review of the 6 Oct PostgreSQL PANIC (pg_wal full). Bring the timeline.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:capacity-q4-1021@corp.example
+SUMMARY:Q4 capacity review
+DTSTART;TZID=Europe/Lisbon:20261021T140000
+DTEND;TZID=Europe/Lisbon:20261021T153000
+LOCATION:Room 3.02
+ORGANIZER;CN=Ana Costa:mailto:ana.costa@corp.example
+DESCRIPTION:Storage and compute forecast per service for Q4. Database team: volumes above 85% and when they fill up.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:vendor-bkp-1021@corp.example
+SUMMARY:Backup software renewal (optional)
+DTSTART;TZID=Europe/Lisbon:20261021T160000
+DTEND;TZID=Europe/Lisbon:20261021T163000
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN=Paul Durand:mailto:paul.durand@backupvendor.example
+DESCRIPTION:Renewal options for the backup licences. Optional for the ops team.
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

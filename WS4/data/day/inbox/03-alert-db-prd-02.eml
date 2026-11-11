@@ -1,0 +1,15 @@
+From: Monitoring <alerts@corp.example>
+To: you@corp.example
+Subject: [CRITICAL] db-prd-02 /var/lib/postgresql used=93%
+Date: Wed, 21 Oct 2026 03:12:09 +0100
+Message-ID: <03-alert-db-prd-02@corp.example>
+Importance: High
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Host: db-prd-02
+Check: disk usage /var/lib/postgresql
+Status: CRITICAL (threshold 90%)
+Value: 93% (465G of 500G)
+
+This alert was generated automatically. Details are in the host log.
