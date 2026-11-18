@@ -14,6 +14,9 @@
           "options": {
             "reasoningEffort": "none"
           }
+        },
+        "google/gemma-4-12b-qat": {
+          "name": "Gemma 4 12B QAT (LM Studio), unit 11"
         }
       }
     }
@@ -44,7 +47,9 @@
     "vault_write_file": "ask",
     "vault_edit_file": "ask",
     "vault_create_directory": "ask",
-    "vault_move_file": "ask"
+    "vault_move_file": "ask",
+    "vault_append_file": "ask",
+    "vault_copy_file": "ask"
   },
   "mcp": {
     "servers": {
@@ -89,5 +94,8 @@
         "disabled": true
       }
     }
+  },
+  "compaction": {
+    "buffer": 4000
   }
 }

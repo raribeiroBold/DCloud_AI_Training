@@ -17,6 +17,7 @@ The K+N operations training folder: the logs and runbooks of our hosts, and the 
 - For a question about a host, read notes/handoff.md first if it exists, then logs/<host>.log to check it. Do not search for the words of the question.
 - To open a file, use read. To list the files in a folder, use glob (for example data/day/inbox/*.eml).
 - For runbooks, use the runbooks tools (runbooks_search_files, runbooks_read_text_file) when that server is connected; they reach only runbooks/. When it is off, open runbooks/ with read.
+- For every other file (logs/, data/, notes/, tickets/), use read. The runbooks tools cannot open them.
 - Write only in tickets/, notes/ and, with the vault tools, ../ops-vault/. Never change logs/, runbooks/, data/ or ../ops-vault/4_Archive/.
 
 ## Notes between sessions

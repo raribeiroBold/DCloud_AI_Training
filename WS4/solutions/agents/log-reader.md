@@ -5,6 +5,7 @@ steps: 8
 permissions:
   - { action: edit, resource: "*", effect: deny }
   - { action: shell, resource: "*", effect: deny }
+  - { action: subagent, resource: "*", effect: deny }
 ---
 You read the log of ONE host in logs/ and report. You never change anything.
 

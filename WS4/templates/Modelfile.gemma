@@ -1,0 +1,5 @@
+# K+N W4 Part 3, unit 11: Gemma 4 12B with a 32k context, whatever the Ollama app setting.
+# First: ollama pull gemma4:12b-it-qat
+# Then, from the WS4 folder: ollama create gemma4-w4 -f templates/Modelfile.gemma
+FROM gemma4:12b-it-qat
+PARAMETER num_ctx 32768
