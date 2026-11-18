@@ -1,0 +1,30 @@
+{
+  "agent": "ops",
+  "permissions": {
+    "ask": [
+      "Bash",
+      "Edit",
+      "WebFetch",
+      "mcp__vault__write_file",
+      "mcp__vault__edit_file",
+      "mcp__vault__create_directory",
+      "mcp__vault__move_file",
+      "mcp__vault__append_file",
+      "mcp__vault__copy_file"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell|Write|Edit|MultiEdit|NotebookEdit|mcp__vault__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/../.claude/hooks/guard.mjs\"",
+            "onFailure": "block"
+          }
+        ]
+      }
+    ]
+  }
+}

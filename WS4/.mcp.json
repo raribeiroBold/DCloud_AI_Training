@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "runbooks": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem@2.2.0", "--read-only", "--confine-roots", "${CLAUDE_PROJECT_DIR:-.}/runbooks"]
+    },
+    "vault": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem@2.2.0", "--confine-roots", "${CLAUDE_PROJECT_DIR:-.}/../ops-vault"]
+    }
+  }
+}
