@@ -1,0 +1,14 @@
+From: Rui Santos <rui.santos@corp.example>
+To: you@corp.example
+Subject: On-call handover, week ending 09 Oct
+Date: Fri, 09 Oct 2026 17:33:00 +0100
+Message-ID: <202610091733-oncall-handover-1009@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi all,
+
+Quiet week after the db-prd-02 crash of 6 Oct (INC-20877 resolved). Open: the incident review is booked for 21 Oct.
+
+Rui

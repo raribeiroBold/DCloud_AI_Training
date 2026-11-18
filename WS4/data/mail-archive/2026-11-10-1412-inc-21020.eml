@@ -1,0 +1,15 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-21020 created: k8s-wrk-07 NotReady
+Date: Tue, 10 Nov 2026 14:12:00 +0000
+Message-ID: <202611101412-inc-21020@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-21020 has been created and assigned to team-platform.
+Priority: P3.
+
+k8s-wrk-07 has been NotReady since 14:03 UTC (PLEG not healthy).
+
+Service Desk

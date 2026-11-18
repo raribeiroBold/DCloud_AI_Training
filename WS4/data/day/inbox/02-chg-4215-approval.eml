@@ -1,0 +1,16 @@
+From: Change Management <change.management@corp.example>
+To: you@corp.example
+Subject: Action required: CHG-4215 needs your technical approval before CAB
+Date: Wed, 18 Nov 2026 16:02:19 +0000
+Message-ID: <02-chg-4215-approval@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+CHG-4215 - OS patching on app-prd-07
+Window: Thursday 19 Nov, 22:00-23:00
+Risk: medium. Rollback: snapshot before patching.
+
+You are listed as technical approver. Please review and approve or reject in the change tool before the CAB starts (Thursday 10:00). Changes without technical approval are deferred to next week.
+
+Change Management

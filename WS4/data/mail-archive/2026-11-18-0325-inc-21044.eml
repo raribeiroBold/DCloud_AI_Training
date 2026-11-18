@@ -1,0 +1,15 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-21044 created: billing restarted on app-prd-03 again (OOM)
+Date: Wed, 18 Nov 2026 03:25:00 +0000
+Message-ID: <202611180325-inc-21044@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-21044 has been created and assigned to team-app.
+Priority: P3.
+
+Second OOM kill of billing on app-prd-03 (01:58). Linked to PRB-0412.
+
+Service Desk

@@ -1,9 +1,233 @@
+Oct  5 03:12:43 mon-02 diskmon[2435]: /var/lib/prometheus used=29% (145G of 500G) threshold=85% OK
+Oct  5 05:12:28 mon-02 chronyd[6838]: Selected source 10.0.0.5
 Oct  5 12:39:44 mon-02 systemd[1]: Started Session 536 of User deploy.
 Oct  5 13:40:19 mon-02 prometheus[8389]: compaction completed in 235 ms
 Oct  5 17:42:49 mon-02 sshd[3488]: Accepted publickey for deploy from 10.0.6.169 port 46218 ssh2
+Oct  5 18:18:20 mon-02 CRON[8939]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  5 18:27:12 mon-02 prometheus[8259]: compaction completed in 1488 ms
+Oct  5 19:55:00 mon-02 systemd[1]: Started Session 597 of User deploy.
+Oct  6 00:06:30 mon-02 chronyd[1132]: Selected source 10.0.0.3
+Oct  6 03:12:43 mon-02 diskmon[2436]: /var/lib/prometheus used=29% (145G of 500G) threshold=85% OK
+Oct  6 15:21:03 mon-02 prometheus[3368]: compaction completed in 1490 ms
+Oct  6 18:10:08 mon-02 CRON[1556]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 18:12:42 mon-02 systemd[1]: Started Session 618 of User deploy.
 Oct  7 00:24:12 mon-02 CRON[6928]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 00:24:16 mon-02 CRON[9502]: (root) CMD (/usr/local/bin/health-report.sh)
 Oct  7 02:24:53 mon-02 systemd[1]: Started Session 926 of User deploy.
+Oct  7 03:12:43 mon-02 diskmon[2437]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct  7 04:18:26 mon-02 chronyd[8863]: Selected source 10.0.0.5
 Oct  7 05:36:35 mon-02 chronyd[615]: Selected source 10.0.0.9
 Oct  7 09:49:53 mon-02 CRON[6574]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 12:01:32 mon-02 prometheus[1603]: compaction completed in 1217 ms
 Oct  7 18:07:14 mon-02 chronyd[689]: Selected source 10.0.0.7
 Oct  7 21:39:02 mon-02 prometheus[2792]: compaction completed in 3752 ms
+Oct  8 00:51:22 mon-02 CRON[3059]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  8 03:12:43 mon-02 diskmon[2440]: /var/lib/prometheus used=29% (145G of 500G) threshold=85% OK
+Oct  8 20:22:40 mon-02 prometheus[3559]: compaction completed in 718 ms
+Oct  8 20:57:40 mon-02 chronyd[4683]: Selected source 10.0.0.9
+Oct  9 03:12:43 mon-02 diskmon[2441]: /var/lib/prometheus used=29% (145G of 500G) threshold=85% OK
+Oct  9 07:28:27 mon-02 CRON[2980]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  9 13:12:44 mon-02 sshd[4421]: Accepted publickey for deploy from 10.0.8.213 port 40996 ssh2
+Oct  9 13:21:07 mon-02 chronyd[6503]: Selected source 10.0.0.4
+Oct  9 16:10:12 mon-02 systemd[1]: Started Session 629 of User deploy.
+Oct  9 19:33:30 mon-02 prometheus[7030]: compaction completed in 1027 ms
+Oct 10 03:12:43 mon-02 diskmon[2442]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 10 03:23:29 mon-02 prometheus[1696]: compaction completed in 632 ms
+Oct 10 04:44:28 mon-02 chronyd[551]: Selected source 10.0.0.9
+Oct 10 10:45:26 mon-02 systemd[1]: Started Session 630 of User deploy.
+Oct 10 14:30:59 mon-02 CRON[4868]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 11 01:38:21 mon-02 chronyd[4060]: Selected source 10.0.0.5
+Oct 11 03:12:43 mon-02 diskmon[2444]: /var/lib/prometheus used=29% (145G of 500G) threshold=85% OK
+Oct 11 07:06:03 mon-02 CRON[3130]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 11 15:24:38 mon-02 prometheus[3316]: compaction completed in 1569 ms
+Oct 11 16:06:17 mon-02 sshd[964]: Accepted publickey for deploy from 10.0.4.96 port 50714 ssh2
+Oct 12 03:12:43 mon-02 diskmon[2445]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 12 05:18:25 mon-02 CRON[7870]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 12 08:28:16 mon-02 sshd[6352]: Accepted publickey for deploy from 10.0.7.150 port 58979 ssh2
+Oct 12 17:52:54 mon-02 systemd[1]: Started Session 645 of User deploy.
+Oct 12 19:41:23 mon-02 prometheus[6428]: compaction completed in 824 ms
+Oct 12 22:12:50 mon-02 chronyd[1861]: Selected source 10.0.0.3
+Oct 13 03:12:43 mon-02 diskmon[2449]: /var/lib/prometheus used=29% (145G of 500G) threshold=85% OK
+Oct 13 03:58:47 mon-02 CRON[8269]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 13 07:34:59 mon-02 systemd[1]: Started Session 669 of User deploy.
+Oct 13 12:53:48 mon-02 chronyd[6591]: Selected source 10.0.0.8
+Oct 13 14:55:50 mon-02 sshd[8579]: Accepted publickey for deploy from 10.0.6.62 port 57132 ssh2
+Oct 13 15:16:32 mon-02 prometheus[9658]: compaction completed in 1068 ms
+Oct 14 03:12:43 mon-02 diskmon[2450]: /var/lib/prometheus used=29% (145G of 500G) threshold=85% OK
+Oct 14 13:47:16 mon-02 systemd[1]: Started Session 670 of User deploy.
+Oct 14 17:17:27 mon-02 chronyd[1734]: Selected source 10.0.0.9
+Oct 14 19:17:42 mon-02 prometheus[2062]: compaction completed in 1432 ms
+Oct 15 03:12:43 mon-02 diskmon[2453]: /var/lib/prometheus used=29% (145G of 500G) threshold=85% OK
+Oct 15 07:59:39 mon-02 chronyd[6504]: Selected source 10.0.0.3
+Oct 15 08:15:32 mon-02 prometheus[7841]: compaction completed in 1509 ms
+Oct 15 14:14:38 mon-02 CRON[8260]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 16 03:12:43 mon-02 diskmon[2454]: /var/lib/prometheus used=29% (145G of 500G) threshold=85% OK
+Oct 16 07:09:17 mon-02 sshd[7116]: Accepted publickey for deploy from 10.0.5.194 port 51764 ssh2
+Oct 16 07:55:28 mon-02 prometheus[8799]: compaction completed in 1733 ms
+Oct 16 09:39:31 mon-02 systemd[1]: Started Session 693 of User deploy.
+Oct 16 11:39:29 mon-02 chronyd[5294]: Selected source 10.0.0.6
+Oct 16 13:56:04 mon-02 CRON[7505]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 17 03:12:43 mon-02 diskmon[2456]: /var/lib/prometheus used=29% (145G of 500G) threshold=85% OK
+Oct 17 14:10:29 mon-02 systemd[1]: Started Session 717 of User deploy.
+Oct 17 17:30:24 mon-02 chronyd[2737]: Selected source 10.0.0.6
+Oct 17 20:40:08 mon-02 prometheus[5248]: compaction completed in 984 ms
+Oct 17 22:09:30 mon-02 CRON[5414]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 18 03:12:43 mon-02 diskmon[2458]: /var/lib/prometheus used=31% (155G of 500G) threshold=85% OK
+Oct 18 08:01:15 mon-02 prometheus[9176]: compaction completed in 1082 ms
+Oct 18 17:41:28 mon-02 systemd[1]: Started Session 738 of User deploy.
+Oct 18 19:17:22 mon-02 chronyd[1573]: Selected source 10.0.0.9
+Oct 18 19:36:00 mon-02 CRON[4692]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 19 01:28:50 mon-02 chronyd[8150]: Selected source 10.0.0.7
+Oct 19 03:12:43 mon-02 diskmon[2462]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 19 12:28:08 mon-02 systemd[1]: Started Session 748 of User deploy.
+Oct 19 12:50:42 mon-02 CRON[3451]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 19 16:11:11 mon-02 prometheus[7957]: compaction completed in 996 ms
+Oct 20 01:44:00 mon-02 prometheus[8328]: compaction completed in 659 ms
+Oct 20 03:12:43 mon-02 diskmon[2466]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 20 07:47:34 mon-02 sshd[737]: Accepted publickey for deploy from 10.0.7.93 port 52170 ssh2
+Oct 20 12:25:37 mon-02 CRON[8062]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 20 14:26:54 mon-02 systemd[1]: Started Session 754 of User deploy.
+Oct 20 16:08:13 mon-02 chronyd[1022]: Selected source 10.0.0.7
+Oct 21 03:12:43 mon-02 diskmon[2468]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 21 10:47:35 mon-02 prometheus[3578]: compaction completed in 893 ms
+Oct 21 17:47:10 mon-02 sshd[4271]: Accepted publickey for deploy from 10.0.4.207 port 51994 ssh2
+Oct 21 18:11:48 mon-02 chronyd[2474]: Selected source 10.0.0.6
+Oct 22 00:33:04 mon-02 prometheus[1904]: compaction completed in 1220 ms
+Oct 22 03:12:43 mon-02 diskmon[2471]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 22 07:49:29 mon-02 systemd[1]: Started Session 770 of User deploy.
+Oct 22 14:44:30 mon-02 chronyd[7658]: Selected source 10.0.0.6
+Oct 22 18:43:43 mon-02 CRON[5810]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 23 03:12:43 mon-02 diskmon[2475]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 23 07:55:59 mon-02 prometheus[3367]: compaction completed in 791 ms
+Oct 23 09:31:39 mon-02 sshd[1798]: Accepted publickey for deploy from 10.0.8.99 port 56295 ssh2
+Oct 23 16:36:10 mon-02 CRON[1243]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 23 21:46:18 mon-02 chronyd[5652]: Selected source 10.0.0.5
+Oct 24 03:12:43 mon-02 diskmon[2477]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 24 04:30:16 mon-02 prometheus[706]: compaction completed in 1323 ms
+Oct 24 09:50:24 mon-02 CRON[6075]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 24 16:09:32 mon-02 chronyd[6592]: Selected source 10.0.0.9
+Oct 24 17:01:46 mon-02 systemd[1]: Started Session 796 of User deploy.
+Oct 25 00:49:27 mon-02 prometheus[2088]: compaction completed in 1192 ms
+Oct 25 03:12:43 mon-02 diskmon[2479]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 25 09:49:40 mon-02 systemd[1]: Started Session 799 of User deploy.
+Oct 25 10:19:08 mon-02 chronyd[6294]: Selected source 10.0.0.6
+Oct 25 11:53:20 mon-02 CRON[1543]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 03:12:43 mon-02 diskmon[2482]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 26 16:50:39 mon-02 CRON[9561]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 18:36:07 mon-02 chronyd[8664]: Selected source 10.0.0.5
+Oct 26 19:46:16 mon-02 sshd[6640]: Accepted publickey for deploy from 10.0.4.113 port 58134 ssh2
+Oct 26 23:48:31 mon-02 prometheus[9738]: compaction completed in 777 ms
+Oct 27 03:12:43 mon-02 diskmon[2483]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 27 05:13:10 mon-02 chronyd[4173]: Selected source 10.0.0.8
+Oct 27 10:11:57 mon-02 systemd[1]: Started Session 805 of User deploy.
+Oct 27 11:43:59 mon-02 sshd[3944]: Accepted publickey for deploy from 10.0.3.92 port 50166 ssh2
+Oct 27 12:18:22 mon-02 prometheus[473]: compaction completed in 678 ms
+Oct 27 16:45:18 mon-02 CRON[3229]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 03:12:43 mon-02 diskmon[2485]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 28 05:14:27 mon-02 CRON[5629]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 12:13:49 mon-02 prometheus[4760]: compaction completed in 1175 ms
+Oct 28 14:49:25 mon-02 chronyd[747]: Selected source 10.0.0.7
+Oct 28 15:06:51 mon-02 systemd[1]: Started Session 831 of User deploy.
+Oct 29 03:12:43 mon-02 diskmon[2488]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 29 13:50:14 mon-02 chronyd[2695]: Selected source 10.0.0.3
+Oct 29 19:11:19 mon-02 CRON[4350]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 29 20:18:02 mon-02 prometheus[1389]: compaction completed in 754 ms
+Oct 30 01:55:17 mon-02 prometheus[3667]: compaction completed in 1756 ms
+Oct 30 03:12:43 mon-02 diskmon[2491]: /var/lib/prometheus used=31% (155G of 500G) threshold=85% OK
+Oct 30 04:00:22 mon-02 chronyd[9417]: Selected source 10.0.0.5
+Oct 30 11:10:58 mon-02 CRON[9148]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 30 14:15:19 mon-02 systemd[1]: Started Session 847 of User deploy.
+Oct 30 19:44:09 mon-02 sshd[8082]: Accepted publickey for deploy from 10.0.6.36 port 54305 ssh2
+Oct 31 03:12:43 mon-02 diskmon[2492]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Oct 31 12:17:39 mon-02 systemd[1]: Started Session 851 of User deploy.
+Oct 31 13:16:42 mon-02 chronyd[1400]: Selected source 10.0.0.4
+Oct 31 14:56:00 mon-02 CRON[9848]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 31 22:25:16 mon-02 prometheus[6834]: compaction completed in 1636 ms
+Nov  1 03:12:43 mon-02 diskmon[2495]: /var/lib/prometheus used=31% (155G of 500G) threshold=85% OK
+Nov  1 03:46:10 mon-02 chronyd[7032]: Selected source 10.0.0.7
+Nov  1 05:17:07 mon-02 prometheus[1018]: compaction completed in 725 ms
+Nov  1 09:59:11 mon-02 systemd[1]: Started Session 880 of User deploy.
+Nov  2 03:12:43 mon-02 diskmon[2498]: /var/lib/prometheus used=32% (160G of 500G) threshold=85% OK
+Nov  2 03:56:22 mon-02 prometheus[8457]: compaction completed in 887 ms
+Nov  2 06:37:45 mon-02 chronyd[8765]: Selected source 10.0.0.8
+Nov  2 13:19:16 mon-02 CRON[6780]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  3 03:12:43 mon-02 diskmon[2502]: /var/lib/prometheus used=30% (150G of 500G) threshold=85% OK
+Nov  3 20:01:02 mon-02 prometheus[5140]: compaction completed in 1387 ms
+Nov  3 20:14:08 mon-02 sshd[3446]: Accepted publickey for deploy from 10.0.4.176 port 50819 ssh2
+Nov  3 21:55:50 mon-02 chronyd[2517]: Selected source 10.0.0.8
+Nov  4 03:12:43 mon-02 diskmon[2506]: /var/lib/prometheus used=31% (155G of 500G) threshold=85% OK
+Nov  4 11:24:17 mon-02 chronyd[8763]: Selected source 10.0.0.9
+Nov  4 13:30:54 mon-02 prometheus[1143]: compaction completed in 1245 ms
+Nov  5 01:47:10 mon-02 CRON[7075]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  5 03:12:43 mon-02 diskmon[2508]: /var/lib/prometheus used=31% (155G of 500G) threshold=85% OK
+Nov  5 09:30:58 mon-02 sshd[1280]: Accepted publickey for deploy from 10.0.5.126 port 44409 ssh2
+Nov  5 11:28:18 mon-02 prometheus[6109]: compaction completed in 1638 ms
+Nov  5 22:01:33 mon-02 chronyd[6499]: Selected source 10.0.0.6
+Nov  6 03:12:43 mon-02 diskmon[2512]: /var/lib/prometheus used=31% (155G of 500G) threshold=85% OK
+Nov  6 06:26:36 mon-02 CRON[6753]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  6 11:07:41 mon-02 prometheus[4187]: compaction completed in 1646 ms
+Nov  6 12:44:09 mon-02 systemd[1]: Started Session 910 of User deploy.
+Nov  6 12:59:24 mon-02 chronyd[2258]: Selected source 10.0.0.7
+Nov  6 14:38:44 mon-02 sshd[6028]: Accepted publickey for deploy from 10.0.5.62 port 49638 ssh2
+Nov  7 03:12:43 mon-02 diskmon[2515]: /var/lib/prometheus used=32% (160G of 500G) threshold=85% OK
+Nov  7 05:51:16 mon-02 chronyd[6033]: Selected source 10.0.0.6
+Nov  7 16:47:39 mon-02 systemd[1]: Started Session 929 of User deploy.
+Nov  7 18:41:44 mon-02 CRON[6779]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  7 20:28:21 mon-02 prometheus[2449]: compaction completed in 680 ms
+Nov  8 01:23:19 mon-02 chronyd[8587]: Selected source 10.0.0.4
+Nov  8 01:30:54 mon-02 prometheus[3033]: compaction completed in 755 ms
+Nov  8 03:12:43 mon-02 diskmon[2519]: /var/lib/prometheus used=31% (155G of 500G) threshold=85% OK
+Nov  8 10:29:56 mon-02 CRON[4505]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  8 18:03:15 mon-02 sshd[5255]: Accepted publickey for deploy from 10.0.2.103 port 56398 ssh2
+Nov  8 18:37:01 mon-02 systemd[1]: Started Session 937 of User deploy.
+Nov  9 02:19:08 mon-02 chronyd[1002]: Selected source 10.0.0.3
+Nov  9 03:12:43 mon-02 diskmon[2521]: /var/lib/prometheus used=31% (155G of 500G) threshold=85% OK
+Nov  9 23:06:21 mon-02 prometheus[4879]: compaction completed in 636 ms
+Nov 10 03:12:43 mon-02 diskmon[2524]: /var/lib/prometheus used=31% (155G of 500G) threshold=85% OK
+Nov 10 03:44:05 mon-02 prometheus[5132]: compaction completed in 1283 ms
+Nov 10 11:22:47 mon-02 chronyd[4585]: Selected source 10.0.0.8
+Nov 10 14:06:46 mon-02 systemd[1]: Started Session 959 of User deploy.
+Nov 11 03:12:43 mon-02 diskmon[2527]: /var/lib/prometheus used=31% (155G of 500G) threshold=85% OK
+Nov 11 14:33:08 mon-02 systemd[1]: Started Session 962 of User deploy.
+Nov 11 17:10:40 mon-02 chronyd[4810]: Selected source 10.0.0.4
+Nov 11 18:40:33 mon-02 CRON[1803]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 11 22:19:15 mon-02 prometheus[2775]: compaction completed in 828 ms
+Nov 12 03:12:43 mon-02 diskmon[2528]: /var/lib/prometheus used=33% (165G of 500G) threshold=85% OK
+Nov 12 18:21:30 mon-02 prometheus[870]: compaction completed in 1438 ms
+Nov 12 18:28:31 mon-02 chronyd[6712]: Selected source 10.0.0.3
+Nov 12 18:36:06 mon-02 CRON[8739]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 13 03:12:43 mon-02 diskmon[2529]: /var/lib/prometheus used=32% (160G of 500G) threshold=85% OK
+Nov 13 07:16:54 mon-02 systemd[1]: Started Session 969 of User deploy.
+Nov 13 09:37:01 mon-02 sshd[3978]: Accepted publickey for deploy from 10.0.4.196 port 58176 ssh2
+Nov 13 10:06:46 mon-02 prometheus[9487]: compaction completed in 1317 ms
+Nov 13 11:04:58 mon-02 chronyd[1360]: Selected source 10.0.0.7
+Nov 13 17:43:35 mon-02 CRON[1439]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 14 03:12:43 mon-02 diskmon[2532]: /var/lib/prometheus used=32% (160G of 500G) threshold=85% OK
+Nov 14 09:56:41 mon-02 systemd[1]: Started Session 974 of User deploy.
+Nov 14 11:24:04 mon-02 CRON[1792]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 14 14:03:15 mon-02 prometheus[1406]: compaction completed in 876 ms
+Nov 14 15:13:13 mon-02 chronyd[2948]: Selected source 10.0.0.5
+Nov 15 03:12:43 mon-02 diskmon[2534]: /var/lib/prometheus used=32% (160G of 500G) threshold=85% OK
+Nov 15 11:05:13 mon-02 prometheus[425]: compaction completed in 1708 ms
+Nov 15 15:19:42 mon-02 sshd[6108]: Accepted publickey for deploy from 10.0.6.220 port 42652 ssh2
+Nov 15 16:42:07 mon-02 systemd[1]: Started Session 993 of User deploy.
+Nov 15 20:51:36 mon-02 chronyd[6705]: Selected source 10.0.0.5
+Nov 16 03:12:43 mon-02 diskmon[2535]: /var/lib/prometheus used=32% (160G of 500G) threshold=85% OK
+Nov 16 08:10:14 mon-02 CRON[8776]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 16 09:40:35 mon-02 chronyd[1232]: Selected source 10.0.0.5
+Nov 16 15:40:55 mon-02 sshd[899]: Accepted publickey for deploy from 10.0.8.32 port 52044 ssh2
+Nov 16 16:39:42 mon-02 prometheus[6578]: compaction completed in 758 ms
+Nov 16 17:47:41 mon-02 systemd[1]: Started Session 1008 of User deploy.
+Nov 17 03:12:43 mon-02 diskmon[2537]: /var/lib/prometheus used=32% (160G of 500G) threshold=85% OK
+Nov 17 03:53:34 mon-02 chronyd[5935]: Selected source 10.0.0.6
+Nov 17 05:59:47 mon-02 CRON[4900]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 17 08:17:34 mon-02 sshd[9161]: Accepted publickey for deploy from 10.0.2.158 port 51265 ssh2
+Nov 17 12:56:54 mon-02 systemd[1]: Started Session 1025 of User deploy.
+Nov 17 19:00:44 mon-02 prometheus[6628]: compaction completed in 1259 ms
+Nov 18 03:12:43 mon-02 diskmon[2538]: /var/lib/prometheus used=32% (160G of 500G) threshold=85% OK
+Nov 18 07:13:25 mon-02 chronyd[5146]: Selected source 10.0.0.4
+Nov 18 12:51:21 mon-02 prometheus[4065]: compaction completed in 1659 ms
+Nov 18 15:13:25 mon-02 systemd[1]: Started Session 1026 of User deploy.
+Nov 18 17:45:17 mon-02 sshd[921]: Accepted publickey for deploy from 10.0.3.37 port 44955 ssh2
+Nov 18 19:20:45 mon-02 CRON[1748]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 19 03:12:43 mon-02 diskmon[2539]: /var/lib/prometheus used=32% (160G of 500G) threshold=85% OK

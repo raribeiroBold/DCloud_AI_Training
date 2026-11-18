@@ -1,22 +1,391 @@
+Oct  5 00:20:51 db-prd-02 postgres[8638]: LOG:  checkpoint complete: wrote 2974 buffers
+Oct  5 01:02:11 db-prd-02 postgres[1102]: rsync: [Receiver] mkstemp "/srv/wal/.000000010000003900000040.Xk2Ld9" failed: Permission denied (13)
+Oct  5 01:02:11 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 23
+Oct  5 01:02:11 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003900000040 bkp-01:/srv/wal/
+Oct  5 03:12:01 db-prd-02 diskmon[1554]: /var/lib/postgresql used=89% (445G of 500G) threshold=85% WARNING
+Oct  5 03:12:01 db-prd-02 diskmon[1554]: / used=42% (17G of 40G) threshold=85% OK
+Oct  5 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003900000042" failed too many times, will try again later
+Oct  5 04:21:47 db-prd-02 chronyd[3094]: Selected source 10.0.0.4
 Oct  5 08:23:11 db-prd-02 postgres[7934]: LOG:  automatic vacuum of table "billing.public.invoices" finished
 Oct  5 10:28:19 db-prd-02 chronyd[522]: Selected source 10.0.0.7
 Oct  5 12:46:19 db-prd-02 postgres[8364]: LOG:  checkpoint complete: wrote 6172 buffers
+Oct  5 13:00:11 db-prd-02 postgres[1102]: rsync: [Receiver] mkstemp "/srv/wal/.00000001000000390000004C.Xk2Ld9" failed: Permission denied (13)
+Oct  5 13:00:11 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 23
+Oct  5 13:00:11 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/00000001000000390000004C bkp-01:/srv/wal/
 Oct  5 15:10:20 db-prd-02 chronyd[686]: Selected source 10.0.0.5
+Oct  5 17:18:15 db-prd-02 CRON[1478]: (root) CMD (/usr/local/bin/health-report.sh)
 Oct  5 19:34:37 db-prd-02 postgres[5990]: LOG:  automatic vacuum of table "billing.public.invoices" finished
 Oct  5 20:22:33 db-prd-02 postgres[2136]: LOG:  checkpoint complete: wrote 3739 buffers
+Oct  5 20:31:40 db-prd-02 postgres[1528]: LOG:  automatic vacuum of table "billing.public.invoices" finished
 Oct  5 22:04:52 db-prd-02 CRON[8846]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 01:03:11 db-prd-02 postgres[1102]: rsync: [Receiver] mkstemp "/srv/wal/.00000001000000390000005A.Xk2Ld9" failed: Permission denied (13)
+Oct  6 01:03:11 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 23
+Oct  6 01:03:11 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/00000001000000390000005A bkp-01:/srv/wal/
+Oct  6 01:28:15 db-prd-02 postgres[449]: LOG:  checkpoint complete: wrote 5987 buffers
+Oct  6 03:12:01 db-prd-02 diskmon[1556]: /var/lib/postgresql used=95% (475G of 500G) threshold=90% CRITICAL
+Oct  6 03:12:01 db-prd-02 diskmon[1556]: / used=42% (17G of 40G) threshold=85% OK
+Oct  6 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "00000001000000390000005C" failed too many times, will try again later
 Oct  6 06:08:36 db-prd-02 postgres[8668]: LOG:  checkpoint complete: wrote 6623 buffers
 Oct  6 10:02:11 db-prd-02 ansible-ansible.legacy.dnf[3381]: Invoked with name=['openssh-server', 'openssh-clients'] state=latest update_only=True
 Oct  6 10:02:48 db-prd-02 sshd[3417]: Server listening on 0.0.0.0 port 22.
+Oct  6 13:04:11 db-prd-02 postgres[1102]: rsync: [Receiver] mkstemp "/srv/wal/.000000010000003900000067.Xk2Ld9" failed: Permission denied (13)
+Oct  6 13:04:11 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 23
+Oct  6 13:04:11 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003900000067 bkp-01:/srv/wal/
 Oct  6 13:42:44 db-prd-02 postgres[7535]: LOG:  checkpoint complete: wrote 6180 buffers
+Oct  6 14:30:20 db-prd-02 systemd[1]: Started Session 870 of User deploy.
+Oct  6 15:50:41 db-prd-02 chronyd[8523]: Selected source 10.0.0.8
+Oct  6 16:20:42 db-prd-02 sshd[6173]: Accepted publickey for deploy from 10.0.6.118 port 53102 ssh2
+Oct  6 22:52:04 db-prd-02 postgres[1295]: LOG:  automatic vacuum of table "billing.public.invoices" finished
 Oct  6 23:14:52 db-prd-02 postgres[7712]: PANIC: could not write to file "pg_wal/xlogtemp.7712": No space left on device
 Oct  6 23:14:52 db-prd-02 postgres[1102]: LOG:  WAL writer process (PID 7712) was terminated by signal 6: Aborted
 Oct  6 23:14:52 db-prd-02 postgres[1102]: LOG:  terminating any other active server processes
+Oct  6 23:19:40 db-prd-02 sshd[5354]: Accepted publickey for ops from 10.0.3.15 port 50460 ssh2
 Oct  6 23:21:07 db-prd-02 postgres[1102]: LOG:  database system is ready to accept connections
+Oct  7 03:12:01 db-prd-02 diskmon[1558]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Oct  7 03:12:01 db-prd-02 diskmon[1558]: / used=42% (17G of 40G) threshold=85% OK
+Oct  7 03:44:31 db-prd-02 CRON[6197]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 12:50:36 db-prd-02 postgres[3921]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct  7 13:19:07 db-prd-02 chronyd[5339]: Selected source 10.0.0.7
+Oct  7 17:42:56 db-prd-02 postgres[8222]: LOG:  checkpoint complete: wrote 3842 buffers
+Oct  7 20:29:47 db-prd-02 sshd[433]: Accepted publickey for deploy from 10.0.3.145 port 53075 ssh2
+Oct  8 03:12:01 db-prd-02 diskmon[1562]: /var/lib/postgresql used=61% (305G of 500G) threshold=85% OK
+Oct  8 03:12:01 db-prd-02 diskmon[1562]: / used=40% (16G of 40G) threshold=85% OK
+Oct  8 04:49:54 db-prd-02 CRON[2951]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  8 07:32:07 db-prd-02 systemd[1]: Started Session 884 of User deploy.
+Oct  8 17:25:48 db-prd-02 chronyd[905]: Selected source 10.0.0.3
+Oct  8 22:05:19 db-prd-02 postgres[5118]: LOG:  checkpoint complete: wrote 6541 buffers
+Oct  9 03:12:01 db-prd-02 diskmon[1563]: /var/lib/postgresql used=61% (305G of 500G) threshold=85% OK
+Oct  9 03:12:01 db-prd-02 diskmon[1563]: / used=40% (16G of 40G) threshold=85% OK
+Oct  9 04:53:06 db-prd-02 chronyd[4811]: Selected source 10.0.0.9
+Oct  9 15:39:44 db-prd-02 postgres[518]: LOG:  checkpoint complete: wrote 6360 buffers
+Oct  9 16:08:09 db-prd-02 CRON[5935]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 10 02:11:39 db-prd-02 CRON[8234]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 10 03:12:01 db-prd-02 diskmon[1565]: /var/lib/postgresql used=62% (310G of 500G) threshold=85% OK
+Oct 10 03:12:01 db-prd-02 diskmon[1565]: / used=42% (17G of 40G) threshold=85% OK
+Oct 10 03:23:59 db-prd-02 postgres[2168]: LOG:  checkpoint complete: wrote 4694 buffers
+Oct 10 06:26:22 db-prd-02 chronyd[4375]: Selected source 10.0.0.7
+Oct 10 19:28:27 db-prd-02 sshd[7577]: Accepted publickey for deploy from 10.0.6.220 port 49145 ssh2
+Oct 11 03:12:01 db-prd-02 diskmon[1567]: /var/lib/postgresql used=62% (310G of 500G) threshold=85% OK
+Oct 11 03:12:01 db-prd-02 diskmon[1567]: / used=41% (16G of 40G) threshold=85% OK
+Oct 11 07:49:07 db-prd-02 sshd[5873]: Accepted publickey for deploy from 10.0.2.76 port 46048 ssh2
+Oct 11 15:03:42 db-prd-02 systemd[1]: Started Session 889 of User deploy.
+Oct 11 15:58:23 db-prd-02 chronyd[5931]: Selected source 10.0.0.5
+Oct 11 17:32:47 db-prd-02 postgres[3674]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct 11 20:58:24 db-prd-02 postgres[7329]: LOG:  checkpoint complete: wrote 6921 buffers
+Oct 11 21:09:06 db-prd-02 CRON[8097]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 12 02:27:17 db-prd-02 postgres[9729]: LOG:  checkpoint complete: wrote 3200 buffers
+Oct 12 03:12:01 db-prd-02 diskmon[1570]: /var/lib/postgresql used=62% (310G of 500G) threshold=85% OK
+Oct 12 03:12:01 db-prd-02 diskmon[1570]: / used=40% (16G of 40G) threshold=85% OK
+Oct 12 15:21:17 db-prd-02 chronyd[4676]: Selected source 10.0.0.9
+Oct 12 17:18:00 db-prd-02 systemd[1]: Started Session 914 of User deploy.
+Oct 12 21:23:42 db-prd-02 CRON[8477]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 13 00:45:40 db-prd-02 CRON[8063]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 13 03:12:01 db-prd-02 diskmon[1571]: /var/lib/postgresql used=63% (315G of 500G) threshold=85% OK
+Oct 13 03:12:01 db-prd-02 diskmon[1571]: / used=42% (17G of 40G) threshold=85% OK
+Oct 13 11:00:40 db-prd-02 postgres[7243]: LOG:  checkpoint complete: wrote 5791 buffers
+Oct 13 11:36:02 db-prd-02 sshd[2355]: Accepted publickey for deploy from 10.0.5.85 port 41952 ssh2
+Oct 13 17:40:42 db-prd-02 chronyd[1684]: Selected source 10.0.0.3
+Oct 14 03:12:01 db-prd-02 diskmon[1575]: /var/lib/postgresql used=63% (315G of 500G) threshold=85% OK
+Oct 14 03:12:01 db-prd-02 diskmon[1575]: / used=40% (16G of 40G) threshold=85% OK
+Oct 14 03:21:55 db-prd-02 postgres[1357]: LOG:  checkpoint complete: wrote 5850 buffers
+Oct 14 09:01:47 db-prd-02 CRON[1719]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 14 16:00:28 db-prd-02 chronyd[4559]: Selected source 10.0.0.8
+Oct 15 03:12:01 db-prd-02 diskmon[1579]: /var/lib/postgresql used=64% (320G of 500G) threshold=85% OK
+Oct 15 03:12:01 db-prd-02 diskmon[1579]: / used=40% (16G of 40G) threshold=85% OK
+Oct 15 07:30:38 db-prd-02 systemd[1]: Started Session 922 of User deploy.
+Oct 15 07:49:40 db-prd-02 CRON[866]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 15 12:46:46 db-prd-02 chronyd[5924]: Selected source 10.0.0.4
+Oct 15 23:26:31 db-prd-02 postgres[7437]: LOG:  checkpoint complete: wrote 6035 buffers
+Oct 16 03:12:01 db-prd-02 diskmon[1582]: /var/lib/postgresql used=64% (320G of 500G) threshold=85% OK
+Oct 16 03:12:01 db-prd-02 diskmon[1582]: / used=41% (16G of 40G) threshold=85% OK
+Oct 16 05:46:28 db-prd-02 CRON[2675]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 16 06:40:02 db-prd-02 postgres[1102]: Host key verification failed.
+Oct 16 06:40:02 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 16 06:40:02 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000C0 bkp-01:/srv/wal/
+Oct 16 17:27:31 db-prd-02 postgres[9022]: LOG:  checkpoint complete: wrote 4667 buffers
+Oct 16 18:40:02 db-prd-02 postgres[1102]: Host key verification failed.
+Oct 16 18:40:02 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 16 18:40:02 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000C5 bkp-01:/srv/wal/
+Oct 16 19:16:35 db-prd-02 systemd[1]: Started Session 926 of User deploy.
+Oct 16 22:45:24 db-prd-02 chronyd[2696]: Selected source 10.0.0.3
+Oct 17 03:12:01 db-prd-02 diskmon[1585]: /var/lib/postgresql used=69% (345G of 500G) threshold=85% OK
+Oct 17 03:12:01 db-prd-02 diskmon[1585]: / used=41% (16G of 40G) threshold=85% OK
+Oct 17 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003A000000C8" failed too many times, will try again later
+Oct 17 06:37:02 db-prd-02 postgres[1102]: Host key verification failed.
+Oct 17 06:37:02 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 17 06:37:02 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000CA bkp-01:/srv/wal/
+Oct 17 11:22:13 db-prd-02 chronyd[4079]: Selected source 10.0.0.9
+Oct 17 13:49:22 db-prd-02 systemd[1]: Started Session 930 of User deploy.
+Oct 17 18:39:02 db-prd-02 postgres[1102]: Host key verification failed.
+Oct 17 18:39:02 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 17 18:39:02 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000CF bkp-01:/srv/wal/
+Oct 17 20:57:56 db-prd-02 postgres[7647]: LOG:  checkpoint complete: wrote 5524 buffers
+Oct 17 21:54:34 db-prd-02 CRON[7926]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 18 03:12:01 db-prd-02 diskmon[1587]: /var/lib/postgresql used=75% (375G of 500G) threshold=85% OK
+Oct 18 03:12:01 db-prd-02 diskmon[1587]: / used=43% (17G of 40G) threshold=85% OK
+Oct 18 03:18:24 db-prd-02 CRON[7497]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 18 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003A000000D2" failed too many times, will try again later
+Oct 18 03:58:31 db-prd-02 postgres[8804]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct 18 06:37:02 db-prd-02 postgres[1102]: Host key verification failed.
+Oct 18 06:37:02 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 18 06:37:02 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000D4 bkp-01:/srv/wal/
+Oct 18 07:00:14 db-prd-02 postgres[8209]: LOG:  checkpoint complete: wrote 5365 buffers
+Oct 18 08:41:02 db-prd-02 sshd[1587]: Accepted publickey for deploy from 10.0.2.61 port 41606 ssh2
+Oct 18 17:13:27 db-prd-02 chronyd[5404]: Selected source 10.0.0.8
+Oct 18 18:38:02 db-prd-02 postgres[1102]: Host key verification failed.
+Oct 18 18:38:02 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 18 18:38:02 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000D9 bkp-01:/srv/wal/
+Oct 18 19:30:25 db-prd-02 systemd[1]: Started Session 943 of User deploy.
+Oct 19 03:12:01 db-prd-02 diskmon[1591]: /var/lib/postgresql used=82% (410G of 500G) threshold=85% OK
+Oct 19 03:12:01 db-prd-02 diskmon[1591]: / used=42% (17G of 40G) threshold=85% OK
+Oct 19 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003A000000DD" failed too many times, will try again later
+Oct 19 05:20:10 db-prd-02 CRON[1590]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 19 06:40:02 db-prd-02 postgres[1102]: Host key verification failed.
+Oct 19 06:40:02 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 19 06:40:02 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000DE bkp-01:/srv/wal/
+Oct 19 15:27:03 db-prd-02 chronyd[2536]: Selected source 10.0.0.6
+Oct 19 18:40:02 db-prd-02 postgres[1102]: Host key verification failed.
+Oct 19 18:40:02 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 19 18:40:02 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000E3 bkp-01:/srv/wal/
+Oct 19 19:45:59 db-prd-02 sshd[4072]: Accepted publickey for deploy from 10.0.4.137 port 55400 ssh2
+Oct 19 20:24:16 db-prd-02 postgres[4306]: LOG:  checkpoint complete: wrote 5843 buffers
+Oct 20 00:41:04 db-prd-02 CRON[5342]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 20 02:44:23 db-prd-02 postgres[937]: LOG:  checkpoint complete: wrote 5195 buffers
 Oct 20 03:12:01 db-prd-02 diskmon[2211]: /var/lib/postgresql used=88% (440G of 500G) threshold=85% WARNING
 Oct 20 03:12:01 db-prd-02 diskmon[2211]: / used=41% (16G of 40G) threshold=85% OK
+Oct 20 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003A000000E7" failed too many times, will try again later
+Oct 20 06:38:02 db-prd-02 postgres[1102]: Host key verification failed.
+Oct 20 06:38:02 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 20 06:38:02 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000E8 bkp-01:/srv/wal/
 Oct 20 14:02:37 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
 Oct 20 14:02:37 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000E7 bkp-01:/srv/wal/
+Oct 20 14:21:57 db-prd-02 chronyd[3432]: Selected source 10.0.0.9
+Oct 20 15:10:00 db-prd-02 sshd[3259]: Accepted publickey for deploy from 10.0.6.96 port 59660 ssh2
+Oct 20 18:41:02 db-prd-02 postgres[1102]: Host key verification failed.
+Oct 20 18:41:02 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 20 18:41:02 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000ED bkp-01:/srv/wal/
 Oct 21 03:12:01 db-prd-02 diskmon[2214]: /var/lib/postgresql used=93% (465G of 500G) threshold=90% CRITICAL
 Oct 21 03:12:01 db-prd-02 diskmon[2214]: / used=41% (16G of 40G) threshold=85% OK
 Oct 21 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003A000000F2" failed too many times, will try again later
+Oct 21 04:24:03 db-prd-02 postgres[5436]: LOG:  checkpoint complete: wrote 6394 buffers
+Oct 21 06:43:02 db-prd-02 postgres[1102]: Host key verification failed.
+Oct 21 06:43:02 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 1
+Oct 21 06:43:02 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003A000000F2 bkp-01:/srv/wal/
+Oct 21 08:23:37 db-prd-02 CRON[3729]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 21 10:12:30 db-prd-02 sshd[9431]: Accepted publickey for ops from 10.0.3.15 port 51877 ssh2
+Oct 21 10:14:02 db-prd-02 sudo:      ops : TTY=pts/0 ; PWD=/var/lib/pgsql ; USER=postgres ; COMMAND=/usr/bin/ssh-keyscan -t ed25519 bkp-01
+Oct 21 10:31:09 db-prd-02 postgres[3804]: LOG:  checkpoint complete: wrote 11993 buffers
+Oct 21 11:08:37 db-prd-02 chronyd[3923]: Selected source 10.0.0.5
+Oct 21 16:27:07 db-prd-02 systemd[1]: Started Session 973 of User deploy.
+Oct 22 00:45:39 db-prd-02 chronyd[5022]: Selected source 10.0.0.7
+Oct 22 03:12:01 db-prd-02 diskmon[1596]: /var/lib/postgresql used=64% (320G of 500G) threshold=85% OK
+Oct 22 03:12:01 db-prd-02 diskmon[1596]: / used=43% (17G of 40G) threshold=85% OK
+Oct 22 12:17:23 db-prd-02 sshd[6205]: Accepted publickey for deploy from 10.0.8.47 port 57617 ssh2
+Oct 22 12:55:58 db-prd-02 postgres[8646]: LOG:  checkpoint complete: wrote 2646 buffers
+Oct 22 18:48:06 db-prd-02 systemd[1]: Started Session 987 of User deploy.
+Oct 23 03:12:01 db-prd-02 diskmon[1600]: /var/lib/postgresql used=64% (320G of 500G) threshold=85% OK
+Oct 23 03:12:01 db-prd-02 diskmon[1600]: / used=41% (16G of 40G) threshold=85% OK
+Oct 23 10:43:07 db-prd-02 sshd[6056]: Accepted publickey for deploy from 10.0.8.52 port 49960 ssh2
+Oct 23 14:34:29 db-prd-02 systemd[1]: Started Session 1011 of User deploy.
+Oct 23 15:33:16 db-prd-02 chronyd[4152]: Selected source 10.0.0.7
+Oct 23 23:56:36 db-prd-02 postgres[8531]: LOG:  checkpoint complete: wrote 4867 buffers
+Oct 24 00:21:45 db-prd-02 CRON[6152]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 24 01:23:37 db-prd-02 chronyd[9696]: Selected source 10.0.0.8
+Oct 24 03:12:01 db-prd-02 diskmon[1602]: /var/lib/postgresql used=64% (320G of 500G) threshold=85% OK
+Oct 24 03:12:01 db-prd-02 diskmon[1602]: / used=42% (17G of 40G) threshold=85% OK
+Oct 24 19:45:35 db-prd-02 postgres[953]: LOG:  checkpoint complete: wrote 3780 buffers
+Oct 25 03:12:01 db-prd-02 diskmon[1603]: /var/lib/postgresql used=64% (320G of 500G) threshold=85% OK
+Oct 25 03:12:01 db-prd-02 diskmon[1603]: / used=42% (17G of 40G) threshold=85% OK
+Oct 25 08:36:14 db-prd-02 postgres[591]: LOG:  checkpoint complete: wrote 3405 buffers
+Oct 25 10:05:01 db-prd-02 chronyd[6982]: Selected source 10.0.0.3
+Oct 25 14:09:49 db-prd-02 CRON[3312]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 25 19:00:24 db-prd-02 sshd[3546]: Accepted publickey for deploy from 10.0.8.211 port 50041 ssh2
+Oct 25 19:10:45 db-prd-02 systemd[1]: Started Session 1017 of User deploy.
+Oct 26 03:12:01 db-prd-02 diskmon[1607]: /var/lib/postgresql used=64% (320G of 500G) threshold=85% OK
+Oct 26 03:12:01 db-prd-02 diskmon[1607]: / used=43% (17G of 40G) threshold=85% OK
+Oct 26 13:53:49 db-prd-02 chronyd[488]: Selected source 10.0.0.3
+Oct 26 17:16:08 db-prd-02 postgres[8085]: LOG:  checkpoint complete: wrote 2541 buffers
+Oct 26 21:41:03 db-prd-02 CRON[7222]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 22:33:52 db-prd-02 postgres[4139]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct 27 02:18:41 db-prd-02 postgres[421]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct 27 03:12:01 db-prd-02 diskmon[1611]: /var/lib/postgresql used=64% (320G of 500G) threshold=85% OK
+Oct 27 03:12:01 db-prd-02 diskmon[1611]: / used=43% (17G of 40G) threshold=85% OK
+Oct 27 10:27:50 db-prd-02 CRON[6901]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 27 13:14:03 db-prd-02 systemd[1]: Started Session 1039 of User deploy.
+Oct 27 15:41:01 db-prd-02 postgres[6002]: LOG:  checkpoint complete: wrote 4819 buffers
+Oct 27 18:50:52 db-prd-02 chronyd[9086]: Selected source 10.0.0.7
+Oct 28 03:12:01 db-prd-02 diskmon[1613]: /var/lib/postgresql used=65% (325G of 500G) threshold=85% OK
+Oct 28 03:12:01 db-prd-02 diskmon[1613]: / used=43% (17G of 40G) threshold=85% OK
+Oct 28 08:45:55 db-prd-02 CRON[8707]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 12:20:26 db-prd-02 systemd[1]: Started Session 1042 of User deploy.
+Oct 28 17:34:01 db-prd-02 sshd[8484]: Accepted publickey for deploy from 10.0.8.171 port 52163 ssh2
+Oct 28 19:04:52 db-prd-02 postgres[6122]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct 28 19:33:13 db-prd-02 postgres[2530]: LOG:  checkpoint complete: wrote 6835 buffers
+Oct 28 22:21:43 db-prd-02 chronyd[9880]: Selected source 10.0.0.4
+Oct 29 03:12:01 db-prd-02 diskmon[1617]: /var/lib/postgresql used=65% (325G of 500G) threshold=85% OK
+Oct 29 03:12:01 db-prd-02 diskmon[1617]: / used=42% (17G of 40G) threshold=85% OK
+Oct 29 08:03:59 db-prd-02 postgres[7175]: LOG:  checkpoint complete: wrote 5909 buffers
+Oct 29 10:40:45 db-prd-02 systemd[1]: Started Session 1067 of User deploy.
+Oct 29 14:42:38 db-prd-02 chronyd[699]: Selected source 10.0.0.4
+Oct 29 18:53:27 db-prd-02 sshd[5656]: Accepted publickey for deploy from 10.0.8.227 port 41975 ssh2
+Oct 30 01:43:48 db-prd-02 postgres[2033]: LOG:  checkpoint complete: wrote 3883 buffers
+Oct 30 03:12:01 db-prd-02 diskmon[1621]: /var/lib/postgresql used=65% (325G of 500G) threshold=85% OK
+Oct 30 03:12:01 db-prd-02 diskmon[1621]: / used=43% (17G of 40G) threshold=85% OK
+Oct 30 04:37:38 db-prd-02 chronyd[9100]: Selected source 10.0.0.6
+Oct 30 05:46:08 db-prd-02 CRON[7727]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 31 03:12:01 db-prd-02 diskmon[1622]: /var/lib/postgresql used=65% (325G of 500G) threshold=85% OK
+Oct 31 03:12:01 db-prd-02 diskmon[1622]: / used=42% (17G of 40G) threshold=85% OK
+Oct 31 06:36:53 db-prd-02 chronyd[6800]: Selected source 10.0.0.5
+Oct 31 07:44:28 db-prd-02 systemd[1]: Started Session 1095 of User deploy.
+Oct 31 11:07:39 db-prd-02 CRON[676]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 31 16:21:22 db-prd-02 postgres[6419]: LOG:  checkpoint complete: wrote 3074 buffers
+Nov  1 03:12:01 db-prd-02 diskmon[1623]: /var/lib/postgresql used=65% (325G of 500G) threshold=85% OK
+Nov  1 03:12:01 db-prd-02 diskmon[1623]: / used=43% (17G of 40G) threshold=85% OK
+Nov  1 07:05:35 db-prd-02 CRON[2957]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  1 11:16:53 db-prd-02 postgres[1259]: LOG:  checkpoint complete: wrote 4105 buffers
+Nov  1 17:09:35 db-prd-02 postgres[7112]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Nov  1 19:26:12 db-prd-02 chronyd[2051]: Selected source 10.0.0.8
+Nov  2 03:12:01 db-prd-02 diskmon[1624]: /var/lib/postgresql used=65% (325G of 500G) threshold=85% OK
+Nov  2 03:12:01 db-prd-02 diskmon[1624]: / used=43% (17G of 40G) threshold=85% OK
+Nov  2 16:03:19 db-prd-02 chronyd[1243]: Selected source 10.0.0.3
+Nov  2 16:47:19 db-prd-02 postgres[691]: LOG:  checkpoint complete: wrote 2932 buffers
+Nov  2 18:40:24 db-prd-02 CRON[4300]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  2 19:45:57 db-prd-02 systemd[1]: Started Session 1118 of User deploy.
+Nov  3 03:12:01 db-prd-02 diskmon[1628]: /var/lib/postgresql used=65% (325G of 500G) threshold=85% OK
+Nov  3 03:12:01 db-prd-02 diskmon[1628]: / used=44% (18G of 40G) threshold=85% OK
+Nov  3 08:58:04 db-prd-02 systemd[1]: Started Session 1124 of User deploy.
+Nov  3 10:21:10 db-prd-02 postgres[9161]: LOG:  checkpoint complete: wrote 4457 buffers
+Nov  3 13:08:51 db-prd-02 chronyd[4232]: Selected source 10.0.0.7
+Nov  3 15:42:28 db-prd-02 CRON[3115]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  3 19:37:04 db-prd-02 sshd[6512]: Accepted publickey for deploy from 10.0.3.137 port 51804 ssh2
+Nov  4 03:12:01 db-prd-02 diskmon[1632]: /var/lib/postgresql used=65% (325G of 500G) threshold=85% OK
+Nov  4 03:12:01 db-prd-02 diskmon[1632]: / used=43% (17G of 40G) threshold=85% OK
+Nov  4 09:07:38 db-prd-02 systemd[1]: Started Session 1126 of User deploy.
+Nov  4 10:58:11 db-prd-02 chronyd[483]: Selected source 10.0.0.8
+Nov  4 12:20:26 db-prd-02 CRON[3409]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  4 23:32:25 db-prd-02 postgres[2427]: LOG:  checkpoint complete: wrote 4709 buffers
+Nov  5 03:12:01 db-prd-02 diskmon[1635]: /var/lib/postgresql used=65% (325G of 500G) threshold=85% OK
+Nov  5 03:12:01 db-prd-02 diskmon[1635]: / used=43% (17G of 40G) threshold=85% OK
+Nov  5 14:16:18 db-prd-02 sshd[9442]: Accepted publickey for deploy from 10.0.8.128 port 48786 ssh2
+Nov  5 16:53:05 db-prd-02 chronyd[8789]: Selected source 10.0.0.3
+Nov  5 18:54:37 db-prd-02 postgres[7038]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Nov  5 19:39:20 db-prd-02 postgres[5015]: LOG:  checkpoint complete: wrote 2777 buffers
+Nov  5 22:06:44 db-prd-02 CRON[8167]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  6 00:21:57 db-prd-02 CRON[2500]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  6 03:12:01 db-prd-02 diskmon[1636]: /var/lib/postgresql used=65% (325G of 500G) threshold=85% OK
+Nov  6 03:12:01 db-prd-02 diskmon[1636]: / used=43% (17G of 40G) threshold=85% OK
+Nov  6 10:41:06 db-prd-02 chronyd[5428]: Selected source 10.0.0.7
+Nov  6 13:49:11 db-prd-02 postgres[6604]: LOG:  checkpoint complete: wrote 4693 buffers
+Nov  6 14:59:17 db-prd-02 systemd[1]: Started Session 1143 of User deploy.
+Nov  7 03:12:01 db-prd-02 diskmon[1640]: /var/lib/postgresql used=65% (325G of 500G) threshold=85% OK
+Nov  7 03:12:01 db-prd-02 diskmon[1640]: / used=43% (17G of 40G) threshold=85% OK
+Nov  7 07:28:35 db-prd-02 postgres[4000]: LOG:  checkpoint complete: wrote 6196 buffers
+Nov  7 23:32:15 db-prd-02 chronyd[4724]: Selected source 10.0.0.4
+Nov  8 03:12:01 db-prd-02 diskmon[1644]: /var/lib/postgresql used=66% (330G of 500G) threshold=85% OK
+Nov  8 03:12:01 db-prd-02 diskmon[1644]: / used=43% (17G of 40G) threshold=85% OK
+Nov  8 05:05:27 db-prd-02 chronyd[8296]: Selected source 10.0.0.7
+Nov  8 17:05:26 db-prd-02 postgres[9368]: LOG:  checkpoint complete: wrote 2529 buffers
+Nov  8 18:36:16 db-prd-02 CRON[4308]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  9 03:12:01 db-prd-02 diskmon[1647]: /var/lib/postgresql used=66% (330G of 500G) threshold=85% OK
+Nov  9 03:12:01 db-prd-02 diskmon[1647]: / used=43% (17G of 40G) threshold=85% OK
+Nov  9 06:07:11 db-prd-02 chronyd[7297]: Selected source 10.0.0.6
+Nov  9 10:11:21 db-prd-02 postgres[1907]: LOG:  checkpoint complete: wrote 5746 buffers
+Nov  9 12:05:20 db-prd-02 sshd[1976]: Accepted publickey for deploy from 10.0.7.171 port 40036 ssh2
+Nov  9 16:15:26 db-prd-02 CRON[8868]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 10 03:12:01 db-prd-02 diskmon[1650]: /var/lib/postgresql used=66% (330G of 500G) threshold=85% OK
+Nov 10 03:12:01 db-prd-02 diskmon[1650]: / used=43% (17G of 40G) threshold=85% OK
+Nov 10 03:17:34 db-prd-02 chronyd[5778]: Selected source 10.0.0.8
+Nov 10 13:57:56 db-prd-02 systemd[1]: Started Session 1152 of User deploy.
+Nov 10 20:22:47 db-prd-02 postgres[645]: LOG:  checkpoint complete: wrote 3213 buffers
+Nov 11 03:12:01 db-prd-02 diskmon[1654]: /var/lib/postgresql used=66% (330G of 500G) threshold=85% OK
+Nov 11 03:12:01 db-prd-02 diskmon[1654]: / used=43% (17G of 40G) threshold=85% OK
+Nov 11 08:46:33 db-prd-02 chronyd[8067]: Selected source 10.0.0.4
+Nov 11 13:25:00 db-prd-02 CRON[7734]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 11 21:40:53 db-prd-02 postgres[4159]: LOG:  checkpoint complete: wrote 3444 buffers
+Nov 12 03:12:01 db-prd-02 diskmon[1655]: /var/lib/postgresql used=66% (330G of 500G) threshold=85% OK
+Nov 12 03:12:01 db-prd-02 diskmon[1655]: / used=44% (18G of 40G) threshold=85% OK
+Nov 12 03:13:28 db-prd-02 CRON[4092]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 12 08:57:04 db-prd-02 postgres[4202]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Nov 12 09:19:33 db-prd-02 postgres[9555]: LOG:  checkpoint complete: wrote 6574 buffers
+Nov 12 21:12:23 db-prd-02 chronyd[9550]: Selected source 10.0.0.3
+Nov 13 02:26:01 db-prd-02 postgres[3988]: LOG:  checkpoint complete: wrote 6392 buffers
+Nov 13 03:12:01 db-prd-02 diskmon[1656]: /var/lib/postgresql used=66% (330G of 500G) threshold=85% OK
+Nov 13 03:12:01 db-prd-02 diskmon[1656]: / used=44% (18G of 40G) threshold=85% OK
+Nov 13 12:18:51 db-prd-02 systemd[1]: Started Session 1161 of User deploy.
+Nov 13 12:20:19 db-prd-02 chronyd[5303]: Selected source 10.0.0.7
+Nov 13 12:20:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B00000060": No space left on device (28)
+Nov 13 12:20:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 13 12:20:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B00000060 bkp-01:/srv/wal/
+Nov 14 00:23:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B00000065": No space left on device (28)
+Nov 14 00:23:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 14 00:23:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B00000065 bkp-01:/srv/wal/
+Nov 14 02:44:53 db-prd-02 chronyd[9631]: Selected source 10.0.0.9
+Nov 14 03:12:01 db-prd-02 diskmon[1657]: /var/lib/postgresql used=69% (345G of 500G) threshold=85% OK
+Nov 14 03:12:01 db-prd-02 diskmon[1657]: / used=45% (18G of 40G) threshold=85% OK
+Nov 14 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003B00000066" failed too many times, will try again later
+Nov 14 09:04:15 db-prd-02 sshd[5363]: Accepted publickey for deploy from 10.0.4.130 port 48361 ssh2
+Nov 14 12:22:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B0000006A": No space left on device (28)
+Nov 14 12:22:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 14 12:22:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B0000006A bkp-01:/srv/wal/
+Nov 14 14:27:53 db-prd-02 postgres[5910]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Nov 14 17:14:05 db-prd-02 postgres[4242]: LOG:  checkpoint complete: wrote 4401 buffers
+Nov 15 00:23:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B0000006F": No space left on device (28)
+Nov 15 00:23:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 15 00:23:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B0000006F bkp-01:/srv/wal/
+Nov 15 03:12:01 db-prd-02 diskmon[1661]: /var/lib/postgresql used=73% (365G of 500G) threshold=85% OK
+Nov 15 03:12:01 db-prd-02 diskmon[1661]: / used=44% (18G of 40G) threshold=85% OK
+Nov 15 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003B00000071" failed too many times, will try again later
+Nov 15 12:20:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B00000074": No space left on device (28)
+Nov 15 12:20:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 15 12:20:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B00000074 bkp-01:/srv/wal/
+Nov 15 20:17:00 db-prd-02 sshd[7382]: Accepted publickey for deploy from 10.0.7.66 port 46343 ssh2
+Nov 15 20:58:52 db-prd-02 chronyd[8506]: Selected source 10.0.0.7
+Nov 15 22:01:31 db-prd-02 CRON[9448]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 15 23:15:04 db-prd-02 postgres[5553]: LOG:  checkpoint complete: wrote 3111 buffers
+Nov 16 00:22:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B0000007A": No space left on device (28)
+Nov 16 00:22:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 16 00:22:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B0000007A bkp-01:/srv/wal/
+Nov 16 03:12:01 db-prd-02 diskmon[1662]: /var/lib/postgresql used=78% (390G of 500G) threshold=85% OK
+Nov 16 03:12:01 db-prd-02 diskmon[1662]: / used=44% (18G of 40G) threshold=85% OK
+Nov 16 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003B0000007B" failed too many times, will try again later
+Nov 16 04:35:11 db-prd-02 CRON[4230]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 16 05:23:06 db-prd-02 chronyd[2581]: Selected source 10.0.0.4
+Nov 16 12:22:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B0000007F": No space left on device (28)
+Nov 16 12:22:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 16 12:22:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B0000007F bkp-01:/srv/wal/
+Nov 16 16:01:14 db-prd-02 postgres[5901]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Nov 16 19:33:06 db-prd-02 systemd[1]: Started Session 1171 of User deploy.
+Nov 16 22:36:44 db-prd-02 postgres[3080]: LOG:  checkpoint complete: wrote 6892 buffers
+Nov 17 00:22:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B00000084": No space left on device (28)
+Nov 17 00:22:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 17 00:22:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B00000084 bkp-01:/srv/wal/
+Nov 17 00:53:25 db-prd-02 postgres[7587]: LOG:  checkpoint complete: wrote 6454 buffers
+Nov 17 03:06:57 db-prd-02 chronyd[828]: Selected source 10.0.0.7
+Nov 17 03:12:01 db-prd-02 diskmon[1663]: /var/lib/postgresql used=83% (415G of 500G) threshold=85% OK
+Nov 17 03:12:01 db-prd-02 diskmon[1663]: / used=44% (18G of 40G) threshold=85% OK
+Nov 17 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003B00000086" failed too many times, will try again later
+Nov 17 11:48:02 db-prd-02 CRON[6575]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 17 12:25:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B00000089": No space left on device (28)
+Nov 17 12:25:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 17 12:25:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B00000089 bkp-01:/srv/wal/
+Nov 17 15:30:38 db-prd-02 sshd[1508]: Accepted publickey for deploy from 10.0.4.87 port 45707 ssh2
+Nov 18 00:27:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B0000008F": No space left on device (28)
+Nov 18 00:27:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 18 00:27:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B0000008F bkp-01:/srv/wal/
+Nov 18 03:12:01 db-prd-02 diskmon[1665]: /var/lib/postgresql used=88% (440G of 500G) threshold=85% WARNING
+Nov 18 03:12:01 db-prd-02 diskmon[1665]: / used=44% (18G of 40G) threshold=85% OK
+Nov 18 03:15:43 db-prd-02 postgres[4775]: LOG:  checkpoint complete: wrote 5534 buffers
+Nov 18 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003B00000090" failed too many times, will try again later
+Nov 18 07:52:36 db-prd-02 CRON[2088]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 18 12:27:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B00000094": No space left on device (28)
+Nov 18 12:27:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 18 12:27:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B00000094 bkp-01:/srv/wal/
+Nov 18 16:52:40 db-prd-02 chronyd[4885]: Selected source 10.0.0.9
+Nov 18 18:37:48 db-prd-02 systemd[1]: Started Session 1185 of User deploy.
+Nov 19 00:26:33 db-prd-02 postgres[1102]: rsync: [receiver] write failed on "/srv/wal/000000010000003B00000099": No space left on device (28)
+Nov 19 00:26:33 db-prd-02 postgres[1102]: LOG:  archive command failed with exit code 11
+Nov 19 00:26:33 db-prd-02 postgres[1102]: DETAIL:  The failed archive command was: rsync -a pg_wal/000000010000003B00000099 bkp-01:/srv/wal/
+Nov 19 01:59:32 db-prd-02 postgres[2313]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Nov 19 03:12:01 db-prd-02 diskmon[1669]: /var/lib/postgresql used=93% (465G of 500G) threshold=90% CRITICAL
+Nov 19 03:12:01 db-prd-02 diskmon[1669]: / used=43% (17G of 40G) threshold=85% OK
+Nov 19 03:40:15 db-prd-02 postgres[1102]: WARNING:  archiving write-ahead log file "000000010000003B0000009C" failed too many times, will try again later

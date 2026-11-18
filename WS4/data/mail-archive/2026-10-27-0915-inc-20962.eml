@@ -1,0 +1,17 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-20962 created: bkp-01 /srv/wal above 85%
+Date: Tue, 27 Oct 2026 09:15:00 +0000
+Message-ID: <202610270915-inc-20962@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-20962 has been created and assigned to team-storage.
+Priority: P4.
+
+/srv/wal on bkp-01 has been above 85% since 22 Oct. Request: extend the volume or reduce WAL retention.
+
+Status: Waiting for support.
+
+Service Desk

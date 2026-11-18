@@ -1,0 +1,14 @@
+From: Rui Santos <rui.santos@corp.example>
+To: you@corp.example
+Subject: Night on-call handover
+Date: Thu, 19 Nov 2026 07:41:03 +0000
+Message-ID: <07-oncall-handover@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Morning,
+
+night was busy-ish. db-prd-02 went CRITICAL at 03:12, I did not touch it (no change window, and RB-02 says not to clean pg_wal by hand). bkp-01 also CRITICAL again. Billing on app-prd-03 restarted itself yesterday at 01:58 (INC-21044), nothing since.
+
+Rui

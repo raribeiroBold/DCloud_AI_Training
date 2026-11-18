@@ -1,0 +1,14 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-21020 resolved: k8s-wrk-07 NotReady
+Date: Tue, 10 Nov 2026 15:03:00 +0000
+Message-ID: <202611101503-inc-21020-resolved@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-21020 is resolved.
+
+Fix: containerd restarted at 14:44 UTC; the node was Ready at 14:45 UTC. Pods were not drained (RB-09 was not needed).
+
+Service Desk

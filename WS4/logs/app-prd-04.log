@@ -1,10 +1,292 @@
+Oct  5 00:07:21 app-prd-04 billing[1260]: INFO invoice batch 791 closed
+Oct  5 02:13:39 app-prd-04 chronyd[7884]: Selected source 10.0.0.8
+Oct  5 03:12:09 app-prd-04 diskmon[2377]: /opt/billing used=29% (29G of 100G) threshold=85% OK
 Oct  5 03:24:30 app-prd-04 systemd[1]: Started Session 268 of User deploy.
 Oct  5 09:11:54 app-prd-04 chronyd[759]: Selected source 10.0.0.8
+Oct  5 10:22:52 app-prd-04 billing[1260]: INFO request 24678 completed in 265 ms
 Oct  5 12:50:58 app-prd-04 billing[1260]: INFO invoice batch 346 closed
 Oct  5 14:29:48 app-prd-04 systemd[1]: Started Session 548 of User deploy.
+Oct  5 16:19:14 app-prd-04 CRON[8330]: (root) CMD (/usr/local/bin/health-report.sh)
 Oct  5 17:00:29 app-prd-04 billing[1260]: INFO request 64509 completed in 56 ms
 Oct  5 18:25:32 app-prd-04 sshd[3657]: Accepted publickey for deploy from 10.0.2.157 port 45512 ssh2
 Oct  6 03:10:05 app-prd-04 inventory-agent[1871]: reported os=RHEL version=9.8 kernel=5.14.0
+Oct  6 03:12:09 app-prd-04 diskmon[2379]: /opt/billing used=28% (28G of 100G) threshold=85% OK
+Oct  6 08:05:20 app-prd-04 CRON[4609]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 08:37:30 app-prd-04 systemd[1]: Started Session 212 of User deploy.
+Oct  6 16:26:28 app-prd-04 billing[1260]: INFO request 93346 completed in 247 ms
+Oct  6 19:04:46 app-prd-04 sshd[9678]: Accepted publickey for deploy from 10.0.7.177 port 59243 ssh2
+Oct  6 20:49:22 app-prd-04 chronyd[7542]: Selected source 10.0.0.9
+Oct  7 02:24:21 app-prd-04 billing[1260]: INFO invoice batch 802 closed
+Oct  7 03:12:09 app-prd-04 diskmon[2380]: /opt/billing used=27% (27G of 100G) threshold=85% OK
+Oct  7 03:43:19 app-prd-04 billing[1260]: INFO request 20526 completed in 214 ms
+Oct  7 05:38:30 app-prd-04 CRON[8347]: (root) CMD (/usr/local/bin/health-report.sh)
 Oct  7 06:29:11 app-prd-04 sshd[2196]: Accepted publickey for deploy from 10.0.2.53 port 48356 ssh2
+Oct  7 11:52:02 app-prd-04 sshd[5537]: Accepted publickey for deploy from 10.0.8.167 port 45983 ssh2
+Oct  7 12:27:41 app-prd-04 billing[1260]: INFO request 73578 completed in 124 ms
 Oct  7 13:05:37 app-prd-04 billing[1260]: INFO request 5798 completed in 266 ms
+Oct  7 15:58:37 app-prd-04 chronyd[6023]: Selected source 10.0.0.9
 Oct  7 23:48:38 app-prd-04 CRON[7237]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  8 03:12:09 app-prd-04 diskmon[2382]: /opt/billing used=28% (28G of 100G) threshold=85% OK
+Oct  8 03:44:26 app-prd-04 billing[1260]: INFO invoice batch 810 closed
+Oct  8 05:34:03 app-prd-04 billing[1260]: INFO request 20025 completed in 396 ms
+Oct  8 08:30:12 app-prd-04 chronyd[5854]: Selected source 10.0.0.5
+Oct  8 09:58:07 app-prd-04 sshd[2502]: Accepted publickey for deploy from 10.0.8.143 port 47996 ssh2
+Oct  8 09:59:02 app-prd-04 CRON[7550]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  9 01:42:27 app-prd-04 chronyd[8155]: Selected source 10.0.0.4
+Oct  9 03:12:09 app-prd-04 diskmon[2386]: /opt/billing used=28% (28G of 100G) threshold=85% OK
+Oct  9 04:22:20 app-prd-04 billing[1260]: INFO invoice batch 815 closed
+Oct  9 04:52:33 app-prd-04 billing[1260]: INFO request 15473 completed in 265 ms
+Oct  9 13:20:36 app-prd-04 systemd[1]: Started Session 237 of User deploy.
+Oct  9 16:53:24 app-prd-04 sshd[9139]: Accepted publickey for deploy from 10.0.7.13 port 54409 ssh2
+Oct  9 22:29:46 app-prd-04 CRON[1851]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 10 02:16:49 app-prd-04 billing[1260]: INFO request 80630 completed in 370 ms
+Oct 10 02:43:21 app-prd-04 billing[1260]: INFO invoice batch 819 closed
+Oct 10 03:12:09 app-prd-04 diskmon[2388]: /opt/billing used=28% (28G of 100G) threshold=85% OK
+Oct 10 07:19:49 app-prd-04 sshd[3797]: Accepted publickey for deploy from 10.0.5.199 port 57067 ssh2
+Oct 10 07:23:56 app-prd-04 chronyd[6739]: Selected source 10.0.0.7
+Oct 10 14:47:06 app-prd-04 systemd[1]: Started Session 263 of User deploy.
+Oct 10 21:47:12 app-prd-04 billing[1260]: INFO request 54654 completed in 123 ms
+Oct 11 02:02:32 app-prd-04 billing[1260]: INFO invoice batch 825 closed
+Oct 11 03:12:09 app-prd-04 diskmon[2389]: /opt/billing used=28% (28G of 100G) threshold=85% OK
+Oct 11 15:23:57 app-prd-04 CRON[6633]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 11 19:53:25 app-prd-04 sshd[3560]: Accepted publickey for deploy from 10.0.7.178 port 45764 ssh2
+Oct 11 21:59:33 app-prd-04 billing[1260]: INFO request 18178 completed in 276 ms
+Oct 11 23:45:13 app-prd-04 chronyd[4141]: Selected source 10.0.0.6
+Oct 12 01:12:47 app-prd-04 billing[1260]: INFO invoice batch 828 closed
+Oct 12 03:12:09 app-prd-04 diskmon[2392]: /opt/billing used=28% (28G of 100G) threshold=85% OK
+Oct 12 07:52:03 app-prd-04 systemd[1]: Started Session 292 of User deploy.
+Oct 12 09:39:43 app-prd-04 chronyd[6349]: Selected source 10.0.0.8
+Oct 12 18:03:30 app-prd-04 billing[1260]: INFO request 87600 completed in 174 ms
+Oct 12 23:35:36 app-prd-04 billing[1260]: INFO request 18877 completed in 386 ms
+Oct 13 01:36:11 app-prd-04 billing[1260]: INFO invoice batch 834 closed
+Oct 13 03:12:09 app-prd-04 diskmon[2395]: /opt/billing used=28% (28G of 100G) threshold=85% OK
+Oct 13 09:12:39 app-prd-04 CRON[8594]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 13 10:09:44 app-prd-04 chronyd[8143]: Selected source 10.0.0.8
+Oct 13 10:57:04 app-prd-04 billing[1260]: INFO request 70727 completed in 211 ms
+Oct 13 11:30:21 app-prd-04 billing[1260]: INFO request 24478 completed in 175 ms
+Oct 13 16:17:36 app-prd-04 sshd[1400]: Accepted publickey for deploy from 10.0.4.218 port 49189 ssh2
+Oct 14 03:12:09 app-prd-04 diskmon[2398]: /opt/billing used=28% (28G of 100G) threshold=85% OK
+Oct 14 03:36:16 app-prd-04 billing[1260]: INFO invoice batch 840 closed
+Oct 14 04:26:07 app-prd-04 CRON[9668]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 14 08:06:01 app-prd-04 systemd[1]: Started Session 310 of User deploy.
+Oct 14 08:33:36 app-prd-04 chronyd[1888]: Selected source 10.0.0.7
+Oct 14 12:28:01 app-prd-04 sshd[6083]: Accepted publickey for deploy from 10.0.5.79 port 44996 ssh2
+Oct 14 17:55:52 app-prd-04 billing[1260]: INFO request 18967 completed in 327 ms
+Oct 15 00:05:00 app-prd-04 chronyd[4383]: Selected source 10.0.0.8
+Oct 15 02:18:15 app-prd-04 billing[1260]: INFO request 83913 completed in 133 ms
+Oct 15 03:12:09 app-prd-04 diskmon[2402]: /opt/billing used=28% (28G of 100G) threshold=85% OK
+Oct 15 04:48:47 app-prd-04 billing[1260]: INFO invoice batch 844 closed
+Oct 15 14:01:50 app-prd-04 CRON[5288]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 15 16:35:17 app-prd-04 sshd[6549]: Accepted publickey for deploy from 10.0.8.141 port 53390 ssh2
+Oct 16 01:18:26 app-prd-04 billing[1260]: INFO invoice batch 851 closed
+Oct 16 03:12:09 app-prd-04 diskmon[2406]: /opt/billing used=28% (28G of 100G) threshold=85% OK
+Oct 16 09:30:52 app-prd-04 sshd[6856]: Accepted publickey for deploy from 10.0.6.26 port 54453 ssh2
+Oct 16 09:49:09 app-prd-04 billing[1260]: INFO request 45082 completed in 331 ms
+Oct 16 20:21:04 app-prd-04 CRON[6063]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 16 22:39:30 app-prd-04 chronyd[2727]: Selected source 10.0.0.9
+Oct 17 02:28:43 app-prd-04 CRON[4281]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 17 03:04:41 app-prd-04 billing[1260]: INFO request 13655 completed in 371 ms
+Oct 17 03:12:09 app-prd-04 diskmon[2409]: /opt/billing used=27% (27G of 100G) threshold=85% OK
+Oct 17 04:00:33 app-prd-04 billing[1260]: INFO invoice batch 856 closed
+Oct 17 04:24:14 app-prd-04 chronyd[9752]: Selected source 10.0.0.4
+Oct 17 13:14:36 app-prd-04 sshd[1420]: Accepted publickey for deploy from 10.0.4.240 port 55118 ssh2
+Oct 18 02:03:01 app-prd-04 billing[1260]: INFO invoice batch 862 closed
+Oct 18 03:12:09 app-prd-04 diskmon[2413]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Oct 18 08:09:51 app-prd-04 billing[1260]: INFO request 32417 completed in 335 ms
+Oct 18 15:59:48 app-prd-04 systemd[1]: Started Session 312 of User deploy.
+Oct 18 19:34:52 app-prd-04 CRON[1084]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 18 20:16:12 app-prd-04 chronyd[6069]: Selected source 10.0.0.8
+Oct 19 03:04:52 app-prd-04 CRON[1280]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 19 03:12:09 app-prd-04 diskmon[2414]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 19 08:15:05 app-prd-04 billing[1260]: INFO request 16986 completed in 349 ms
+Oct 19 11:10:58 app-prd-04 systemd[1]: Started Session 322 of User deploy.
+Oct 19 13:16:16 app-prd-04 sshd[6531]: Accepted publickey for deploy from 10.0.6.82 port 53795 ssh2
+Oct 19 14:19:03 app-prd-04 chronyd[7891]: Selected source 10.0.0.4
+Oct 19 23:23:28 app-prd-04 billing[1260]: INFO request 78600 completed in 334 ms
+Oct 20 00:01:44 app-prd-04 billing[1260]: INFO invoice batch 874 closed
+Oct 20 00:38:42 app-prd-04 CRON[7657]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 20 03:12:09 app-prd-04 diskmon[2415]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 20 04:08:34 app-prd-04 billing[1260]: INFO request 82378 completed in 407 ms
+Oct 20 08:15:28 app-prd-04 systemd[1]: Started Session 349 of User deploy.
+Oct 20 09:26:05 app-prd-04 sshd[2909]: Accepted publickey for deploy from 10.0.3.129 port 42328 ssh2
+Oct 20 11:46:44 app-prd-04 billing[1260]: INFO request 84009 completed in 294 ms
+Oct 20 14:09:55 app-prd-04 chronyd[8629]: Selected source 10.0.0.3
+Oct 21 02:24:02 app-prd-04 billing[1260]: INFO invoice batch 880 closed
+Oct 21 03:12:09 app-prd-04 diskmon[2416]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 21 11:48:37 app-prd-04 chronyd[5191]: Selected source 10.0.0.3
+Oct 21 13:56:54 app-prd-04 billing[1260]: INFO request 98977 completed in 273 ms
+Oct 21 15:35:04 app-prd-04 billing[1260]: INFO request 69008 completed in 317 ms
+Oct 21 16:13:33 app-prd-04 systemd[1]: Started Session 351 of User deploy.
+Oct 22 03:10:54 app-prd-04 billing[1260]: INFO request 77343 completed in 195 ms
+Oct 22 03:12:09 app-prd-04 diskmon[2417]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 22 05:44:03 app-prd-04 chronyd[4593]: Selected source 10.0.0.6
+Oct 22 11:00:10 app-prd-04 sshd[3610]: Accepted publickey for deploy from 10.0.2.244 port 52175 ssh2
+Oct 22 18:11:49 app-prd-04 systemd[1]: Started Session 378 of User deploy.
+Oct 22 18:53:22 app-prd-04 CRON[7836]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 23 00:46:23 app-prd-04 billing[1260]: INFO invoice batch 891 closed
+Oct 23 03:12:09 app-prd-04 diskmon[2421]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 23 07:27:17 app-prd-04 sshd[8799]: Accepted publickey for deploy from 10.0.3.229 port 51103 ssh2
+Oct 23 14:01:16 app-prd-04 billing[1260]: INFO request 75449 completed in 238 ms
+Oct 23 16:12:10 app-prd-04 chronyd[2357]: Selected source 10.0.0.4
+Oct 23 18:33:02 app-prd-04 systemd[1]: Started Session 395 of User deploy.
+Oct 23 22:17:42 app-prd-04 billing[1260]: INFO request 62661 completed in 278 ms
+Oct 24 02:57:40 app-prd-04 billing[1260]: INFO request 28378 completed in 316 ms
+Oct 24 03:12:09 app-prd-04 diskmon[2422]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 24 04:11:54 app-prd-04 billing[1260]: INFO invoice batch 897 closed
+Oct 24 08:38:59 app-prd-04 CRON[3086]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 24 18:49:33 app-prd-04 chronyd[5914]: Selected source 10.0.0.6
+Oct 24 22:16:44 app-prd-04 billing[1260]: INFO request 61534 completed in 250 ms
+Oct 25 00:00:35 app-prd-04 CRON[6658]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 25 03:12:09 app-prd-04 diskmon[2424]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 25 05:07:04 app-prd-04 billing[1260]: INFO request 88029 completed in 377 ms
+Oct 25 06:23:30 app-prd-04 billing[1260]: INFO request 39465 completed in 229 ms
+Oct 25 09:25:23 app-prd-04 chronyd[2485]: Selected source 10.0.0.4
+Oct 26 03:00:13 app-prd-04 CRON[6141]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 03:12:09 app-prd-04 diskmon[2426]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 26 09:15:26 app-prd-04 billing[1260]: INFO request 88644 completed in 122 ms
+Oct 26 21:43:13 app-prd-04 chronyd[1167]: Selected source 10.0.0.5
+Oct 27 03:12:09 app-prd-04 diskmon[2430]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 27 04:18:45 app-prd-04 billing[1260]: INFO request 67538 completed in 146 ms
+Oct 27 04:48:58 app-prd-04 billing[1260]: INFO invoice batch 908 closed
+Oct 27 12:13:43 app-prd-04 systemd[1]: Started Session 420 of User deploy.
+Oct 27 17:03:33 app-prd-04 chronyd[6072]: Selected source 10.0.0.9
+Oct 27 17:10:24 app-prd-04 CRON[4200]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 02:39:41 app-prd-04 billing[1260]: INFO request 72144 completed in 291 ms
+Oct 28 03:12:09 app-prd-04 diskmon[2434]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 28 04:09:42 app-prd-04 billing[1260]: INFO invoice batch 913 closed
+Oct 28 18:22:45 app-prd-04 CRON[6992]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 23:33:01 app-prd-04 billing[1260]: INFO request 13177 completed in 220 ms
+Oct 28 23:38:19 app-prd-04 chronyd[7721]: Selected source 10.0.0.3
+Oct 29 03:12:09 app-prd-04 diskmon[2436]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 29 03:31:55 app-prd-04 billing[1260]: INFO invoice batch 919 closed
+Oct 29 05:22:39 app-prd-04 billing[1260]: INFO request 76713 completed in 229 ms
+Oct 29 09:48:26 app-prd-04 sshd[9561]: Accepted publickey for deploy from 10.0.4.34 port 50704 ssh2
+Oct 29 16:37:38 app-prd-04 chronyd[5848]: Selected source 10.0.0.4
+Oct 29 21:04:26 app-prd-04 billing[1260]: INFO request 26647 completed in 289 ms
+Oct 30 02:16:02 app-prd-04 billing[1260]: INFO invoice batch 924 closed
+Oct 30 03:12:09 app-prd-04 diskmon[2440]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Oct 30 04:40:29 app-prd-04 CRON[1751]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 30 09:22:36 app-prd-04 sshd[5481]: Accepted publickey for deploy from 10.0.2.60 port 41378 ssh2
+Oct 30 11:10:22 app-prd-04 billing[1260]: INFO request 24310 completed in 110 ms
+Oct 30 13:34:35 app-prd-04 chronyd[6954]: Selected source 10.0.0.7
+Oct 31 03:12:09 app-prd-04 diskmon[2443]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Oct 31 03:49:29 app-prd-04 chronyd[3651]: Selected source 10.0.0.3
+Oct 31 05:32:06 app-prd-04 billing[1260]: INFO request 93410 completed in 383 ms
+Nov  1 00:30:07 app-prd-04 billing[1260]: INFO invoice batch 934 closed
+Nov  1 03:12:09 app-prd-04 diskmon[2444]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Nov  1 09:38:03 app-prd-04 chronyd[5728]: Selected source 10.0.0.6
+Nov  1 12:37:50 app-prd-04 billing[1260]: INFO request 72022 completed in 414 ms
+Nov  1 17:59:45 app-prd-04 CRON[1189]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  2 03:12:09 app-prd-04 diskmon[2447]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Nov  2 09:50:59 app-prd-04 chronyd[3978]: Selected source 10.0.0.8
+Nov  2 10:34:37 app-prd-04 CRON[9555]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  2 12:20:08 app-prd-04 billing[1260]: INFO request 22478 completed in 273 ms
+Nov  2 17:40:32 app-prd-04 sshd[7965]: Accepted publickey for deploy from 10.0.3.209 port 50397 ssh2
+Nov  2 18:01:06 app-prd-04 systemd[1]: Started Session 427 of User deploy.
+Nov  3 03:12:09 app-prd-04 diskmon[2448]: /opt/billing used=31% (31G of 100G) threshold=85% OK
+Nov  3 08:42:46 app-prd-04 billing[1260]: INFO request 90960 completed in 123 ms
+Nov  3 12:41:17 app-prd-04 chronyd[7747]: Selected source 10.0.0.5
+Nov  3 15:32:00 app-prd-04 CRON[8559]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  4 03:12:09 app-prd-04 diskmon[2451]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Nov  4 03:59:11 app-prd-04 billing[1260]: INFO invoice batch 953 closed
+Nov  4 07:13:14 app-prd-04 CRON[4245]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  4 10:11:00 app-prd-04 billing[1260]: INFO request 76520 completed in 246 ms
+Nov  4 10:30:59 app-prd-04 chronyd[2340]: Selected source 10.0.0.6
+Nov  4 12:38:20 app-prd-04 sshd[4213]: Accepted publickey for deploy from 10.0.7.168 port 57409 ssh2
+Nov  4 22:35:03 app-prd-04 billing[1260]: INFO request 62764 completed in 129 ms
+Nov  5 03:12:09 app-prd-04 diskmon[2455]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Nov  5 03:58:11 app-prd-04 billing[1260]: INFO invoice batch 959 closed
+Nov  5 11:07:52 app-prd-04 chronyd[2858]: Selected source 10.0.0.5
+Nov  5 11:30:43 app-prd-04 CRON[5579]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  5 23:02:40 app-prd-04 billing[1260]: INFO request 57359 completed in 311 ms
+Nov  6 02:17:13 app-prd-04 chronyd[4568]: Selected source 10.0.0.5
+Nov  6 03:12:09 app-prd-04 diskmon[2458]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Nov  6 13:37:55 app-prd-04 billing[1260]: INFO request 62551 completed in 165 ms
+Nov  6 14:28:17 app-prd-04 sshd[9136]: Accepted publickey for deploy from 10.0.4.134 port 43936 ssh2
+Nov  6 16:05:51 app-prd-04 systemd[1]: Started Session 451 of User deploy.
+Nov  6 19:06:29 app-prd-04 CRON[7304]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  6 22:24:03 app-prd-04 billing[1260]: INFO request 68979 completed in 142 ms
+Nov  7 01:00:54 app-prd-04 chronyd[5698]: Selected source 10.0.0.6
+Nov  7 03:12:09 app-prd-04 diskmon[2459]: /opt/billing used=29% (29G of 100G) threshold=85% OK
+Nov  7 12:27:50 app-prd-04 sshd[7288]: Accepted publickey for deploy from 10.0.4.124 port 57844 ssh2
+Nov  7 14:16:10 app-prd-04 systemd[1]: Started Session 472 of User deploy.
+Nov  7 17:56:18 app-prd-04 billing[1260]: INFO request 52232 completed in 358 ms
+Nov  8 01:59:47 app-prd-04 billing[1260]: INFO invoice batch 973 closed
+Nov  8 03:12:09 app-prd-04 diskmon[2463]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Nov  8 07:48:55 app-prd-04 chronyd[7681]: Selected source 10.0.0.7
+Nov  8 13:02:22 app-prd-04 CRON[2859]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  8 15:09:43 app-prd-04 sshd[2734]: Accepted publickey for deploy from 10.0.8.74 port 56209 ssh2
+Nov  8 20:12:34 app-prd-04 billing[1260]: INFO request 63930 completed in 297 ms
+Nov  9 03:12:09 app-prd-04 diskmon[2465]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Nov  9 05:28:15 app-prd-04 billing[1260]: INFO request 19964 completed in 390 ms
+Nov  9 12:50:13 app-prd-04 systemd[1]: Started Session 495 of User deploy.
+Nov  9 14:23:58 app-prd-04 chronyd[1503]: Selected source 10.0.0.3
+Nov  9 19:00:41 app-prd-04 sshd[2332]: Accepted publickey for deploy from 10.0.7.65 port 50179 ssh2
+Nov  9 21:14:54 app-prd-04 CRON[2094]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 10 03:12:09 app-prd-04 diskmon[2467]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Nov 10 03:14:36 app-prd-04 billing[1260]: INFO invoice batch 980 closed
+Nov 10 08:30:37 app-prd-04 billing[1260]: INFO request 99202 completed in 400 ms
+Nov 10 15:01:20 app-prd-04 CRON[4507]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 10 17:00:09 app-prd-04 sshd[4608]: Accepted publickey for deploy from 10.0.8.216 port 44970 ssh2
+Nov 10 18:45:35 app-prd-04 chronyd[4956]: Selected source 10.0.0.8
+Nov 10 23:32:24 app-prd-04 billing[1260]: INFO request 95314 completed in 262 ms
+Nov 11 00:31:08 app-prd-04 billing[1260]: INFO invoice batch 984 closed
+Nov 11 03:12:09 app-prd-04 diskmon[2468]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Nov 11 11:39:52 app-prd-04 CRON[6961]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 11 15:12:19 app-prd-04 billing[1260]: INFO request 96466 completed in 109 ms
+Nov 11 15:21:23 app-prd-04 billing[1260]: INFO request 69867 completed in 312 ms
+Nov 11 17:12:55 app-prd-04 sshd[3432]: Accepted publickey for deploy from 10.0.7.19 port 51497 ssh2
+Nov 11 19:08:02 app-prd-04 chronyd[7078]: Selected source 10.0.0.9
+Nov 11 21:08:31 app-prd-04 ansible-ansible.legacy.dnf[1633]: Invoked with name=['billing-4.18.0'] state=present
+Nov 11 21:08:53 app-prd-04 systemd[1]: Started Billing service.
+Nov 12 03:12:09 app-prd-04 diskmon[2469]: /opt/billing used=30% (30G of 100G) threshold=85% OK
+Nov 12 04:29:14 app-prd-04 billing[1260]: INFO invoice batch 988 closed
+Nov 12 05:45:05 app-prd-04 CRON[7998]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 12 13:39:55 app-prd-04 systemd[1]: Started Session 510 of User deploy.
+Nov 12 14:20:12 app-prd-04 chronyd[2576]: Selected source 10.0.0.3
+Nov 12 15:50:17 app-prd-04 billing[1260]: INFO request 50550 completed in 95 ms
+Nov 13 02:16:00 app-prd-04 billing[1260]: INFO invoice batch 996 closed
+Nov 13 03:12:09 app-prd-04 diskmon[2471]: /opt/billing used=31% (31G of 100G) threshold=85% OK
+Nov 13 07:35:08 app-prd-04 CRON[7844]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 13 08:46:08 app-prd-04 sshd[542]: Accepted publickey for deploy from 10.0.6.162 port 57087 ssh2
+Nov 13 15:02:30 app-prd-04 systemd[1]: Started Session 519 of User deploy.
+Nov 13 16:38:33 app-prd-04 billing[1260]: INFO request 28566 completed in 121 ms
+Nov 13 18:11:37 app-prd-04 billing[1260]: INFO request 75940 completed in 335 ms
+Nov 13 21:19:49 app-prd-04 chronyd[6188]: Selected source 10.0.0.5
+Nov 14 03:12:09 app-prd-04 diskmon[2475]: /opt/billing used=31% (31G of 100G) threshold=85% OK
+Nov 14 03:41:36 app-prd-04 CRON[5334]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 14 05:04:08 app-prd-04 billing[1260]: INFO request 52667 completed in 269 ms
+Nov 14 05:11:18 app-prd-04 chronyd[9277]: Selected source 10.0.0.8
+Nov 14 05:56:06 app-prd-04 billing[1260]: INFO invoice batch 1002 closed
+Nov 14 16:56:54 app-prd-04 sshd[1639]: Accepted publickey for deploy from 10.0.6.23 port 54648 ssh2
+Nov 15 00:50:10 app-prd-04 CRON[8036]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 15 01:50:19 app-prd-04 billing[1260]: INFO invoice batch 1008 closed
+Nov 15 03:03:55 app-prd-04 chronyd[8169]: Selected source 10.0.0.3
+Nov 15 03:12:09 app-prd-04 diskmon[2478]: /opt/billing used=31% (31G of 100G) threshold=85% OK
+Nov 15 08:41:50 app-prd-04 billing[1260]: INFO request 39987 completed in 282 ms
+Nov 15 13:51:25 app-prd-04 systemd[1]: Started Session 540 of User deploy.
+Nov 15 14:01:29 app-prd-04 billing[1260]: INFO request 86820 completed in 136 ms
+Nov 16 03:12:09 app-prd-04 diskmon[2480]: /opt/billing used=31% (31G of 100G) threshold=85% OK
+Nov 16 03:30:07 app-prd-04 billing[1260]: INFO invoice batch 1011 closed
+Nov 16 05:34:56 app-prd-04 billing[1260]: INFO request 10557 completed in 384 ms
+Nov 16 11:03:39 app-prd-04 chronyd[7739]: Selected source 10.0.0.3
+Nov 16 12:20:35 app-prd-04 CRON[925]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 16 16:53:02 app-prd-04 sshd[4959]: Accepted publickey for deploy from 10.0.7.32 port 45005 ssh2
+Nov 16 20:11:31 app-prd-04 billing[1260]: INFO request 75288 completed in 219 ms
+Nov 17 03:12:09 app-prd-04 diskmon[2484]: /opt/billing used=31% (31G of 100G) threshold=85% OK
+Nov 17 04:09:32 app-prd-04 billing[1260]: INFO request 62576 completed in 153 ms
+Nov 17 05:04:06 app-prd-04 billing[1260]: INFO request 18443 completed in 414 ms
+Nov 17 05:06:50 app-prd-04 CRON[5811]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 17 10:04:03 app-prd-04 systemd[1]: Started Session 542 of User deploy.
+Nov 17 18:44:15 app-prd-04 chronyd[8783]: Selected source 10.0.0.3
+Nov 18 03:12:09 app-prd-04 diskmon[2485]: /opt/billing used=32% (32G of 100G) threshold=85% OK
+Nov 18 05:08:34 app-prd-04 chronyd[8262]: Selected source 10.0.0.7
+Nov 18 05:27:10 app-prd-04 billing[1260]: INFO invoice batch 1021 closed
+Nov 18 09:09:31 app-prd-04 systemd[1]: Started Session 567 of User deploy.
+Nov 18 11:03:13 app-prd-04 sshd[7752]: Accepted publickey for deploy from 10.0.7.210 port 58584 ssh2
+Nov 18 18:44:44 app-prd-04 CRON[4751]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 18 21:24:22 app-prd-04 billing[1260]: INFO request 86843 completed in 354 ms
+Nov 18 23:41:03 app-prd-04 billing[1260]: INFO request 11234 completed in 383 ms
+Nov 19 01:56:42 app-prd-04 billing[1260]: INFO invoice batch 1027 closed
+Nov 19 03:12:09 app-prd-04 diskmon[2487]: /opt/billing used=32% (32G of 100G) threshold=85% OK
+Nov 19 03:35:26 app-prd-04 billing[1260]: INFO request 23134 completed in 105 ms

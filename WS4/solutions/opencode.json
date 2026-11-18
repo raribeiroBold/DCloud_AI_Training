@@ -29,7 +29,7 @@
     "bash": "ask",
     "webfetch": "ask",
     "create_ticket": "ask",
-    "skill": "deny",
+    "skill": "ask",
     "runbooks_write_file": "deny",
     "runbooks_edit_file": "deny",
     "runbooks_move_file": "deny",
@@ -40,7 +40,11 @@
     "rag_chroma_delete_collection": "deny",
     "rag_chroma_add_documents": "deny",
     "rag_chroma_update_documents": "deny",
-    "rag_chroma_delete_documents": "deny"
+    "rag_chroma_delete_documents": "deny",
+    "vault_write_file": "ask",
+    "vault_edit_file": "ask",
+    "vault_create_directory": "ask",
+    "vault_move_file": "ask"
   },
   "mcp": {
     "servers": {
@@ -71,6 +75,18 @@
           "./rag/chroma_db"
         ],
         "codemode": false
+      },
+      "vault": {
+        "type": "local",
+        "command": [
+          "npx",
+          "-y",
+          "@modelcontextprotocol/server-filesystem@2.2.0",
+          "--confine-roots",
+          "../ops-vault"
+        ],
+        "codemode": false,
+        "disabled": true
       }
     }
   }

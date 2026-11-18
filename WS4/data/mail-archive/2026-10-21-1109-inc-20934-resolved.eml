@@ -1,0 +1,16 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-20934 resolved: db-prd-02 /var/lib/postgresql at 93%
+Date: Wed, 21 Oct 2026 11:09:00 +0100
+Message-ID: <202610211109-inc-20934-resolved@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-20934 is resolved.
+
+Root cause: CHG-4170 (bkp-01 patching, 16 Oct) generated new SSH host keys on bkp-01. The archive command on db-prd-02 (rsync over ssh) failed host key verification from 16 Oct 06:40, and pg_wal grew.
+Fix: the new bkp-01 host key added to known_hosts of the postgres user on db-prd-02 (RB-02 step 2); archiving caught up; usage back to 64% on 22 Oct.
+Follow-up: add the archive check to the change template for bkp-01.
+
+Service Desk

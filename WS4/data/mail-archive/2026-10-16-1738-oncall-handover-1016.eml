@@ -1,0 +1,14 @@
+From: Joana Silva <joana.silva@corp.example>
+To: you@corp.example
+Subject: On-call handover, week ending 16 Oct
+Date: Fri, 16 Oct 2026 17:38:00 +0100
+Message-ID: <202610161738-oncall-handover-1016@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi all,
+
+bkp-01 patched this morning (CHG-4170), no issues seen. Nothing open.
+
+Joana

@@ -1,0 +1,14 @@
+From: Rui Santos <rui.santos@corp.example>
+To: you@corp.example
+Subject: On-call handover, week ending 23 Oct
+Date: Fri, 23 Oct 2026 17:30:00 +0100
+Message-ID: <202610231730-oncall-handover-1023@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi all,
+
+db-prd-02 at 93% on Wednesday: host key on bkp-01 changed by CHG-4170 (INC-20934, resolved). jump-02 logins fixed (INC-20931). bkp-01 /srv/wal now WARNING at 85%: someone should look.
+
+Rui

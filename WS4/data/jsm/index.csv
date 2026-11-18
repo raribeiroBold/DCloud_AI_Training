@@ -1,0 +1,18 @@
+key,type,status,priority,host,assignee_group,created,resolved,summary,runbook
+INC-20877,Incident,Resolved,P1,db-prd-02,team-dba,2026-10-06 23:31,2026-10-07 16:02,PostgreSQL PANIC on db-prd-02: pg_wal full,RB-02
+INC-20881,Incident,Resolved,P2,app-prd-03,team-app,2026-10-07 02:20,2026-10-07 09:45,"billing down on app-prd-03, /var at 97%",RB-06
+INC-20883,Incident,Resolved,P3,db-prd-01,team-dba,2026-10-07 05:02,2026-10-08 11:20,postgres backend on db-prd-01 killed by the OOM killer,RB-07
+CHG-4170,Change,Closed,—,bkp-01,team-dba,2026-10-14 11:00,2026-10-16 07:00,OS patching on bkp-01 (OpenSSH),RB-08
+INC-20931,Incident,Resolved,P3,jump-02,team-network,2026-10-21 07:58,2026-10-21 10:41,users cannot log in to jump-02,—
+INC-20934,Incident,Resolved,P2,db-prd-02,team-dba,2026-10-21 03:20,2026-10-21 11:09,db-prd-02 /var/lib/postgresql at 93%,RB-02
+CHG-4182,Change,Closed,—,app-prd-05,team-app,2026-10-19 10:00,2026-10-21 22:30,OS patching on app-prd-05,—
+INC-20962,Incident,Waiting for support,P4,bkp-01,team-storage,2026-10-27 09:15,,bkp-01 /srv/wal above 85%,—
+CHG-4201,Change,Closed,—,"web-prd-01..06, api-prd-01..06, jump-01, jump-02",team-platform,2026-11-02 15:00,2026-11-04 23:30,OpenSSH update for SA-2026-031,RB-08
+INC-21012,Incident,Resolved,P3,jump-01,team-network,2026-11-09 02:31,2026-11-09 10:05,SSH brute force on jump-01 (blocked),—
+INC-21020,Incident,Resolved,P3,k8s-wrk-07,team-platform,2026-11-10 14:12,2026-11-10 15:03,k8s-wrk-07 NotReady,RB-09
+CHG-4209,Change,Closed,—,app-prd-01..08,team-app,2026-11-09 12:00,2026-11-11 22:00,billing 4.18.0 release,—
+INC-21031,Incident,Resolved,P3,app-prd-03,team-app,2026-11-12 02:30,2026-11-12 09:10,billing restarted on app-prd-03 (OOM),RB-03
+INC-21038,Incident,Resolved,P3,app-prd-05,team-app,2026-11-14 03:15,2026-11-14 09:00,billing restarted on app-prd-05 (OOM),RB-03
+INC-21044,Incident,Resolved,P3,"app-prd-07, app-prd-03",team-app,2026-11-17 02:00,2026-11-18 09:30,billing restarted on app-prd-07 (17 Nov) and app-prd-03 (18 Nov) (OOM),RB-03
+PRB-0412,Problem,Under investigation,P2,"app-prd-03, app-prd-05, app-prd-07",team-app,2026-11-17 09:40,,billing JVM killed by the OOM killer since 4.18,RB-03
+INC-21047,Incident,Open,P2,app-prd-03,your group,2026-11-19 07:52,,billing timeouts reported by users,—

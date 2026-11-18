@@ -1,0 +1,15 @@
+From: Monitoring <alerts@corp.example>
+To: you@corp.example
+Subject: [WARNING] db-prd-02 /var/lib/postgresql used=88%
+Date: Tue, 20 Oct 2026 03:12:09 +0100
+Message-ID: <202610200312-alert-db-prd-02@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Host: db-prd-02
+Check: disk usage /var/lib/postgresql
+Status: WARNING (threshold 85%)
+Value: 88% (440G of 500G)
+
+This alert was generated automatically. Details are in the host log.

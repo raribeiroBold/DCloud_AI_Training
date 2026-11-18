@@ -1,0 +1,13 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-20934 created: db-prd-02 /var/lib/postgresql at 93%
+Date: Wed, 21 Oct 2026 03:20:00 +0100
+Message-ID: <202610210320-inc-20934@corp.example>
+Importance: High
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-20934 has been created from the monitoring alert and assigned to team-dba.
+Priority: P2.
+
+Service Desk

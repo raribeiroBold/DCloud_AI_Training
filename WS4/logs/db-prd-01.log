@@ -1,13 +1,301 @@
+Oct  5 03:12:03 db-prd-01 diskmon[2951]: /var/lib/postgresql used=71% (355G of 500G) threshold=85% OK
+Oct  5 03:12:03 db-prd-01 diskmon[2951]: / used=31% (12G of 40G) threshold=85% OK
 Oct  5 06:03:45 db-prd-01 postgres[8113]: LOG:  automatic vacuum of table "billing.public.invoices" finished
 Oct  5 06:36:57 db-prd-01 postgres[2495]: LOG:  automatic vacuum of table "billing.public.invoices" finished
 Oct  5 10:03:07 db-prd-01 sshd[6087]: Accepted publickey for deploy from 10.0.7.230 port 50951 ssh2
 Oct  5 10:56:00 db-prd-01 postgres[1770]: LOG:  automatic vacuum of table "billing.public.invoices" finished
+Oct  5 14:21:45 db-prd-01 chronyd[7842]: Selected source 10.0.0.7
+Oct  5 16:25:46 db-prd-01 systemd[1]: Started Session 422 of User deploy.
 Oct  5 19:46:58 db-prd-01 CRON[5864]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  5 21:07:58 db-prd-01 postgres[8107]: LOG:  checkpoint complete: wrote 6054 buffers
+Oct  5 22:50:05 db-prd-01 CRON[2775]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 03:12:03 db-prd-01 diskmon[2952]: /var/lib/postgresql used=72% (360G of 500G) threshold=85% OK
+Oct  6 03:12:03 db-prd-01 diskmon[2952]: / used=32% (13G of 40G) threshold=85% OK
 Oct  6 12:30:23 db-prd-01 systemd[1]: Started Session 849 of User deploy.
+Oct  6 14:14:34 db-prd-01 postgres[5781]: LOG:  checkpoint complete: wrote 3147 buffers
+Oct  6 14:17:26 db-prd-01 systemd[1]: Started Session 437 of User deploy.
+Oct  6 16:16:05 db-prd-01 sshd[4717]: Accepted publickey for deploy from 10.0.6.74 port 40897 ssh2
 Oct  6 18:18:53 db-prd-01 chronyd[730]: Selected source 10.0.0.5
+Oct  6 20:44:16 db-prd-01 chronyd[1186]: Selected source 10.0.0.4
 Oct  7 00:16:35 db-prd-01 sshd[1199]: Accepted publickey for deploy from 10.0.9.100 port 47020 ssh2
+Oct  7 03:12:03 db-prd-01 diskmon[2956]: /var/lib/postgresql used=70% (350G of 500G) threshold=85% OK
+Oct  7 03:12:03 db-prd-01 diskmon[2956]: / used=31% (12G of 40G) threshold=85% OK
 Oct  7 04:40:18 db-prd-01 kernel: Out of memory: Killed process 4127 (postgres) total-vm:18342216kB, anon-rss:15206928kB
 Oct  7 04:40:19 db-prd-01 postgres[1088]: LOG:  server process (PID 4127) was terminated by signal 9: Killed
 Oct  7 04:40:19 db-prd-01 postgres[1088]: LOG:  terminating any other active server processes
+Oct  7 05:52:34 db-prd-01 CRON[7530]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 09:53:24 db-prd-01 systemd[1]: Started Session 454 of User deploy.
+Oct  7 11:42:11 db-prd-01 sshd[7722]: Accepted publickey for deploy from 10.0.7.203 port 54288 ssh2
+Oct  7 19:42:59 db-prd-01 postgres[3772]: LOG:  checkpoint complete: wrote 2568 buffers
+Oct  7 20:33:46 db-prd-01 chronyd[5638]: Selected source 10.0.0.9
 Oct  7 23:25:00 db-prd-01 postgres[9213]: LOG:  checkpoint complete: wrote 4301 buffers
+Oct  8 03:12:03 db-prd-01 diskmon[2957]: /var/lib/postgresql used=71% (355G of 500G) threshold=85% OK
+Oct  8 03:12:03 db-prd-01 diskmon[2957]: / used=31% (12G of 40G) threshold=85% OK
+Oct  8 09:30:45 db-prd-01 postgres[6546]: LOG:  checkpoint complete: wrote 6929 buffers
+Oct  8 09:33:23 db-prd-01 systemd[1]: Started Session 457 of User deploy.
+Oct  8 12:09:59 db-prd-01 chronyd[2910]: Selected source 10.0.0.4
+Oct  8 14:22:15 db-prd-01 sshd[1280]: Accepted publickey for deploy from 10.0.5.147 port 49185 ssh2
+Oct  9 00:17:48 db-prd-01 postgres[549]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Oct  9 00:29:08 db-prd-01 chronyd[884]: Selected source 10.0.0.8
+Oct  9 01:07:56 db-prd-01 postgres[953]: LOG:  checkpoint complete: wrote 3890 buffers
+Oct  9 03:12:03 db-prd-01 diskmon[2961]: /var/lib/postgresql used=70% (350G of 500G) threshold=85% OK
+Oct  9 03:12:03 db-prd-01 diskmon[2961]: / used=31% (12G of 40G) threshold=85% OK
+Oct  9 11:58:09 db-prd-01 CRON[1225]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 10 00:57:41 db-prd-01 chronyd[6771]: Selected source 10.0.0.8
+Oct 10 03:12:03 db-prd-01 diskmon[2962]: /var/lib/postgresql used=71% (355G of 500G) threshold=85% OK
+Oct 10 03:12:03 db-prd-01 diskmon[2962]: / used=31% (12G of 40G) threshold=85% OK
+Oct 10 07:45:43 db-prd-01 systemd[1]: Started Session 471 of User deploy.
+Oct 10 10:08:08 db-prd-01 CRON[5124]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 10 12:24:09 db-prd-01 postgres[4043]: LOG:  checkpoint complete: wrote 5298 buffers
+Oct 10 12:48:01 db-prd-01 sshd[5876]: Accepted publickey for deploy from 10.0.8.249 port 46709 ssh2
+Oct 11 00:01:52 db-prd-01 chronyd[9444]: Selected source 10.0.0.3
+Oct 11 03:12:03 db-prd-01 diskmon[2966]: /var/lib/postgresql used=72% (360G of 500G) threshold=85% OK
+Oct 11 03:12:03 db-prd-01 diskmon[2966]: / used=31% (12G of 40G) threshold=85% OK
+Oct 11 03:15:53 db-prd-01 CRON[5706]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 11 16:37:24 db-prd-01 systemd[1]: Started Session 478 of User deploy.
+Oct 11 17:26:26 db-prd-01 postgres[4063]: LOG:  checkpoint complete: wrote 3146 buffers
+Oct 12 00:06:16 db-prd-01 postgres[7837]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Oct 12 03:12:03 db-prd-01 diskmon[2967]: /var/lib/postgresql used=71% (355G of 500G) threshold=85% OK
+Oct 12 03:12:03 db-prd-01 diskmon[2967]: / used=30% (12G of 40G) threshold=85% OK
+Oct 12 04:00:19 db-prd-01 postgres[6808]: LOG:  checkpoint complete: wrote 3933 buffers
+Oct 12 07:33:51 db-prd-01 CRON[5703]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 12 12:46:42 db-prd-01 chronyd[7756]: Selected source 10.0.0.7
+Oct 12 12:58:59 db-prd-01 sshd[1893]: Accepted publickey for deploy from 10.0.4.180 port 52302 ssh2
+Oct 12 19:41:12 db-prd-01 systemd[1]: Started Session 504 of User deploy.
+Oct 13 02:07:15 db-prd-01 chronyd[6536]: Selected source 10.0.0.6
+Oct 13 02:49:32 db-prd-01 postgres[3002]: LOG:  checkpoint complete: wrote 4012 buffers
+Oct 13 03:12:03 db-prd-01 diskmon[2968]: /var/lib/postgresql used=71% (355G of 500G) threshold=85% OK
+Oct 13 03:12:03 db-prd-01 diskmon[2968]: / used=31% (12G of 40G) threshold=85% OK
+Oct 13 03:54:20 db-prd-01 postgres[7804]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Oct 13 06:01:46 db-prd-01 CRON[2251]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 14 03:12:03 db-prd-01 diskmon[2972]: /var/lib/postgresql used=71% (355G of 500G) threshold=85% OK
+Oct 14 03:12:03 db-prd-01 diskmon[2972]: / used=31% (12G of 40G) threshold=85% OK
+Oct 14 04:25:25 db-prd-01 postgres[9389]: LOG:  checkpoint complete: wrote 3946 buffers
+Oct 14 06:17:30 db-prd-01 chronyd[4522]: Selected source 10.0.0.9
+Oct 14 11:33:23 db-prd-01 postgres[7398]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Oct 14 20:31:41 db-prd-01 CRON[6462]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 15 03:12:03 db-prd-01 diskmon[2975]: /var/lib/postgresql used=71% (355G of 500G) threshold=85% OK
+Oct 15 03:12:03 db-prd-01 diskmon[2975]: / used=31% (12G of 40G) threshold=85% OK
+Oct 15 08:09:26 db-prd-01 CRON[4075]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 15 11:03:09 db-prd-01 sshd[7019]: Accepted publickey for deploy from 10.0.8.44 port 45590 ssh2
+Oct 15 22:26:20 db-prd-01 postgres[1007]: LOG:  checkpoint complete: wrote 6566 buffers
+Oct 15 23:50:10 db-prd-01 chronyd[4918]: Selected source 10.0.0.5
+Oct 16 03:12:03 db-prd-01 diskmon[2978]: /var/lib/postgresql used=70% (350G of 500G) threshold=85% OK
+Oct 16 03:12:03 db-prd-01 diskmon[2978]: / used=31% (12G of 40G) threshold=85% OK
+Oct 16 07:07:24 db-prd-01 sshd[6051]: Accepted publickey for deploy from 10.0.5.74 port 45514 ssh2
+Oct 16 14:42:16 db-prd-01 chronyd[737]: Selected source 10.0.0.7
+Oct 16 15:50:33 db-prd-01 postgres[7301]: LOG:  checkpoint complete: wrote 5237 buffers
+Oct 16 18:35:09 db-prd-01 systemd[1]: Started Session 527 of User deploy.
+Oct 17 01:10:18 db-prd-01 chronyd[3996]: Selected source 10.0.0.3
+Oct 17 03:12:03 db-prd-01 diskmon[2979]: /var/lib/postgresql used=71% (355G of 500G) threshold=85% OK
+Oct 17 03:12:03 db-prd-01 diskmon[2979]: / used=31% (12G of 40G) threshold=85% OK
+Oct 17 10:27:05 db-prd-01 systemd[1]: Started Session 532 of User deploy.
+Oct 17 16:02:58 db-prd-01 CRON[6280]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 17 17:20:10 db-prd-01 sshd[4721]: Accepted publickey for deploy from 10.0.2.130 port 49967 ssh2
+Oct 17 22:08:27 db-prd-01 postgres[9222]: LOG:  checkpoint complete: wrote 3289 buffers
+Oct 18 03:12:03 db-prd-01 diskmon[2982]: /var/lib/postgresql used=72% (360G of 500G) threshold=85% OK
+Oct 18 03:12:03 db-prd-01 diskmon[2982]: / used=33% (13G of 40G) threshold=85% OK
+Oct 18 11:18:46 db-prd-01 postgres[8801]: LOG:  checkpoint complete: wrote 4386 buffers
+Oct 18 12:42:18 db-prd-01 chronyd[4207]: Selected source 10.0.0.4
+Oct 18 20:00:09 db-prd-01 CRON[7155]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 19 03:12:03 db-prd-01 diskmon[2985]: /var/lib/postgresql used=71% (355G of 500G) threshold=85% OK
+Oct 19 03:12:03 db-prd-01 diskmon[2985]: / used=33% (13G of 40G) threshold=85% OK
+Oct 19 04:01:06 db-prd-01 postgres[8820]: LOG:  checkpoint complete: wrote 2881 buffers
+Oct 19 13:54:59 db-prd-01 postgres[554]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Oct 19 17:11:09 db-prd-01 systemd[1]: Started Session 556 of User deploy.
+Oct 19 23:39:13 db-prd-01 chronyd[4141]: Selected source 10.0.0.5
+Oct 20 00:17:44 db-prd-01 postgres[1760]: LOG:  checkpoint complete: wrote 3253 buffers
+Oct 20 03:12:03 db-prd-01 diskmon[2986]: /var/lib/postgresql used=72% (360G of 500G) threshold=85% OK
+Oct 20 03:12:03 db-prd-01 diskmon[2986]: / used=32% (13G of 40G) threshold=85% OK
+Oct 20 15:49:15 db-prd-01 chronyd[7713]: Selected source 10.0.0.3
+Oct 20 15:57:11 db-prd-01 CRON[8882]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 20 23:48:42 db-prd-01 postgres[2433]: LOG:  automatic vacuum of table "shipments.public.events" finished
 Oct 21 03:12:03 db-prd-01 diskmon[1987]: /var/lib/postgresql used=71% (355G of 500G) threshold=85% OK
+Oct 21 03:12:03 db-prd-01 diskmon[2990]: / used=31% (12G of 40G) threshold=85% OK
+Oct 21 07:38:18 db-prd-01 systemd[1]: Started Session 563 of User deploy.
+Oct 21 08:04:31 db-prd-01 sshd[8574]: Accepted publickey for deploy from 10.0.7.219 port 59947 ssh2
+Oct 21 10:45:30 db-prd-01 CRON[2874]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 21 11:16:19 db-prd-01 postgres[7359]: LOG:  checkpoint complete: wrote 4071 buffers
+Oct 21 16:06:54 db-prd-01 postgres[522]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Oct 21 16:21:35 db-prd-01 chronyd[8981]: Selected source 10.0.0.9
+Oct 22 02:36:25 db-prd-01 chronyd[8792]: Selected source 10.0.0.6
+Oct 22 03:12:03 db-prd-01 diskmon[2991]: /var/lib/postgresql used=72% (360G of 500G) threshold=85% OK
+Oct 22 03:12:03 db-prd-01 diskmon[2991]: / used=32% (13G of 40G) threshold=85% OK
+Oct 22 06:30:50 db-prd-01 postgres[8459]: LOG:  checkpoint complete: wrote 3927 buffers
+Oct 22 09:58:45 db-prd-01 systemd[1]: Started Session 574 of User deploy.
+Oct 22 16:43:26 db-prd-01 sshd[5370]: Accepted publickey for deploy from 10.0.4.40 port 51006 ssh2
+Oct 22 18:03:23 db-prd-01 postgres[9567]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Oct 22 23:30:08 db-prd-01 CRON[4079]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 23 03:12:03 db-prd-01 diskmon[2993]: /var/lib/postgresql used=72% (360G of 500G) threshold=85% OK
+Oct 23 03:12:03 db-prd-01 diskmon[2993]: / used=31% (12G of 40G) threshold=85% OK
+Oct 23 06:56:17 db-prd-01 chronyd[7524]: Selected source 10.0.0.5
+Oct 23 18:23:55 db-prd-01 systemd[1]: Started Session 582 of User deploy.
+Oct 23 20:15:26 db-prd-01 sshd[2783]: Accepted publickey for deploy from 10.0.6.23 port 50640 ssh2
+Oct 23 20:48:38 db-prd-01 postgres[2445]: LOG:  checkpoint complete: wrote 3248 buffers
+Oct 24 03:12:03 db-prd-01 diskmon[2996]: /var/lib/postgresql used=73% (365G of 500G) threshold=85% OK
+Oct 24 03:12:03 db-prd-01 diskmon[2996]: / used=32% (13G of 40G) threshold=85% OK
+Oct 24 12:52:51 db-prd-01 systemd[1]: Started Session 590 of User deploy.
+Oct 24 13:39:33 db-prd-01 postgres[8707]: LOG:  checkpoint complete: wrote 4027 buffers
+Oct 24 16:18:11 db-prd-01 chronyd[9749]: Selected source 10.0.0.3
+Oct 25 03:12:03 db-prd-01 diskmon[2999]: /var/lib/postgresql used=73% (365G of 500G) threshold=85% OK
+Oct 25 03:12:03 db-prd-01 diskmon[2999]: / used=32% (13G of 40G) threshold=85% OK
+Oct 25 04:32:42 db-prd-01 chronyd[9634]: Selected source 10.0.0.4
+Oct 25 11:22:44 db-prd-01 systemd[1]: Started Session 602 of User deploy.
+Oct 25 14:09:44 db-prd-01 postgres[1119]: LOG:  checkpoint complete: wrote 5001 buffers
+Oct 25 20:47:50 db-prd-01 sshd[8852]: Accepted publickey for deploy from 10.0.8.53 port 57158 ssh2
+Oct 26 03:12:03 db-prd-01 diskmon[3002]: /var/lib/postgresql used=72% (360G of 500G) threshold=85% OK
+Oct 26 03:12:03 db-prd-01 diskmon[3002]: / used=31% (12G of 40G) threshold=85% OK
+Oct 26 05:57:11 db-prd-01 chronyd[8810]: Selected source 10.0.0.8
+Oct 26 06:24:27 db-prd-01 CRON[6242]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 09:50:18 db-prd-01 postgres[4004]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Oct 26 17:56:40 db-prd-01 sshd[620]: Accepted publickey for deploy from 10.0.8.14 port 40103 ssh2
+Oct 26 18:02:28 db-prd-01 systemd[1]: Started Session 617 of User deploy.
+Oct 26 22:50:35 db-prd-01 postgres[6423]: LOG:  checkpoint complete: wrote 5811 buffers
+Oct 27 03:12:03 db-prd-01 diskmon[3003]: /var/lib/postgresql used=72% (360G of 500G) threshold=85% OK
+Oct 27 03:12:03 db-prd-01 diskmon[3003]: / used=32% (13G of 40G) threshold=85% OK
+Oct 27 07:34:35 db-prd-01 sshd[5437]: Accepted publickey for deploy from 10.0.3.59 port 56858 ssh2
+Oct 27 10:18:32 db-prd-01 systemd[1]: Started Session 641 of User deploy.
+Oct 27 20:58:06 db-prd-01 chronyd[2815]: Selected source 10.0.0.4
+Oct 27 21:08:18 db-prd-01 postgres[2978]: LOG:  checkpoint complete: wrote 4383 buffers
+Oct 27 23:10:52 db-prd-01 CRON[1557]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 02:42:07 db-prd-01 postgres[2932]: LOG:  checkpoint complete: wrote 6881 buffers
+Oct 28 03:12:03 db-prd-01 diskmon[3007]: /var/lib/postgresql used=72% (360G of 500G) threshold=85% OK
+Oct 28 03:12:03 db-prd-01 diskmon[3007]: / used=32% (13G of 40G) threshold=85% OK
+Oct 28 11:26:27 db-prd-01 CRON[1062]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 12:42:21 db-prd-01 sshd[700]: Accepted publickey for deploy from 10.0.2.43 port 47572 ssh2
+Oct 28 20:47:04 db-prd-01 chronyd[1685]: Selected source 10.0.0.5
+Oct 28 23:46:10 db-prd-01 postgres[3800]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Oct 29 02:15:59 db-prd-01 chronyd[2396]: Selected source 10.0.0.6
+Oct 29 03:12:03 db-prd-01 diskmon[3009]: /var/lib/postgresql used=73% (365G of 500G) threshold=85% OK
+Oct 29 03:12:03 db-prd-01 diskmon[3009]: / used=32% (13G of 40G) threshold=85% OK
+Oct 29 03:41:45 db-prd-01 postgres[9212]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Oct 29 10:18:31 db-prd-01 sshd[3686]: Accepted publickey for deploy from 10.0.5.173 port 54393 ssh2
+Oct 29 11:56:55 db-prd-01 systemd[1]: Started Session 655 of User deploy.
+Oct 29 19:54:28 db-prd-01 CRON[3673]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 29 19:55:08 db-prd-01 postgres[4591]: LOG:  checkpoint complete: wrote 4055 buffers
+Oct 30 03:11:50 db-prd-01 postgres[3182]: LOG:  checkpoint complete: wrote 2876 buffers
+Oct 30 03:12:03 db-prd-01 diskmon[3013]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Oct 30 03:12:03 db-prd-01 diskmon[3013]: / used=32% (13G of 40G) threshold=85% OK
+Oct 30 14:32:19 db-prd-01 sshd[3350]: Accepted publickey for deploy from 10.0.2.39 port 40383 ssh2
+Oct 30 20:15:39 db-prd-01 chronyd[7442]: Selected source 10.0.0.7
+Oct 30 20:29:41 db-prd-01 CRON[3180]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 31 03:09:31 db-prd-01 CRON[4282]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 31 03:12:03 db-prd-01 diskmon[3017]: /var/lib/postgresql used=73% (365G of 500G) threshold=85% OK
+Oct 31 03:12:03 db-prd-01 diskmon[3017]: / used=32% (13G of 40G) threshold=85% OK
+Oct 31 09:34:51 db-prd-01 chronyd[5297]: Selected source 10.0.0.9
+Oct 31 22:45:39 db-prd-01 postgres[8020]: LOG:  checkpoint complete: wrote 6177 buffers
+Nov  1 03:12:03 db-prd-01 diskmon[3019]: /var/lib/postgresql used=73% (365G of 500G) threshold=85% OK
+Nov  1 03:12:03 db-prd-01 diskmon[3019]: / used=33% (13G of 40G) threshold=85% OK
+Nov  1 10:10:07 db-prd-01 postgres[5877]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Nov  1 11:10:47 db-prd-01 systemd[1]: Started Session 677 of User deploy.
+Nov  1 14:45:28 db-prd-01 sshd[6260]: Accepted publickey for deploy from 10.0.3.92 port 46839 ssh2
+Nov  1 16:06:33 db-prd-01 CRON[9615]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  1 17:45:02 db-prd-01 postgres[9199]: LOG:  checkpoint complete: wrote 6767 buffers
+Nov  1 23:30:01 db-prd-01 chronyd[7311]: Selected source 10.0.0.6
+Nov  2 02:18:17 db-prd-01 postgres[5871]: LOG:  checkpoint complete: wrote 3012 buffers
+Nov  2 03:12:03 db-prd-01 diskmon[3023]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Nov  2 03:12:03 db-prd-01 diskmon[3023]: / used=33% (13G of 40G) threshold=85% OK
+Nov  2 06:02:51 db-prd-01 chronyd[952]: Selected source 10.0.0.7
+Nov  2 11:21:19 db-prd-01 systemd[1]: Started Session 695 of User deploy.
+Nov  2 14:10:53 db-prd-01 sshd[9173]: Accepted publickey for deploy from 10.0.6.118 port 48510 ssh2
+Nov  2 21:35:08 db-prd-01 CRON[2093]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  3 03:12:03 db-prd-01 diskmon[3024]: /var/lib/postgresql used=73% (365G of 500G) threshold=85% OK
+Nov  3 03:12:03 db-prd-01 diskmon[3024]: / used=32% (13G of 40G) threshold=85% OK
+Nov  3 07:27:15 db-prd-01 systemd[1]: Started Session 699 of User deploy.
+Nov  3 10:08:47 db-prd-01 chronyd[3778]: Selected source 10.0.0.4
+Nov  3 13:34:58 db-prd-01 sshd[6800]: Accepted publickey for deploy from 10.0.2.15 port 57315 ssh2
+Nov  3 21:08:11 db-prd-01 postgres[5001]: LOG:  checkpoint complete: wrote 5492 buffers
+Nov  3 22:36:21 db-prd-01 CRON[2652]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  4 03:12:03 db-prd-01 diskmon[3027]: /var/lib/postgresql used=72% (360G of 500G) threshold=85% OK
+Nov  4 03:12:03 db-prd-01 diskmon[3027]: / used=34% (14G of 40G) threshold=85% OK
+Nov  4 06:16:07 db-prd-01 postgres[5576]: LOG:  checkpoint complete: wrote 6500 buffers
+Nov  4 08:12:35 db-prd-01 chronyd[5747]: Selected source 10.0.0.8
+Nov  4 12:54:00 db-prd-01 sshd[2247]: Accepted publickey for deploy from 10.0.7.73 port 57962 ssh2
+Nov  4 19:10:34 db-prd-01 systemd[1]: Started Session 728 of User deploy.
+Nov  5 03:12:03 db-prd-01 diskmon[3028]: /var/lib/postgresql used=73% (365G of 500G) threshold=85% OK
+Nov  5 03:12:03 db-prd-01 diskmon[3028]: / used=33% (13G of 40G) threshold=85% OK
+Nov  5 10:17:21 db-prd-01 postgres[7266]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Nov  5 12:56:12 db-prd-01 chronyd[4724]: Selected source 10.0.0.4
+Nov  5 14:00:46 db-prd-01 postgres[2360]: LOG:  checkpoint complete: wrote 5280 buffers
+Nov  5 14:27:09 db-prd-01 CRON[4550]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  6 00:08:07 db-prd-01 CRON[3921]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  6 01:28:35 db-prd-01 postgres[7915]: LOG:  checkpoint complete: wrote 4977 buffers
+Nov  6 03:12:03 db-prd-01 diskmon[3032]: /var/lib/postgresql used=73% (365G of 500G) threshold=85% OK
+Nov  6 03:12:03 db-prd-01 diskmon[3032]: / used=33% (13G of 40G) threshold=85% OK
+Nov  6 05:09:52 db-prd-01 chronyd[8978]: Selected source 10.0.0.5
+Nov  6 08:08:01 db-prd-01 systemd[1]: Started Session 748 of User deploy.
+Nov  7 01:46:20 db-prd-01 CRON[7768]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  7 03:12:03 db-prd-01 diskmon[3033]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Nov  7 03:12:03 db-prd-01 diskmon[3033]: / used=33% (13G of 40G) threshold=85% OK
+Nov  7 05:05:43 db-prd-01 postgres[6918]: LOG:  checkpoint complete: wrote 3726 buffers
+Nov  7 16:00:50 db-prd-01 sshd[5560]: Accepted publickey for deploy from 10.0.2.132 port 40752 ssh2
+Nov  7 23:10:52 db-prd-01 chronyd[9421]: Selected source 10.0.0.9
+Nov  8 03:12:03 db-prd-01 diskmon[3037]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Nov  8 03:12:03 db-prd-01 diskmon[3037]: / used=33% (13G of 40G) threshold=85% OK
+Nov  8 06:28:50 db-prd-01 chronyd[7910]: Selected source 10.0.0.3
+Nov  8 16:05:24 db-prd-01 CRON[3287]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  8 18:04:52 db-prd-01 systemd[1]: Started Session 766 of User deploy.
+Nov  8 21:15:31 db-prd-01 postgres[3106]: LOG:  checkpoint complete: wrote 3508 buffers
+Nov  9 03:12:03 db-prd-01 diskmon[3040]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Nov  9 03:12:03 db-prd-01 diskmon[3040]: / used=33% (13G of 40G) threshold=85% OK
+Nov  9 04:49:34 db-prd-01 chronyd[5882]: Selected source 10.0.0.8
+Nov  9 12:47:50 db-prd-01 postgres[3329]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Nov  9 18:48:50 db-prd-01 postgres[2398]: LOG:  checkpoint complete: wrote 5472 buffers
+Nov 10 02:23:26 db-prd-01 chronyd[3303]: Selected source 10.0.0.5
+Nov 10 03:12:03 db-prd-01 diskmon[3043]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Nov 10 03:12:03 db-prd-01 diskmon[3043]: / used=33% (13G of 40G) threshold=85% OK
+Nov 10 17:05:32 db-prd-01 CRON[8530]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 10 17:42:51 db-prd-01 postgres[9014]: LOG:  checkpoint complete: wrote 6904 buffers
+Nov 10 19:19:24 db-prd-01 postgres[2670]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Nov 11 01:11:22 db-prd-01 postgres[2185]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Nov 11 03:12:03 db-prd-01 diskmon[3047]: /var/lib/postgresql used=72% (360G of 500G) threshold=85% OK
+Nov 11 03:12:03 db-prd-01 diskmon[3047]: / used=33% (13G of 40G) threshold=85% OK
+Nov 11 09:42:35 db-prd-01 postgres[3294]: LOG:  checkpoint complete: wrote 3311 buffers
+Nov 11 13:23:02 db-prd-01 systemd[1]: Started Session 787 of User deploy.
+Nov 11 18:26:52 db-prd-01 CRON[8368]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 11 19:04:47 db-prd-01 chronyd[7570]: Selected source 10.0.0.5
+Nov 12 03:12:03 db-prd-01 diskmon[3051]: /var/lib/postgresql used=75% (375G of 500G) threshold=85% OK
+Nov 12 03:12:03 db-prd-01 diskmon[3051]: / used=34% (14G of 40G) threshold=85% OK
+Nov 12 03:32:16 db-prd-01 chronyd[9657]: Selected source 10.0.0.8
+Nov 12 10:28:15 db-prd-01 CRON[6955]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 12 21:25:22 db-prd-01 postgres[4950]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Nov 12 22:55:09 db-prd-01 postgres[696]: LOG:  checkpoint complete: wrote 6792 buffers
+Nov 13 03:12:03 db-prd-01 diskmon[3054]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Nov 13 03:12:03 db-prd-01 diskmon[3054]: / used=35% (14G of 40G) threshold=85% OK
+Nov 13 03:54:05 db-prd-01 postgres[7703]: LOG:  checkpoint complete: wrote 5019 buffers
+Nov 13 07:42:44 db-prd-01 postgres[1580]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Nov 13 10:24:22 db-prd-01 chronyd[9224]: Selected source 10.0.0.3
+Nov 13 14:27:28 db-prd-01 systemd[1]: Started Session 793 of User deploy.
+Nov 14 03:12:03 db-prd-01 diskmon[3056]: /var/lib/postgresql used=75% (375G of 500G) threshold=85% OK
+Nov 14 03:12:03 db-prd-01 diskmon[3056]: / used=35% (14G of 40G) threshold=85% OK
+Nov 14 05:42:50 db-prd-01 CRON[9569]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 14 08:21:19 db-prd-01 chronyd[5191]: Selected source 10.0.0.7
+Nov 14 11:09:12 db-prd-01 postgres[474]: LOG:  checkpoint complete: wrote 6008 buffers
+Nov 15 03:12:03 db-prd-01 diskmon[3059]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Nov 15 03:12:03 db-prd-01 diskmon[3059]: / used=34% (14G of 40G) threshold=85% OK
+Nov 15 07:25:27 db-prd-01 systemd[1]: Started Session 796 of User deploy.
+Nov 15 11:05:45 db-prd-01 postgres[7651]: LOG:  checkpoint complete: wrote 4058 buffers
+Nov 15 12:48:48 db-prd-01 chronyd[3453]: Selected source 10.0.0.5
+Nov 15 17:31:56 db-prd-01 CRON[2297]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 16 03:12:03 db-prd-01 diskmon[3062]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Nov 16 03:12:03 db-prd-01 diskmon[3062]: / used=35% (14G of 40G) threshold=85% OK
+Nov 16 04:51:54 db-prd-01 CRON[3200]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 16 08:23:20 db-prd-01 postgres[6035]: LOG:  checkpoint complete: wrote 4694 buffers
+Nov 16 19:04:38 db-prd-01 chronyd[4532]: Selected source 10.0.0.3
+Nov 17 01:51:16 db-prd-01 chronyd[1708]: Selected source 10.0.0.8
+Nov 17 01:52:08 db-prd-01 postgres[9230]: LOG:  automatic vacuum of table "shipments.public.events" finished
+Nov 17 03:12:03 db-prd-01 diskmon[3065]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Nov 17 03:12:03 db-prd-01 diskmon[3065]: / used=34% (14G of 40G) threshold=85% OK
+Nov 17 08:03:17 db-prd-01 systemd[1]: Started Session 819 of User deploy.
+Nov 17 08:15:40 db-prd-01 postgres[7467]: LOG:  checkpoint complete: wrote 4824 buffers
+Nov 17 08:40:55 db-prd-01 CRON[9791]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 17 09:58:09 db-prd-01 sshd[8322]: Accepted publickey for deploy from 10.0.7.168 port 57491 ssh2
+Nov 18 02:42:13 db-prd-01 chronyd[3002]: Selected source 10.0.0.7
+Nov 18 03:12:03 db-prd-01 diskmon[3066]: /var/lib/postgresql used=74% (370G of 500G) threshold=85% OK
+Nov 18 03:12:03 db-prd-01 diskmon[3066]: / used=34% (14G of 40G) threshold=85% OK
+Nov 18 18:56:49 db-prd-01 CRON[9172]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 18 20:05:21 db-prd-01 postgres[1371]: LOG:  checkpoint complete: wrote 4184 buffers
+Nov 19 02:38:08 db-prd-01 CRON[1158]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 19 03:12:03 db-prd-01 diskmon[3069]: /var/lib/postgresql used=73% (365G of 500G) threshold=85% OK
+Nov 19 03:12:03 db-prd-01 diskmon[3069]: / used=34% (14G of 40G) threshold=85% OK
+Nov 19 08:14:28 db-prd-01 postgres[769]: LOG:  checkpoint complete: wrote 2695 buffers

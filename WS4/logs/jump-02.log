@@ -1,9 +1,238 @@
+Oct  5 02:10:56 JUMP-02 chronyd[5785]: Selected source 10.0.0.3
+Oct  5 03:12:45 JUMP-02 diskmon[1538]: / used=38% (7.6G of 20G) threshold=85% OK
 Oct  5 05:10:35 JUMP-02 sshd[8990]: Accepted publickey for ops from 10.0.5.230 port 51094 ssh2
+Oct  5 11:26:01 JUMP-02 systemd[1]: Started Session 327 of User deploy.
+Oct  5 13:36:53 JUMP-02 CRON[8285]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  5 15:22:36 JUMP-02 sshd[3301]: Accepted publickey for ops from 10.0.8.198 port 49631 ssh2
+Oct  6 03:12:45 JUMP-02 diskmon[1542]: / used=40% (8.0G of 20G) threshold=85% OK
 Oct  6 03:25:57 JUMP-02 systemd[1]: Started Session 916 of User deploy.
+Oct  6 06:22:14 JUMP-02 CRON[5462]: (root) CMD (/usr/local/bin/health-report.sh)
 Oct  6 12:32:20 JUMP-02 chronyd[548]: Selected source 10.0.0.7
+Oct  6 13:28:35 JUMP-02 systemd[1]: Started Session 336 of User deploy.
 Oct  6 15:14:16 JUMP-02 sshd[7701]: Accepted publickey for ops from 10.0.3.123 port 52788 ssh2
+Oct  6 15:24:02 JUMP-02 sshd[3860]: Accepted publickey for deploy from 10.0.6.203 port 46252 ssh2
+Oct  6 17:46:45 JUMP-02 sshd[1406]: Accepted publickey for ops from 10.0.3.218 port 46131 ssh2
 Oct  6 18:11:55 JUMP-02 chronyd[598]: Selected source 10.0.0.9
 Oct  6 18:20:00 JUMP-02 CRON[1756]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 18:50:50 JUMP-02 chronyd[8357]: Selected source 10.0.0.3
 Oct  7 02:15:05 JUMP-02 sshd[9189]: Accepted publickey for deploy from 10.0.8.89 port 43710 ssh2
+Oct  7 03:12:45 JUMP-02 diskmon[1546]: / used=39% (7.8G of 20G) threshold=85% OK
 Oct  7 09:24:21 JUMP-02 CRON[7987]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 16:31:32 JUMP-02 chronyd[6974]: Selected source 10.0.0.9
 Oct  7 17:57:23 JUMP-02 chronyd[692]: Selected source 10.0.0.4
+Oct  7 18:56:25 JUMP-02 sshd[5514]: Accepted publickey for ops from 10.0.8.61 port 45651 ssh2
+Oct  7 19:40:33 JUMP-02 systemd[1]: Started Session 343 of User deploy.
+Oct  7 20:16:06 JUMP-02 sshd[8127]: Accepted publickey for deploy from 10.0.5.32 port 49324 ssh2
+Oct  8 03:12:45 JUMP-02 diskmon[1549]: / used=39% (7.8G of 20G) threshold=85% OK
+Oct  8 07:14:30 JUMP-02 systemd[1]: Started Session 362 of User deploy.
+Oct  8 10:19:14 JUMP-02 sshd[9844]: Accepted publickey for ops from 10.0.5.128 port 58947 ssh2
+Oct  8 12:35:33 JUMP-02 chronyd[6629]: Selected source 10.0.0.7
+Oct  8 19:57:52 JUMP-02 CRON[7917]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  9 01:38:41 JUMP-02 chronyd[5502]: Selected source 10.0.0.6
+Oct  9 03:12:45 JUMP-02 diskmon[1550]: / used=39% (7.8G of 20G) threshold=85% OK
+Oct  9 09:26:14 JUMP-02 sshd[3691]: Accepted publickey for ops from 10.0.2.64 port 57298 ssh2
+Oct  9 11:19:36 JUMP-02 systemd[1]: Started Session 386 of User deploy.
+Oct 10 01:27:05 JUMP-02 chronyd[5658]: Selected source 10.0.0.4
+Oct 10 03:12:45 JUMP-02 diskmon[1552]: / used=38% (7.6G of 20G) threshold=85% OK
+Oct 10 09:41:22 JUMP-02 sshd[1365]: Accepted publickey for ops from 10.0.7.73 port 42438 ssh2
+Oct 10 09:59:39 JUMP-02 CRON[9843]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 11 01:21:37 JUMP-02 chronyd[5435]: Selected source 10.0.0.8
+Oct 11 03:12:45 JUMP-02 diskmon[1555]: / used=39% (7.8G of 20G) threshold=85% OK
+Oct 11 11:10:43 JUMP-02 sshd[8062]: Accepted publickey for ops from 10.0.8.37 port 45128 ssh2
+Oct 11 13:31:05 JUMP-02 sshd[9296]: Accepted publickey for deploy from 10.0.8.26 port 42314 ssh2
+Oct 11 17:32:34 JUMP-02 CRON[8031]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 12 01:46:43 JUMP-02 chronyd[9105]: Selected source 10.0.0.7
+Oct 12 03:12:45 JUMP-02 diskmon[1557]: / used=39% (7.8G of 20G) threshold=85% OK
+Oct 12 05:42:31 JUMP-02 CRON[8395]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 12 08:03:27 JUMP-02 sshd[6877]: Accepted publickey for ops from 10.0.8.212 port 40536 ssh2
+Oct 12 15:01:05 JUMP-02 systemd[1]: Started Session 410 of User deploy.
+Oct 13 03:12:45 JUMP-02 diskmon[1560]: / used=38% (7.6G of 20G) threshold=85% OK
+Oct 13 06:14:50 JUMP-02 CRON[3345]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 13 12:46:02 JUMP-02 chronyd[1551]: Selected source 10.0.0.9
+Oct 13 17:17:04 JUMP-02 sshd[3834]: Accepted publickey for ops from 10.0.5.17 port 40886 ssh2
+Oct 13 19:39:55 JUMP-02 systemd[1]: Started Session 435 of User deploy.
+Oct 14 03:12:45 JUMP-02 diskmon[1563]: / used=39% (7.8G of 20G) threshold=85% OK
+Oct 14 06:52:52 JUMP-02 chronyd[1490]: Selected source 10.0.0.6
+Oct 14 11:45:17 JUMP-02 sshd[3897]: Accepted publickey for ops from 10.0.3.40 port 54936 ssh2
+Oct 14 12:40:05 JUMP-02 CRON[8387]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 14 16:13:53 JUMP-02 sshd[8391]: Accepted publickey for deploy from 10.0.6.18 port 48616 ssh2
+Oct 15 03:12:45 JUMP-02 diskmon[1565]: / used=39% (7.8G of 20G) threshold=85% OK
+Oct 15 10:10:35 JUMP-02 sshd[9507]: Accepted publickey for deploy from 10.0.6.137 port 58646 ssh2
+Oct 15 10:34:17 JUMP-02 systemd[1]: Started Session 465 of User deploy.
+Oct 15 12:22:56 JUMP-02 sshd[8181]: Accepted publickey for ops from 10.0.6.196 port 55433 ssh2
+Oct 15 12:51:42 JUMP-02 chronyd[5305]: Selected source 10.0.0.3
+Oct 15 15:44:20 JUMP-02 CRON[8541]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 16 03:12:45 JUMP-02 diskmon[1566]: / used=38% (7.6G of 20G) threshold=85% OK
+Oct 16 10:54:49 JUMP-02 systemd[1]: Started Session 482 of User deploy.
+Oct 16 11:10:03 JUMP-02 sshd[7700]: Accepted publickey for ops from 10.0.6.154 port 59465 ssh2
+Oct 16 18:09:41 JUMP-02 chronyd[2284]: Selected source 10.0.0.7
+Oct 17 03:12:45 JUMP-02 diskmon[1570]: / used=40% (8.0G of 20G) threshold=85% OK
+Oct 17 12:13:11 JUMP-02 sshd[7035]: Accepted publickey for deploy from 10.0.6.132 port 47710 ssh2
+Oct 17 12:56:49 JUMP-02 CRON[2292]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 17 13:04:32 JUMP-02 sshd[1214]: Accepted publickey for ops from 10.0.3.96 port 53051 ssh2
+Oct 17 18:12:27 JUMP-02 chronyd[3953]: Selected source 10.0.0.5
+Oct 18 03:10:18 JUMP-02 chronyd[7463]: Selected source 10.0.0.5
+Oct 18 03:12:45 JUMP-02 diskmon[1571]: / used=41% (8.2G of 20G) threshold=85% OK
+Oct 18 12:33:23 JUMP-02 sshd[9896]: Accepted publickey for deploy from 10.0.5.140 port 42948 ssh2
+Oct 18 13:19:47 JUMP-02 sshd[2272]: Accepted publickey for ops from 10.0.2.193 port 41430 ssh2
+Oct 18 16:33:47 JUMP-02 CRON[7485]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 19 03:12:45 JUMP-02 diskmon[1572]: / used=40% (8.0G of 20G) threshold=85% OK
+Oct 19 04:23:11 JUMP-02 CRON[4365]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 19 08:38:27 JUMP-02 sshd[8410]: Accepted publickey for deploy from 10.0.4.246 port 45432 ssh2
+Oct 19 13:47:25 JUMP-02 sshd[3822]: Accepted publickey for ops from 10.0.7.115 port 55221 ssh2
+Oct 19 22:54:50 JUMP-02 chronyd[1403]: Selected source 10.0.0.7
+Oct 20 03:12:45 JUMP-02 diskmon[1574]: / used=40% (8.0G of 20G) threshold=85% OK
+Oct 20 03:24:38 JUMP-02 CRON[6818]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 20 15:56:03 JUMP-02 sshd[3637]: Accepted publickey for ops from 10.0.5.42 port 56517 ssh2
+Oct 20 16:12:23 JUMP-02 systemd[1]: Started Session 487 of User deploy.
+Oct 20 18:37:22 JUMP-02 chronyd[2268]: Selected source 10.0.0.5
+Oct 20 18:51:38 JUMP-02 sshd[7243]: Accepted publickey for deploy from 10.0.8.36 port 53650 ssh2
+Oct 21 02:33:07 JUMP-02 chronyd[4702]: Selected source 10.0.0.8
+Oct 21 03:12:45 JUMP-02 diskmon[1578]: / used=40% (8.0G of 20G) threshold=85% OK
+Oct 21 07:41:17 JUMP-02 sshd[4373]: Authentication refused: bad ownership or modes for directory /home/jsilva
+Oct 21 07:45:17 JUMP-02 sshd[9042]: Authentication refused: bad ownership or modes for directory /home/mferreira
+Oct 21 07:49:17 JUMP-02 sshd[5282]: Authentication refused: bad ownership or modes for directory /home/jsilva
+Oct 21 10:26:40 JUMP-02 sshd[5346]: Accepted publickey for ops from 10.0.3.214 port 50110 ssh2
+Oct 21 10:33:12 JUMP-02 sshd[5426]: Accepted publickey for jsilva from 10.0.8.106 port 50322 ssh2
+Oct 21 15:29:45 JUMP-02 sshd[8620]: Accepted publickey for ops from 10.0.7.33 port 56959 ssh2
+Oct 21 15:49:24 JUMP-02 CRON[2383]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 21 16:33:35 JUMP-02 sshd[7300]: Accepted publickey for deploy from 10.0.5.131 port 46535 ssh2
+Oct 22 03:12:45 JUMP-02 diskmon[1581]: / used=40% (8.0G of 20G) threshold=85% OK
+Oct 22 12:18:23 JUMP-02 sshd[1974]: Accepted publickey for ops from 10.0.2.96 port 47171 ssh2
+Oct 22 14:04:58 JUMP-02 sshd[6337]: Accepted publickey for deploy from 10.0.8.160 port 57664 ssh2
+Oct 22 17:58:11 JUMP-02 chronyd[7092]: Selected source 10.0.0.5
+Oct 22 22:30:34 JUMP-02 CRON[1003]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 23 00:44:49 JUMP-02 chronyd[6822]: Selected source 10.0.0.9
+Oct 23 03:12:45 JUMP-02 diskmon[1584]: / used=40% (8.0G of 20G) threshold=85% OK
+Oct 23 12:36:26 JUMP-02 sshd[1676]: Accepted publickey for ops from 10.0.7.126 port 58433 ssh2
+Oct 23 14:48:57 JUMP-02 systemd[1]: Started Session 504 of User deploy.
+Oct 23 14:57:46 JUMP-02 sshd[2839]: Accepted publickey for deploy from 10.0.8.89 port 41619 ssh2
+Oct 23 20:50:58 JUMP-02 CRON[4796]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 24 03:12:45 JUMP-02 diskmon[1586]: / used=40% (8.0G of 20G) threshold=85% OK
+Oct 24 07:47:53 JUMP-02 sshd[5484]: Accepted publickey for deploy from 10.0.3.244 port 48239 ssh2
+Oct 24 13:43:44 JUMP-02 systemd[1]: Started Session 511 of User deploy.
+Oct 24 16:51:22 JUMP-02 sshd[9833]: Accepted publickey for ops from 10.0.5.173 port 41854 ssh2
+Oct 24 17:54:01 JUMP-02 chronyd[4437]: Selected source 10.0.0.5
+Oct 25 03:12:45 JUMP-02 diskmon[1589]: / used=39% (7.8G of 20G) threshold=85% OK
+Oct 25 08:19:27 JUMP-02 CRON[4079]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 25 10:00:30 JUMP-02 sshd[4587]: Accepted publickey for ops from 10.0.8.152 port 57677 ssh2
+Oct 25 10:04:28 JUMP-02 chronyd[6542]: Selected source 10.0.0.8
+Oct 26 03:12:45 JUMP-02 diskmon[1591]: / used=41% (8.2G of 20G) threshold=85% OK
+Oct 26 07:18:08 JUMP-02 systemd[1]: Started Session 540 of User deploy.
+Oct 26 08:39:32 JUMP-02 CRON[3168]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 14:42:29 JUMP-02 sshd[2984]: Accepted publickey for ops from 10.0.6.126 port 50910 ssh2
+Oct 26 18:29:54 JUMP-02 chronyd[3850]: Selected source 10.0.0.8
+Oct 27 00:51:14 JUMP-02 CRON[5765]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 27 03:12:45 JUMP-02 diskmon[1595]: / used=40% (8.0G of 20G) threshold=85% OK
+Oct 27 08:29:37 JUMP-02 sshd[2817]: Accepted publickey for ops from 10.0.4.105 port 47695 ssh2
+Oct 27 15:17:42 JUMP-02 systemd[1]: Started Session 558 of User deploy.
+Oct 27 21:45:47 JUMP-02 chronyd[3306]: Selected source 10.0.0.3
+Oct 28 03:12:45 JUMP-02 diskmon[1596]: / used=41% (8.2G of 20G) threshold=85% OK
+Oct 28 05:26:16 JUMP-02 CRON[4865]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 12:49:38 JUMP-02 systemd[1]: Started Session 588 of User deploy.
+Oct 28 18:46:55 JUMP-02 sshd[5098]: Accepted publickey for ops from 10.0.5.222 port 53904 ssh2
+Oct 28 19:56:06 JUMP-02 chronyd[3529]: Selected source 10.0.0.3
+Oct 29 03:12:45 JUMP-02 diskmon[1599]: / used=40% (8.0G of 20G) threshold=85% OK
+Oct 29 07:39:53 JUMP-02 sshd[4737]: Accepted publickey for deploy from 10.0.2.127 port 48290 ssh2
+Oct 29 13:11:21 JUMP-02 sshd[6193]: Accepted publickey for ops from 10.0.2.104 port 59010 ssh2
+Oct 29 13:58:26 JUMP-02 systemd[1]: Started Session 603 of User deploy.
+Oct 29 14:42:51 JUMP-02 chronyd[8529]: Selected source 10.0.0.5
+Oct 29 22:12:54 JUMP-02 CRON[7178]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 30 03:12:45 JUMP-02 diskmon[1603]: / used=40% (8.0G of 20G) threshold=85% OK
+Oct 30 12:41:59 JUMP-02 chronyd[4791]: Selected source 10.0.0.8
+Oct 30 13:31:39 JUMP-02 CRON[8291]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 30 15:54:16 JUMP-02 sshd[9038]: Accepted publickey for ops from 10.0.6.105 port 47184 ssh2
+Oct 31 00:47:01 JUMP-02 chronyd[3883]: Selected source 10.0.0.8
+Oct 31 03:12:45 JUMP-02 diskmon[1606]: / used=41% (8.2G of 20G) threshold=85% OK
+Oct 31 16:05:49 JUMP-02 sshd[1494]: Accepted publickey for ops from 10.0.8.60 port 55780 ssh2
+Nov  1 03:12:45 JUMP-02 diskmon[1608]: / used=42% (8.4G of 20G) threshold=85% OK
+Nov  1 08:37:57 JUMP-02 sshd[5262]: Accepted publickey for ops from 10.0.2.109 port 50107 ssh2
+Nov  1 09:19:40 JUMP-02 chronyd[9003]: Selected source 10.0.0.6
+Nov  1 11:39:21 JUMP-02 CRON[4612]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  2 03:12:45 JUMP-02 diskmon[1611]: / used=41% (8.2G of 20G) threshold=85% OK
+Nov  2 08:40:16 JUMP-02 sshd[1525]: Accepted publickey for ops from 10.0.2.93 port 47956 ssh2
+Nov  2 13:43:59 JUMP-02 chronyd[5442]: Selected source 10.0.0.6
+Nov  3 03:12:45 JUMP-02 diskmon[1612]: / used=41% (8.2G of 20G) threshold=85% OK
+Nov  3 05:51:58 JUMP-02 chronyd[1266]: Selected source 10.0.0.8
+Nov  3 09:13:33 JUMP-02 CRON[9873]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  3 10:43:09 JUMP-02 sshd[646]: Accepted publickey for ops from 10.0.3.179 port 52361 ssh2
+Nov  4 03:12:45 JUMP-02 diskmon[1614]: / used=40% (8.0G of 20G) threshold=85% OK
+Nov  4 08:10:38 JUMP-02 CRON[8632]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  4 13:37:54 JUMP-02 sshd[6099]: Accepted publickey for ops from 10.0.7.24 port 53812 ssh2
+Nov  4 16:22:39 JUMP-02 sshd[4954]: Accepted publickey for deploy from 10.0.7.222 port 54351 ssh2
+Nov  4 22:57:43 JUMP-02 ansible-ansible.legacy.dnf[4394]: Invoked with name=['openssh-server', 'openssh-clients'] state=latest update_only=True
+Nov  4 22:58:20 JUMP-02 sshd[3985]: Server listening on 0.0.0.0 port 22.
+Nov  4 23:56:20 JUMP-02 chronyd[4611]: Selected source 10.0.0.5
+Nov  5 03:12:45 JUMP-02 diskmon[1616]: / used=42% (8.4G of 20G) threshold=85% OK
+Nov  5 04:57:52 JUMP-02 chronyd[3151]: Selected source 10.0.0.5
+Nov  5 08:46:12 JUMP-02 sshd[5333]: Accepted publickey for deploy from 10.0.4.216 port 54627 ssh2
+Nov  5 15:13:35 JUMP-02 sshd[2631]: Accepted publickey for ops from 10.0.6.248 port 55923 ssh2
+Nov  6 03:12:45 JUMP-02 diskmon[1619]: / used=42% (8.4G of 20G) threshold=85% OK
+Nov  6 10:11:05 JUMP-02 sshd[572]: Accepted publickey for ops from 10.0.7.178 port 52752 ssh2
+Nov  6 11:02:28 JUMP-02 systemd[1]: Started Session 632 of User deploy.
+Nov  6 12:50:02 JUMP-02 chronyd[1284]: Selected source 10.0.0.6
+Nov  6 13:30:25 JUMP-02 sshd[7250]: Accepted publickey for deploy from 10.0.8.143 port 40749 ssh2
+Nov  6 17:26:45 JUMP-02 CRON[3353]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  7 03:12:45 JUMP-02 diskmon[1622]: / used=41% (8.2G of 20G) threshold=85% OK
+Nov  7 03:39:24 JUMP-02 chronyd[6455]: Selected source 10.0.0.7
+Nov  7 07:00:02 JUMP-02 systemd[1]: Started Session 636 of User deploy.
+Nov  7 08:33:50 JUMP-02 sshd[7709]: Accepted publickey for deploy from 10.0.3.14 port 50672 ssh2
+Nov  7 12:31:03 JUMP-02 sshd[2403]: Accepted publickey for ops from 10.0.8.143 port 43534 ssh2
+Nov  7 14:48:31 JUMP-02 CRON[1123]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  8 03:12:45 JUMP-02 diskmon[1626]: / used=42% (8.4G of 20G) threshold=85% OK
+Nov  8 03:54:48 JUMP-02 CRON[2205]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  8 09:16:03 JUMP-02 chronyd[1770]: Selected source 10.0.0.8
+Nov  8 14:05:50 JUMP-02 systemd[1]: Started Session 658 of User deploy.
+Nov  8 18:16:35 JUMP-02 sshd[6905]: Accepted publickey for ops from 10.0.5.180 port 53929 ssh2
+Nov  9 03:12:45 JUMP-02 diskmon[1629]: / used=41% (8.2G of 20G) threshold=85% OK
+Nov  9 08:17:42 JUMP-02 sshd[4755]: Accepted publickey for ops from 10.0.5.12 port 50152 ssh2
+Nov  9 14:06:08 JUMP-02 chronyd[2357]: Selected source 10.0.0.8
+Nov  9 16:57:32 JUMP-02 CRON[2215]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 10 03:12:45 JUMP-02 diskmon[1632]: / used=41% (8.2G of 20G) threshold=85% OK
+Nov 10 08:28:49 JUMP-02 sshd[2450]: Accepted publickey for ops from 10.0.5.150 port 49797 ssh2
+Nov 10 12:39:11 JUMP-02 systemd[1]: Started Session 665 of User deploy.
+Nov 10 18:19:10 JUMP-02 CRON[5667]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 10 21:12:20 JUMP-02 chronyd[9924]: Selected source 10.0.0.3
+Nov 11 03:12:45 JUMP-02 diskmon[1634]: / used=41% (8.2G of 20G) threshold=85% OK
+Nov 11 11:03:50 JUMP-02 sshd[6404]: Accepted publickey for ops from 10.0.4.93 port 50178 ssh2
+Nov 11 11:10:37 JUMP-02 CRON[8373]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 11 14:13:52 JUMP-02 systemd[1]: Started Session 678 of User deploy.
+Nov 11 14:14:41 JUMP-02 chronyd[1635]: Selected source 10.0.0.9
+Nov 12 03:12:45 JUMP-02 diskmon[1637]: / used=42% (8.4G of 20G) threshold=85% OK
+Nov 12 05:41:35 JUMP-02 chronyd[2885]: Selected source 10.0.0.8
+Nov 12 12:08:49 JUMP-02 CRON[3607]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 12 16:13:08 JUMP-02 sshd[4884]: Accepted publickey for ops from 10.0.4.136 port 46820 ssh2
+Nov 12 17:24:17 JUMP-02 sshd[1052]: Accepted publickey for deploy from 10.0.4.38 port 53266 ssh2
+Nov 12 19:27:32 JUMP-02 systemd[1]: Started Session 705 of User deploy.
+Nov 13 03:12:45 JUMP-02 diskmon[1638]: / used=41% (8.2G of 20G) threshold=85% OK
+Nov 13 06:16:55 JUMP-02 chronyd[5212]: Selected source 10.0.0.5
+Nov 13 08:10:45 JUMP-02 sshd[7541]: Accepted publickey for ops from 10.0.3.230 port 41809 ssh2
+Nov 13 10:00:44 JUMP-02 CRON[1244]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 14 03:12:45 JUMP-02 diskmon[1639]: / used=43% (8.6G of 20G) threshold=85% OK
+Nov 14 09:44:42 JUMP-02 sshd[9685]: Accepted publickey for ops from 10.0.2.53 port 49600 ssh2
+Nov 14 09:55:17 JUMP-02 sshd[8145]: Accepted publickey for deploy from 10.0.3.150 port 42714 ssh2
+Nov 14 15:44:09 JUMP-02 systemd[1]: Started Session 715 of User deploy.
+Nov 14 20:39:35 JUMP-02 CRON[3312]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 14 20:59:25 JUMP-02 chronyd[2992]: Selected source 10.0.0.4
+Nov 15 03:12:45 JUMP-02 diskmon[1640]: / used=43% (8.6G of 20G) threshold=85% OK
+Nov 15 08:43:59 JUMP-02 sshd[4959]: Accepted publickey for ops from 10.0.6.80 port 42679 ssh2
+Nov 15 14:16:36 JUMP-02 chronyd[6782]: Selected source 10.0.0.8
+Nov 15 15:15:29 JUMP-02 CRON[1160]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 15 18:39:10 JUMP-02 systemd[1]: Started Session 727 of User deploy.
+Nov 16 03:12:45 JUMP-02 diskmon[1643]: / used=42% (8.4G of 20G) threshold=85% OK
+Nov 16 16:32:58 JUMP-02 sshd[5685]: Accepted publickey for ops from 10.0.5.244 port 46733 ssh2
+Nov 16 16:54:53 JUMP-02 CRON[5700]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 16 18:07:14 JUMP-02 chronyd[2461]: Selected source 10.0.0.4
+Nov 17 03:12:45 JUMP-02 diskmon[1647]: / used=43% (8.6G of 20G) threshold=85% OK
+Nov 17 09:50:42 JUMP-02 chronyd[5061]: Selected source 10.0.0.8
+Nov 17 14:29:20 JUMP-02 sshd[6587]: Accepted publickey for ops from 10.0.8.66 port 54310 ssh2
+Nov 17 19:02:08 JUMP-02 CRON[8446]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 17 20:41:54 JUMP-02 sshd[3492]: Accepted publickey for deploy from 10.0.8.136 port 55932 ssh2
+Nov 18 02:49:33 JUMP-02 CRON[8230]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 18 03:12:45 JUMP-02 diskmon[1648]: / used=43% (8.6G of 20G) threshold=85% OK
+Nov 18 10:04:49 JUMP-02 chronyd[6672]: Selected source 10.0.0.6
+Nov 18 10:17:35 JUMP-02 systemd[1]: Started Session 756 of User deploy.
+Nov 18 17:17:08 JUMP-02 sshd[7497]: Accepted publickey for ops from 10.0.2.207 port 55767 ssh2
+Nov 19 03:12:45 JUMP-02 diskmon[1649]: / used=43% (8.6G of 20G) threshold=85% OK
+Nov 19 06:12:58 JUMP-02 chronyd[3364]: Selected source 10.0.0.8
+Nov 19 07:17:04 JUMP-02 CRON[7160]: (root) CMD (/usr/local/bin/health-report.sh)

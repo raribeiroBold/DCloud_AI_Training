@@ -1,0 +1,15 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-20881 assigned to you: app-prd-03 billing down, /var full
+Date: Wed, 07 Oct 2026 02:20:00 +0100
+Message-ID: <202610070220-inc-20881@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-20881 has been assigned to your group.
+Priority: P2.
+
+billing on app-prd-03 stopped at 02:03 after /var reached 97%.
+
+Service Desk

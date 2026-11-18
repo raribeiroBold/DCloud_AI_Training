@@ -1,0 +1,16 @@
+From: Mark Weber <mark.weber@corp.example>
+To: you@corp.example
+Subject: WAL archiving on db-prd-02 again?
+Date: Wed, 18 Nov 2026 21:22:40 +0000
+Message-ID: <05-wal-archiving-again@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi,
+
+I see "archive command failed" on db-prd-02 again since Friday, this time with "No space left on device" from bkp-01. That would be the third time: 6 Oct, 21 Oct and now. Is /srv/wal on bkp-01 full? The storage ticket INC-20962 has been waiting since 27 Oct.
+
+Can we look at it before it crashes like on 6 Oct?
+
+Mark

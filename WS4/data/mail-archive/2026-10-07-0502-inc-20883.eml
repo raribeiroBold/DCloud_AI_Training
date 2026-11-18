@@ -1,0 +1,15 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-20883 assigned to you: db-prd-01 postgres process killed by the OOM killer
+Date: Wed, 07 Oct 2026 05:02:00 +0100
+Message-ID: <202610070502-inc-20883@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-20883 has been assigned to your group.
+Priority: P3.
+
+The kernel killed a postgres backend on db-prd-01 at 04:40 (out of memory). The service recovered on its own.
+
+Service Desk

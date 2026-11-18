@@ -1,0 +1,15 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-20877 created: db-prd-02 PostgreSQL crashed (PANIC, pg_wal full)
+Date: Tue, 06 Oct 2026 23:31:00 +0100
+Message-ID: <202610062331-inc-20877@corp.example>
+Importance: High
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-20877 has been created and assigned to team-dba.
+Priority: P1.
+
+PostgreSQL on db-prd-02 stopped at 23:14 with "No space left on device" on pg_wal and restarted at 23:21 after the on-call DBA remounted /srv/wal on bkp-01.
+
+Service Desk

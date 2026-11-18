@@ -1,0 +1,15 @@
+From: Monitoring <alerts@corp.example>
+To: you@corp.example
+Subject: [CRITICAL] bkp-01 /srv/wal used=98%
+Date: Mon, 09 Nov 2026 03:12:13 +0000
+Message-ID: <202611090312-alert-bkp-01@corp.example>
+Importance: High
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Host: bkp-01
+Check: disk usage /srv/wal
+Status: CRITICAL (threshold 98%)
+Value: 98% (2.0T of 2.0T)
+
+This alert was generated automatically. Details are in the host log.

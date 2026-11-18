@@ -1,0 +1,15 @@
+From: Monitoring <alerts@corp.example>
+To: you@corp.example
+Subject: [WARNING] bkp-01 /srv/wal used=95%
+Date: Thu, 05 Nov 2026 03:12:13 +0000
+Message-ID: <202611050312-alert-bkp-01@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Host: bkp-01
+Check: disk usage /srv/wal
+Status: WARNING (threshold 85%)
+Value: 95% (1.9T of 2.0T)
+
+This alert was generated automatically. Details are in the host log.

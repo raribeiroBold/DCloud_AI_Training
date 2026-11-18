@@ -1,0 +1,15 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-20931 resolved: users cannot log in to jump-02
+Date: Wed, 21 Oct 2026 10:41:00 +0100
+Message-ID: <202610211041-inc-20931-resolved@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-20931 is resolved.
+
+Cause: wrong ownership on two home directories after a restore (sshd refused the keys).
+Fix: ownership corrected.
+
+Service Desk

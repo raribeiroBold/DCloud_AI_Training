@@ -1,0 +1,15 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-21012 created: SSH brute force on jump-01 (blocked)
+Date: Mon, 09 Nov 2026 02:31:00 +0000
+Message-ID: <202611090231-inc-21012@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-21012 has been created and assigned to team-network.
+Priority: P3.
+
+40 failed password attempts on jump-01 from 185.220.101.47 between 02:10 and 02:19; fail2ban banned the address. No successful login.
+
+Service Desk

@@ -1,9 +1,264 @@
+Oct  5 01:59:53 k8s-wrk-08 CRON[499]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  5 03:12:31 k8s-wrk-08 diskmon[2026]: /var/lib/containerd used=39% (78G of 200G) threshold=85% OK
+Oct  5 05:23:05 k8s-wrk-08 containerd[7016]: pulled image registry.local/shipments:4.18
 Oct  5 05:25:22 k8s-wrk-08 chronyd[761]: Selected source 10.0.0.9
+Oct  5 06:49:13 k8s-wrk-08 chronyd[9972]: Selected source 10.0.0.8
+Oct  5 08:33:10 k8s-wrk-08 sshd[2574]: Accepted publickey for deploy from 10.0.6.131 port 50653 ssh2
+Oct  5 11:19:00 k8s-wrk-08 kubelet[3751]: I1005 pod shipments-289 started
 Oct  6 02:42:00 k8s-wrk-08 kubelet[9125]: I1007 pod shipments-312 started
+Oct  6 03:12:31 k8s-wrk-08 diskmon[2027]: /var/lib/containerd used=40% (80G of 200G) threshold=85% OK
 Oct  6 04:35:56 k8s-wrk-08 sshd[6526]: Accepted publickey for deploy from 10.0.5.92 port 40025 ssh2
+Oct  6 05:35:33 k8s-wrk-08 chronyd[9824]: Selected source 10.0.0.5
 Oct  6 08:31:16 k8s-wrk-08 chronyd[709]: Selected source 10.0.0.8
+Oct  6 09:56:23 k8s-wrk-08 systemd[1]: Started Session 716 of User deploy.
+Oct  6 15:39:03 k8s-wrk-08 sshd[8111]: Accepted publickey for deploy from 10.0.7.33 port 57398 ssh2
 Oct  6 17:49:07 k8s-wrk-08 chronyd[750]: Selected source 10.0.0.9
 Oct  6 19:20:27 k8s-wrk-08 systemd[1]: Started Session 628 of User deploy.
+Oct  6 20:10:57 k8s-wrk-08 kubelet[6383]: I1006 pod shipments-756 started
+Oct  6 23:03:51 k8s-wrk-08 CRON[5327]: (root) CMD (/usr/local/bin/health-report.sh)
 Oct  6 23:16:43 k8s-wrk-08 CRON[931]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 03:12:31 k8s-wrk-08 diskmon[2029]: /var/lib/containerd used=40% (80G of 200G) threshold=85% OK
 Oct  7 05:50:25 k8s-wrk-08 CRON[2911]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 05:56:03 k8s-wrk-08 chronyd[8907]: Selected source 10.0.0.5
+Oct  7 07:57:54 k8s-wrk-08 kubelet[8219]: I1007 pod shipments-565 started
+Oct  7 10:59:32 k8s-wrk-08 containerd[5210]: pulled image registry.local/shipments:4.22
+Oct  7 11:17:08 k8s-wrk-08 systemd[1]: Started Session 735 of User deploy.
+Oct  7 14:48:49 k8s-wrk-08 sshd[2621]: Accepted publickey for deploy from 10.0.7.55 port 59252 ssh2
 Oct  7 23:34:08 k8s-wrk-08 containerd[3337]: pulled image registry.local/shipments:7.11
+Oct  8 03:12:31 k8s-wrk-08 diskmon[2032]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct  8 15:16:17 k8s-wrk-08 chronyd[3303]: Selected source 10.0.0.3
+Oct  8 15:40:01 k8s-wrk-08 systemd[1]: Started Session 762 of User deploy.
+Oct  8 17:31:19 k8s-wrk-08 kubelet[9780]: I1008 pod shipments-626 started
+Oct  9 00:44:40 k8s-wrk-08 kubelet[7794]: I1009 pod shipments-139 started
+Oct  9 03:12:31 k8s-wrk-08 diskmon[2035]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct  9 10:40:20 k8s-wrk-08 containerd[675]: pulled image registry.local/shipments:4.21
+Oct  9 10:44:51 k8s-wrk-08 systemd[1]: Started Session 774 of User deploy.
+Oct  9 16:37:25 k8s-wrk-08 chronyd[6786]: Selected source 10.0.0.3
+Oct  9 20:17:09 k8s-wrk-08 CRON[9400]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 10 00:10:59 k8s-wrk-08 kubelet[8974]: I1010 pod shipments-582 started
+Oct 10 03:12:31 k8s-wrk-08 diskmon[2038]: /var/lib/containerd used=40% (80G of 200G) threshold=85% OK
+Oct 10 08:19:45 k8s-wrk-08 sshd[5374]: Accepted publickey for deploy from 10.0.2.156 port 48867 ssh2
+Oct 10 16:29:56 k8s-wrk-08 CRON[4357]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 10 16:38:30 k8s-wrk-08 chronyd[8673]: Selected source 10.0.0.7
+Oct 10 17:47:35 k8s-wrk-08 systemd[1]: Started Session 794 of User deploy.
+Oct 11 03:12:31 k8s-wrk-08 diskmon[2039]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct 11 06:32:48 k8s-wrk-08 kubelet[1592]: I1011 pod shipments-716 started
+Oct 11 14:04:11 k8s-wrk-08 chronyd[7622]: Selected source 10.0.0.4
+Oct 11 17:29:56 k8s-wrk-08 sshd[6865]: Accepted publickey for deploy from 10.0.6.97 port 56006 ssh2
+Oct 11 20:34:13 k8s-wrk-08 CRON[5449]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 12 03:12:31 k8s-wrk-08 diskmon[2041]: /var/lib/containerd used=40% (80G of 200G) threshold=85% OK
+Oct 12 07:02:46 k8s-wrk-08 chronyd[6799]: Selected source 10.0.0.4
+Oct 12 09:51:24 k8s-wrk-08 systemd[1]: Started Session 818 of User deploy.
+Oct 12 11:02:57 k8s-wrk-08 sshd[6903]: Accepted publickey for deploy from 10.0.6.44 port 44781 ssh2
+Oct 12 13:25:20 k8s-wrk-08 CRON[733]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 12 22:56:43 k8s-wrk-08 kubelet[5747]: I1012 pod shipments-864 started
+Oct 13 03:12:31 k8s-wrk-08 diskmon[2042]: /var/lib/containerd used=40% (80G of 200G) threshold=85% OK
+Oct 13 06:55:15 k8s-wrk-08 systemd[1]: Started Session 835 of User deploy.
+Oct 13 07:13:00 k8s-wrk-08 containerd[2735]: pulled image registry.local/shipments:4.22
+Oct 13 09:49:51 k8s-wrk-08 sshd[6541]: Accepted publickey for deploy from 10.0.6.187 port 49128 ssh2
+Oct 13 11:50:46 k8s-wrk-08 CRON[2758]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 13 13:12:08 k8s-wrk-08 chronyd[7109]: Selected source 10.0.0.3
+Oct 13 13:22:39 k8s-wrk-08 kubelet[3690]: I1013 pod shipments-713 started
+Oct 14 01:43:24 k8s-wrk-08 CRON[2405]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 14 03:12:31 k8s-wrk-08 diskmon[2043]: /var/lib/containerd used=39% (78G of 200G) threshold=85% OK
+Oct 14 08:58:03 k8s-wrk-08 sshd[948]: Accepted publickey for deploy from 10.0.2.238 port 53673 ssh2
+Oct 14 16:14:15 k8s-wrk-08 kubelet[7606]: I1014 pod shipments-636 started
+Oct 14 19:34:38 k8s-wrk-08 chronyd[7621]: Selected source 10.0.0.4
+Oct 15 03:12:31 k8s-wrk-08 diskmon[2046]: /var/lib/containerd used=40% (80G of 200G) threshold=85% OK
+Oct 15 05:14:32 k8s-wrk-08 kubelet[841]: I1015 pod shipments-406 started
+Oct 15 07:29:22 k8s-wrk-08 systemd[1]: Started Session 837 of User deploy.
+Oct 15 11:01:24 k8s-wrk-08 chronyd[2226]: Selected source 10.0.0.5
+Oct 15 14:41:07 k8s-wrk-08 sshd[3375]: Accepted publickey for deploy from 10.0.5.135 port 50603 ssh2
+Oct 15 22:05:20 k8s-wrk-08 CRON[7926]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 16 00:00:32 k8s-wrk-08 CRON[3113]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 16 01:09:17 k8s-wrk-08 containerd[8114]: pulled image registry.local/shipments:4.19
+Oct 16 03:12:31 k8s-wrk-08 diskmon[2048]: /var/lib/containerd used=40% (80G of 200G) threshold=85% OK
+Oct 16 09:29:51 k8s-wrk-08 kubelet[7657]: I1016 pod shipments-313 started
+Oct 16 18:27:04 k8s-wrk-08 chronyd[7714]: Selected source 10.0.0.8
+Oct 16 23:41:48 k8s-wrk-08 chronyd[3738]: Selected source 10.0.0.4
+Oct 17 03:12:31 k8s-wrk-08 diskmon[2051]: /var/lib/containerd used=39% (78G of 200G) threshold=85% OK
+Oct 17 06:03:30 k8s-wrk-08 CRON[4167]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 17 08:34:22 k8s-wrk-08 kubelet[8396]: I1017 pod shipments-740 started
+Oct 17 10:45:50 k8s-wrk-08 systemd[1]: Started Session 856 of User deploy.
+Oct 18 03:12:31 k8s-wrk-08 diskmon[2052]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct 18 12:54:17 k8s-wrk-08 kubelet[1906]: I1018 pod shipments-326 started
+Oct 18 14:37:32 k8s-wrk-08 sshd[8650]: Accepted publickey for deploy from 10.0.3.71 port 40432 ssh2
+Oct 18 15:01:04 k8s-wrk-08 chronyd[3889]: Selected source 10.0.0.3
+Oct 18 16:10:21 k8s-wrk-08 systemd[1]: Started Session 886 of User deploy.
+Oct 18 17:28:58 k8s-wrk-08 CRON[7673]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 18 23:38:13 k8s-wrk-08 kubelet[5274]: I1019 pod shipments-663 started
+Oct 19 01:58:38 k8s-wrk-08 CRON[2832]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 19 03:12:31 k8s-wrk-08 diskmon[2054]: /var/lib/containerd used=40% (80G of 200G) threshold=85% OK
+Oct 19 08:33:36 k8s-wrk-08 sshd[935]: Accepted publickey for deploy from 10.0.4.240 port 55620 ssh2
+Oct 19 18:41:10 k8s-wrk-08 chronyd[7554]: Selected source 10.0.0.7
+Oct 19 21:25:25 k8s-wrk-08 containerd[6371]: pulled image registry.local/shipments:4.19
+Oct 20 03:12:31 k8s-wrk-08 diskmon[2058]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct 20 06:47:39 k8s-wrk-08 kubelet[5243]: I1020 pod shipments-937 started
+Oct 20 17:11:46 k8s-wrk-08 chronyd[5129]: Selected source 10.0.0.9
+Oct 20 17:34:23 k8s-wrk-08 sshd[5119]: Accepted publickey for deploy from 10.0.2.154 port 48509 ssh2
+Oct 21 03:12:31 k8s-wrk-08 diskmon[2060]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Oct 21 10:46:29 k8s-wrk-08 kubelet[1563]: I1021 pod shipments-254 started
+Oct 21 11:12:38 k8s-wrk-08 chronyd[9790]: Selected source 10.0.0.6
+Oct 21 15:51:24 k8s-wrk-08 containerd[4122]: pulled image registry.local/shipments:4.20
+Oct 21 16:34:11 k8s-wrk-08 CRON[3234]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 21 17:26:25 k8s-wrk-08 systemd[1]: Started Session 912 of User deploy.
+Oct 22 03:12:31 k8s-wrk-08 diskmon[2062]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct 22 08:09:31 k8s-wrk-08 chronyd[5855]: Selected source 10.0.0.7
+Oct 22 15:15:48 k8s-wrk-08 CRON[4320]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 22 17:23:43 k8s-wrk-08 sshd[9269]: Accepted publickey for deploy from 10.0.4.196 port 55953 ssh2
+Oct 22 21:23:15 k8s-wrk-08 kubelet[4685]: I1022 pod shipments-695 started
+Oct 23 03:12:31 k8s-wrk-08 diskmon[2066]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct 23 06:44:04 k8s-wrk-08 kubelet[5090]: I1023 pod shipments-743 started
+Oct 23 10:28:57 k8s-wrk-08 CRON[2512]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 23 13:29:51 k8s-wrk-08 systemd[1]: Started Session 937 of User deploy.
+Oct 23 17:48:41 k8s-wrk-08 sshd[2547]: Accepted publickey for deploy from 10.0.5.37 port 57739 ssh2
+Oct 23 19:07:15 k8s-wrk-08 chronyd[9131]: Selected source 10.0.0.6
+Oct 24 03:12:31 k8s-wrk-08 diskmon[2070]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct 24 09:45:37 k8s-wrk-08 sshd[3784]: Accepted publickey for deploy from 10.0.5.188 port 41257 ssh2
+Oct 24 11:20:13 k8s-wrk-08 chronyd[4582]: Selected source 10.0.0.4
+Oct 24 16:00:24 k8s-wrk-08 CRON[7433]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 24 16:15:53 k8s-wrk-08 kubelet[2903]: I1024 pod shipments-585 started
+Oct 25 03:12:31 k8s-wrk-08 diskmon[2072]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct 25 07:26:37 k8s-wrk-08 sshd[7964]: Accepted publickey for deploy from 10.0.4.239 port 58982 ssh2
+Oct 25 11:46:28 k8s-wrk-08 kubelet[2436]: I1025 pod shipments-241 started
+Oct 25 14:00:07 k8s-wrk-08 chronyd[4636]: Selected source 10.0.0.8
+Oct 25 18:13:03 k8s-wrk-08 CRON[3195]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 03:01:12 k8s-wrk-08 CRON[5835]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 03:12:31 k8s-wrk-08 diskmon[2073]: /var/lib/containerd used=40% (80G of 200G) threshold=85% OK
+Oct 26 05:04:29 k8s-wrk-08 kubelet[6809]: I1026 pod shipments-989 started
+Oct 26 10:16:34 k8s-wrk-08 sshd[3911]: Accepted publickey for deploy from 10.0.3.197 port 57125 ssh2
+Oct 26 14:46:04 k8s-wrk-08 systemd[1]: Started Session 961 of User deploy.
+Oct 26 16:53:47 k8s-wrk-08 containerd[8739]: pulled image registry.local/shipments:4.18
+Oct 26 23:14:27 k8s-wrk-08 chronyd[2497]: Selected source 10.0.0.4
+Oct 27 03:12:31 k8s-wrk-08 diskmon[2077]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct 27 07:32:03 k8s-wrk-08 CRON[3349]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 27 08:44:42 k8s-wrk-08 systemd[1]: Started Session 975 of User deploy.
+Oct 27 09:06:32 k8s-wrk-08 containerd[4570]: pulled image registry.local/shipments:4.18
+Oct 27 13:57:01 k8s-wrk-08 kubelet[9864]: I1027 pod shipments-698 started
+Oct 27 20:57:45 k8s-wrk-08 chronyd[9781]: Selected source 10.0.0.5
+Oct 28 02:50:33 k8s-wrk-08 chronyd[2507]: Selected source 10.0.0.4
+Oct 28 03:12:31 k8s-wrk-08 diskmon[2081]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct 28 09:44:20 k8s-wrk-08 systemd[1]: Started Session 1005 of User deploy.
+Oct 28 09:53:12 k8s-wrk-08 sshd[6917]: Accepted publickey for deploy from 10.0.7.39 port 48708 ssh2
+Oct 28 11:59:47 k8s-wrk-08 containerd[5267]: pulled image registry.local/shipments:4.20
+Oct 28 13:45:53 k8s-wrk-08 CRON[699]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 23:22:56 k8s-wrk-08 kubelet[590]: I1028 pod shipments-638 started
+Oct 29 03:12:31 k8s-wrk-08 diskmon[2083]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Oct 29 04:18:11 k8s-wrk-08 chronyd[4976]: Selected source 10.0.0.4
+Oct 29 08:43:15 k8s-wrk-08 kubelet[2973]: I1029 pod shipments-365 started
+Oct 29 10:12:47 k8s-wrk-08 sshd[2715]: Accepted publickey for deploy from 10.0.8.27 port 58166 ssh2
+Oct 29 12:35:02 k8s-wrk-08 containerd[5670]: pulled image registry.local/shipments:4.21
+Oct 29 14:42:47 k8s-wrk-08 CRON[4136]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 30 01:11:22 k8s-wrk-08 chronyd[5736]: Selected source 10.0.0.3
+Oct 30 03:02:17 k8s-wrk-08 kubelet[3143]: I1030 pod shipments-888 started
+Oct 30 03:12:31 k8s-wrk-08 diskmon[2085]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Oct 30 07:46:30 k8s-wrk-08 containerd[1945]: pulled image registry.local/shipments:4.20
+Oct 30 08:46:43 k8s-wrk-08 CRON[2324]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 30 09:31:13 k8s-wrk-08 systemd[1]: Started Session 1008 of User deploy.
+Oct 30 13:14:53 k8s-wrk-08 sshd[9883]: Accepted publickey for deploy from 10.0.5.19 port 45636 ssh2
+Oct 31 03:12:31 k8s-wrk-08 diskmon[2086]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Oct 31 04:03:51 k8s-wrk-08 kubelet[8504]: I1031 pod shipments-423 started
+Oct 31 08:47:11 k8s-wrk-08 containerd[5015]: pulled image registry.local/shipments:4.18
+Oct 31 13:59:01 k8s-wrk-08 chronyd[1045]: Selected source 10.0.0.9
+Oct 31 18:14:12 k8s-wrk-08 sshd[7987]: Accepted publickey for deploy from 10.0.4.242 port 48328 ssh2
+Oct 31 21:22:29 k8s-wrk-08 CRON[1317]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  1 03:12:31 k8s-wrk-08 diskmon[2087]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Nov  1 08:09:40 k8s-wrk-08 systemd[1]: Started Session 1024 of User deploy.
+Nov  1 08:33:30 k8s-wrk-08 containerd[3667]: pulled image registry.local/shipments:4.20
+Nov  1 08:39:37 k8s-wrk-08 kubelet[4536]: I1101 pod shipments-666 started
+Nov  1 21:11:48 k8s-wrk-08 chronyd[1437]: Selected source 10.0.0.7
+Nov  1 22:55:44 k8s-wrk-08 CRON[1102]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  2 03:12:31 k8s-wrk-08 diskmon[2088]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Nov  2 09:28:25 k8s-wrk-08 chronyd[8676]: Selected source 10.0.0.7
+Nov  2 14:09:47 k8s-wrk-08 CRON[9366]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  2 23:33:15 k8s-wrk-08 kubelet[8174]: I1102 pod shipments-771 started
+Nov  3 03:12:31 k8s-wrk-08 diskmon[2089]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Nov  3 08:19:02 k8s-wrk-08 chronyd[1089]: Selected source 10.0.0.6
+Nov  3 13:18:46 k8s-wrk-08 systemd[1]: Started Session 1046 of User deploy.
+Nov  3 20:09:35 k8s-wrk-08 kubelet[2291]: I1103 pod shipments-349 started
+Nov  4 01:59:58 k8s-wrk-08 kubelet[7521]: I1104 pod shipments-997 started
+Nov  4 03:12:31 k8s-wrk-08 diskmon[2092]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Nov  4 06:56:51 k8s-wrk-08 containerd[3177]: pulled image registry.local/shipments:4.18
+Nov  4 11:44:04 k8s-wrk-08 chronyd[7501]: Selected source 10.0.0.4
+Nov  4 23:28:44 k8s-wrk-08 CRON[3626]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  5 03:12:31 k8s-wrk-08 diskmon[2094]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Nov  5 05:50:31 k8s-wrk-08 CRON[1177]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  5 10:07:09 k8s-wrk-08 chronyd[7418]: Selected source 10.0.0.9
+Nov  5 14:05:53 k8s-wrk-08 kubelet[6462]: I1105 pod shipments-922 started
+Nov  5 20:13:38 k8s-wrk-08 sshd[1258]: Accepted publickey for deploy from 10.0.5.19 port 41057 ssh2
+Nov  6 03:12:31 k8s-wrk-08 diskmon[2095]: /var/lib/containerd used=41% (82G of 200G) threshold=85% OK
+Nov  6 03:48:25 k8s-wrk-08 kubelet[7055]: I1106 pod shipments-305 started
+Nov  6 03:49:08 k8s-wrk-08 CRON[9091]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  6 12:52:55 k8s-wrk-08 containerd[7532]: pulled image registry.local/shipments:4.22
+Nov  6 16:47:58 k8s-wrk-08 chronyd[2787]: Selected source 10.0.0.9
+Nov  6 17:37:56 k8s-wrk-08 systemd[1]: Started Session 1057 of User deploy.
+Nov  7 03:12:31 k8s-wrk-08 diskmon[2096]: /var/lib/containerd used=43% (86G of 200G) threshold=85% OK
+Nov  7 10:56:41 k8s-wrk-08 kubelet[1667]: I1107 pod shipments-721 started
+Nov  7 12:30:27 k8s-wrk-08 systemd[1]: Started Session 1076 of User deploy.
+Nov  7 17:50:50 k8s-wrk-08 sshd[4518]: Accepted publickey for deploy from 10.0.2.70 port 59134 ssh2
+Nov  7 21:17:52 k8s-wrk-08 chronyd[3555]: Selected source 10.0.0.6
+Nov  7 21:20:58 k8s-wrk-08 containerd[9346]: pulled image registry.local/shipments:4.19
+Nov  8 03:12:31 k8s-wrk-08 diskmon[2099]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Nov  8 04:07:31 k8s-wrk-08 kubelet[6135]: I1108 pod shipments-315 started
+Nov  8 06:41:13 k8s-wrk-08 chronyd[2584]: Selected source 10.0.0.5
+Nov  8 13:05:06 k8s-wrk-08 systemd[1]: Started Session 1091 of User deploy.
+Nov  8 17:30:16 k8s-wrk-08 containerd[1639]: pulled image registry.local/shipments:4.22
+Nov  9 01:02:13 k8s-wrk-08 CRON[7055]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  9 03:12:31 k8s-wrk-08 diskmon[2101]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Nov  9 03:34:59 k8s-wrk-08 chronyd[1899]: Selected source 10.0.0.6
+Nov  9 22:50:20 k8s-wrk-08 kubelet[6590]: I1109 pod shipments-801 started
+Nov 10 00:53:05 k8s-wrk-08 CRON[1637]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 10 02:41:33 k8s-wrk-08 containerd[6927]: pulled image registry.local/shipments:4.20
+Nov 10 03:12:31 k8s-wrk-08 diskmon[2104]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Nov 10 09:31:50 k8s-wrk-08 sshd[8527]: Accepted publickey for deploy from 10.0.7.53 port 52933 ssh2
+Nov 10 11:17:58 k8s-wrk-08 chronyd[5365]: Selected source 10.0.0.7
+Nov 10 12:27:07 k8s-wrk-08 kubelet[8435]: I1110 pod shipments-817 started
+Nov 11 03:12:31 k8s-wrk-08 diskmon[2106]: /var/lib/containerd used=43% (86G of 200G) threshold=85% OK
+Nov 11 06:56:34 k8s-wrk-08 kubelet[5093]: I1111 pod shipments-843 started
+Nov 11 13:17:24 k8s-wrk-08 chronyd[4872]: Selected source 10.0.0.5
+Nov 11 18:04:17 k8s-wrk-08 CRON[8555]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 11 19:32:11 k8s-wrk-08 systemd[1]: Started Session 1108 of User deploy.
+Nov 12 03:12:31 k8s-wrk-08 diskmon[2108]: /var/lib/containerd used=43% (86G of 200G) threshold=85% OK
+Nov 12 06:50:10 k8s-wrk-08 chronyd[2347]: Selected source 10.0.0.4
+Nov 12 08:36:32 k8s-wrk-08 CRON[8078]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 12 09:51:30 k8s-wrk-08 sshd[9635]: Accepted publickey for deploy from 10.0.5.99 port 52448 ssh2
+Nov 12 21:55:16 k8s-wrk-08 kubelet[1964]: I1112 pod shipments-139 started
+Nov 13 01:51:48 k8s-wrk-08 chronyd[6591]: Selected source 10.0.0.8
+Nov 13 03:12:31 k8s-wrk-08 diskmon[2111]: /var/lib/containerd used=43% (86G of 200G) threshold=85% OK
+Nov 13 13:46:25 k8s-wrk-08 sshd[1987]: Accepted publickey for deploy from 10.0.5.232 port 52799 ssh2
+Nov 13 14:54:14 k8s-wrk-08 kubelet[3395]: I1113 pod shipments-853 started
+Nov 13 16:35:34 k8s-wrk-08 systemd[1]: Started Session 1114 of User deploy.
+Nov 13 19:32:33 k8s-wrk-08 containerd[8092]: pulled image registry.local/shipments:4.18
+Nov 13 19:38:24 k8s-wrk-08 CRON[3841]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 14 03:12:31 k8s-wrk-08 diskmon[2113]: /var/lib/containerd used=43% (86G of 200G) threshold=85% OK
+Nov 14 08:54:08 k8s-wrk-08 kubelet[2168]: I1114 pod shipments-986 started
+Nov 14 15:20:02 k8s-wrk-08 containerd[2205]: pulled image registry.local/shipments:4.22
+Nov 14 15:34:30 k8s-wrk-08 chronyd[3572]: Selected source 10.0.0.3
+Nov 14 19:28:15 k8s-wrk-08 sshd[9279]: Accepted publickey for deploy from 10.0.7.13 port 48573 ssh2
+Nov 15 03:12:31 k8s-wrk-08 diskmon[2116]: /var/lib/containerd used=43% (86G of 200G) threshold=85% OK
+Nov 15 05:49:19 k8s-wrk-08 chronyd[4678]: Selected source 10.0.0.4
+Nov 15 08:33:23 k8s-wrk-08 kubelet[2820]: I1115 pod shipments-355 started
+Nov 15 12:53:14 k8s-wrk-08 CRON[4828]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 15 13:16:46 k8s-wrk-08 containerd[9278]: pulled image registry.local/shipments:4.20
+Nov 16 02:16:04 k8s-wrk-08 CRON[9896]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 16 02:36:24 k8s-wrk-08 chronyd[8438]: Selected source 10.0.0.5
+Nov 16 03:12:31 k8s-wrk-08 diskmon[2117]: /var/lib/containerd used=43% (86G of 200G) threshold=85% OK
+Nov 16 06:12:53 k8s-wrk-08 kubelet[7709]: I1116 pod shipments-188 started
+Nov 16 11:03:27 k8s-wrk-08 systemd[1]: Started Session 1121 of User deploy.
+Nov 16 16:44:08 k8s-wrk-08 sshd[1859]: Accepted publickey for deploy from 10.0.4.226 port 57961 ssh2
+Nov 16 22:12:01 k8s-wrk-08 containerd[6103]: pulled image registry.local/shipments:4.20
+Nov 17 03:12:31 k8s-wrk-08 diskmon[2118]: /var/lib/containerd used=43% (86G of 200G) threshold=85% OK
+Nov 17 03:34:44 k8s-wrk-08 chronyd[1434]: Selected source 10.0.0.6
+Nov 17 07:19:21 k8s-wrk-08 kubelet[1178]: I1117 pod shipments-862 started
+Nov 17 07:57:11 k8s-wrk-08 systemd[1]: Started Session 1145 of User deploy.
+Nov 17 10:07:18 k8s-wrk-08 CRON[9141]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 18 03:12:31 k8s-wrk-08 diskmon[2121]: /var/lib/containerd used=43% (86G of 200G) threshold=85% OK
+Nov 18 09:27:09 k8s-wrk-08 chronyd[4665]: Selected source 10.0.0.4
+Nov 18 09:47:35 k8s-wrk-08 sshd[1730]: Accepted publickey for deploy from 10.0.6.65 port 50202 ssh2
+Nov 18 10:25:24 k8s-wrk-08 systemd[1]: Started Session 1171 of User deploy.
+Nov 18 16:44:29 k8s-wrk-08 containerd[7002]: pulled image registry.local/shipments:4.21
+Nov 18 21:26:05 k8s-wrk-08 kubelet[6455]: I1118 pod shipments-457 started
+Nov 18 23:48:00 k8s-wrk-08 CRON[2328]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 19 02:46:02 k8s-wrk-08 CRON[6662]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 19 03:12:31 k8s-wrk-08 diskmon[2123]: /var/lib/containerd used=42% (84G of 200G) threshold=85% OK
+Nov 19 06:13:04 k8s-wrk-08 kubelet[2108]: I1119 pod shipments-155 started

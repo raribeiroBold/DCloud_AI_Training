@@ -1,10 +1,266 @@
 Oct  5 00:19:49 bkp-01 bacula-fd[3536]: backup job 3161 completed OK
+Oct  5 00:40:12 bkp-01 systemd[1]: srv-wal.mount: Mount process exited, code=exited, status=32/n/a
+Oct  5 00:40:12 bkp-01 systemd[1]: Failed to mount /srv/wal.
+Oct  5 01:13:50 bkp-01 bacula-fd[7960]: backup job 5305 completed OK
+Oct  5 02:57:35 bkp-01 bacula-fd[1033]: backup job 4016 completed OK
+Oct  5 03:12:05 bkp-01 diskmon[1980]: /srv/wal check failed: not a mount point CRITICAL
 Oct  5 08:07:31 bkp-01 sshd[9572]: Accepted publickey for deploy from 10.0.8.146 port 45104 ssh2
 Oct  5 12:39:05 bkp-01 bacula-fd[9378]: backup job 8327 completed OK
 Oct  5 17:23:31 bkp-01 chronyd[741]: Selected source 10.0.0.8
+Oct  5 22:34:54 bkp-01 chronyd[8048]: Selected source 10.0.0.6
+Oct  6 00:54:52 bkp-01 bacula-fd[9837]: backup job 3046 completed OK
+Oct  6 02:01:07 bkp-01 chronyd[3269]: Selected source 10.0.0.9
+Oct  6 02:02:20 bkp-01 bacula-fd[7283]: backup job 2153 completed OK
+Oct  6 03:12:05 bkp-01 diskmon[1981]: /srv/wal check failed: not a mount point CRITICAL
+Oct  6 06:36:46 bkp-01 CRON[8052]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 10:21:53 bkp-01 systemd[1]: Started Session 256 of User deploy.
+Oct  6 17:00:39 bkp-01 sshd[4517]: Accepted publickey for deploy from 10.0.8.246 port 45396 ssh2
 Oct  6 17:55:03 bkp-01 CRON[4626]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 23:16:02 bkp-01 sshd[827]: Accepted publickey for ops from 10.0.3.15 port 50412 ssh2
+Oct  6 23:17:05 bkp-01 systemd[1]: Mounted /srv/wal.
+Oct  7 02:55:05 bkp-01 bacula-fd[3882]: backup job 5901 completed OK
+Oct  7 03:12:05 bkp-01 diskmon[1984]: /srv/wal used=74% (1.5T of 2.0T) threshold=85% OK
+Oct  7 06:18:21 bkp-01 CRON[4944]: (root) CMD (/usr/local/bin/health-report.sh)
 Oct  7 11:31:12 bkp-01 systemd[1]: Started Session 903 of User deploy.
+Oct  7 17:01:23 bkp-01 chronyd[4863]: Selected source 10.0.0.4
 Oct  7 17:40:36 bkp-01 sshd[1955]: Accepted publickey for deploy from 10.0.6.87 port 52928 ssh2
 Oct  7 18:41:32 bkp-01 chronyd[726]: Selected source 10.0.0.5
+Oct  7 19:34:06 bkp-01 systemd[1]: Started Session 284 of User deploy.
 Oct  7 21:01:39 bkp-01 sshd[3452]: Accepted publickey for deploy from 10.0.8.134 port 48698 ssh2
+Oct  8 01:58:17 bkp-01 bacula-fd[6379]: backup job 3322 completed OK
+Oct  8 03:12:05 bkp-01 diskmon[1986]: /srv/wal used=75% (1.5T of 2.0T) threshold=85% OK
+Oct  8 10:23:48 bkp-01 systemd[1]: Started Session 311 of User deploy.
+Oct  8 11:54:17 bkp-01 CRON[2131]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  8 12:26:07 bkp-01 chronyd[4936]: Selected source 10.0.0.7
+Oct  8 18:47:31 bkp-01 sshd[9927]: Accepted publickey for deploy from 10.0.6.51 port 41414 ssh2
+Oct  9 03:12:05 bkp-01 diskmon[1990]: /srv/wal used=75% (1.5T of 2.0T) threshold=85% OK
+Oct  9 03:27:06 bkp-01 bacula-fd[6739]: backup job 7382 completed OK
+Oct  9 08:30:23 bkp-01 systemd[1]: Started Session 327 of User deploy.
+Oct  9 08:51:20 bkp-01 chronyd[2582]: Selected source 10.0.0.5
+Oct  9 08:55:55 bkp-01 CRON[5934]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  9 11:10:20 bkp-01 sshd[3331]: Accepted publickey for deploy from 10.0.2.69 port 57903 ssh2
+Oct 10 03:12:05 bkp-01 diskmon[1993]: /srv/wal used=76% (1.5T of 2.0T) threshold=85% OK
+Oct 10 04:11:26 bkp-01 bacula-fd[3227]: backup job 3906 completed OK
+Oct 10 05:38:57 bkp-01 bacula-fd[9667]: backup job 5031 completed OK
+Oct 10 19:22:42 bkp-01 systemd[1]: Started Session 352 of User deploy.
+Oct 10 20:11:59 bkp-01 chronyd[3830]: Selected source 10.0.0.9
+Oct 10 23:52:26 bkp-01 CRON[9862]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 11 02:28:17 bkp-01 bacula-fd[570]: backup job 6695 completed OK
+Oct 11 03:12:05 bkp-01 diskmon[1996]: /srv/wal used=77% (1.5T of 2.0T) threshold=85% OK
+Oct 11 03:54:55 bkp-01 bacula-fd[1408]: backup job 4286 completed OK
+Oct 11 05:53:17 bkp-01 chronyd[2210]: Selected source 10.0.0.5
+Oct 11 10:44:35 bkp-01 CRON[7499]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 11 11:49:36 bkp-01 sshd[8957]: Accepted publickey for deploy from 10.0.3.93 port 50037 ssh2
+Oct 11 17:20:19 bkp-01 systemd[1]: Started Session 378 of User deploy.
+Oct 12 00:57:46 bkp-01 bacula-fd[6068]: backup job 3563 completed OK
+Oct 12 01:20:38 bkp-01 bacula-fd[3234]: backup job 1793 completed OK
+Oct 12 03:12:05 bkp-01 diskmon[1999]: /srv/wal used=78% (1.6T of 2.0T) threshold=85% OK
+Oct 12 10:55:54 bkp-01 chronyd[5766]: Selected source 10.0.0.4
+Oct 13 03:12:05 bkp-01 diskmon[2002]: /srv/wal used=78% (1.6T of 2.0T) threshold=85% OK
+Oct 13 03:26:55 bkp-01 bacula-fd[5120]: backup job 9510 completed OK
+Oct 13 04:42:31 bkp-01 chronyd[1287]: Selected source 10.0.0.6
+Oct 13 04:58:30 bkp-01 bacula-fd[7770]: backup job 4775 completed OK
+Oct 13 11:07:31 bkp-01 sshd[2113]: Accepted publickey for deploy from 10.0.7.129 port 45168 ssh2
+Oct 14 02:18:00 bkp-01 CRON[3548]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 14 03:12:05 bkp-01 diskmon[2004]: /srv/wal used=79% (1.6T of 2.0T) threshold=85% OK
+Oct 14 04:26:41 bkp-01 chronyd[8359]: Selected source 10.0.0.6
+Oct 14 05:01:19 bkp-01 bacula-fd[9692]: backup job 4506 completed OK
+Oct 15 03:12:05 bkp-01 diskmon[2005]: /srv/wal used=80% (1.6T of 2.0T) threshold=85% OK
+Oct 15 03:34:59 bkp-01 chronyd[3402]: Selected source 10.0.0.5
+Oct 15 04:48:02 bkp-01 bacula-fd[9075]: backup job 8849 completed OK
+Oct 15 07:42:49 bkp-01 sshd[7712]: Accepted publickey for deploy from 10.0.3.178 port 54602 ssh2
+Oct 15 10:47:17 bkp-01 systemd[1]: Started Session 386 of User deploy.
+Oct 15 18:07:38 bkp-01 CRON[4246]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 16 03:12:05 bkp-01 diskmon[2006]: /srv/wal used=80% (1.6T of 2.0T) threshold=85% OK
+Oct 16 04:09:14 bkp-01 bacula-fd[7655]: backup job 1925 completed OK
+Oct 16 06:15:03 bkp-01 ansible-ansible.legacy.dnf[849]: Invoked with name=['openssh-server', 'openssh-clients'] state=latest update_only=True
+Oct 16 06:15:41 bkp-01 sshd-keygen: Generating new ED25519 host key
+Oct 16 06:15:41 bkp-01 sshd-keygen: Generating new ECDSA host key
+Oct 16 06:15:44 bkp-01 sshd[2682]: Server listening on 0.0.0.0 port 22.
+Oct 16 10:52:08 bkp-01 systemd[1]: Started Session 387 of User deploy.
+Oct 16 10:52:28 bkp-01 chronyd[636]: Selected source 10.0.0.8
+Oct 16 11:13:38 bkp-01 CRON[2332]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 16 16:40:22 bkp-01 sshd[1652]: Accepted publickey for deploy from 10.0.6.250 port 48194 ssh2
+Oct 17 01:12:21 bkp-01 chronyd[9132]: Selected source 10.0.0.3
+Oct 17 01:28:20 bkp-01 bacula-fd[4249]: backup job 1739 completed OK
+Oct 17 03:12:05 bkp-01 diskmon[2007]: /srv/wal used=81% (1.6T of 2.0T) threshold=85% OK
+Oct 17 21:42:51 bkp-01 CRON[8015]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 18 00:19:27 bkp-01 CRON[8681]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 18 01:40:04 bkp-01 bacula-fd[7862]: backup job 1027 completed OK
+Oct 18 03:12:05 bkp-01 diskmon[2011]: /srv/wal used=82% (1.6T of 2.0T) threshold=85% OK
+Oct 18 04:11:08 bkp-01 bacula-fd[1021]: backup job 4140 completed OK
+Oct 18 05:30:51 bkp-01 chronyd[7815]: Selected source 10.0.0.3
+Oct 18 08:13:38 bkp-01 systemd[1]: Started Session 396 of User deploy.
+Oct 18 11:37:58 bkp-01 sshd[1029]: Accepted publickey for deploy from 10.0.4.202 port 59825 ssh2
+Oct 19 00:11:11 bkp-01 bacula-fd[5019]: backup job 1143 completed OK
+Oct 19 03:12:05 bkp-01 diskmon[2012]: /srv/wal used=83% (1.7T of 2.0T) threshold=85% OK
+Oct 19 07:31:40 bkp-01 sshd[6339]: Accepted publickey for deploy from 10.0.8.203 port 45364 ssh2
+Oct 19 11:28:48 bkp-01 chronyd[6436]: Selected source 10.0.0.9
+Oct 19 15:40:23 bkp-01 systemd[1]: Started Session 411 of User deploy.
+Oct 19 20:22:20 bkp-01 CRON[4834]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 20 00:47:39 bkp-01 bacula-fd[1704]: backup job 1797 completed OK
+Oct 20 03:12:05 bkp-01 diskmon[2016]: /srv/wal used=83% (1.7T of 2.0T) threshold=85% OK
+Oct 20 04:53:29 bkp-01 CRON[6982]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 20 08:55:32 bkp-01 chronyd[6807]: Selected source 10.0.0.4
+Oct 21 01:03:51 bkp-01 CRON[2157]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 21 02:02:22 bkp-01 bacula-fd[2170]: backup job 1119 completed OK
 Oct 21 03:12:05 bkp-01 diskmon[3101]: /srv/wal used=84% (1.7T of 2.0T) threshold=85% OK
+Oct 21 04:04:46 bkp-01 bacula-fd[3926]: backup job 5729 completed OK
+Oct 21 19:45:48 bkp-01 chronyd[2392]: Selected source 10.0.0.5
+Oct 22 02:51:30 bkp-01 bacula-fd[3583]: backup job 3710 completed OK
+Oct 22 03:12:05 bkp-01 diskmon[2019]: /srv/wal used=85% (1.7T of 2.0T) threshold=85% WARNING
+Oct 22 04:09:58 bkp-01 CRON[3038]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 22 04:45:03 bkp-01 bacula-fd[1785]: backup job 6787 completed OK
+Oct 22 08:30:48 bkp-01 chronyd[7410]: Selected source 10.0.0.7
+Oct 22 14:22:19 bkp-01 systemd[1]: Started Session 412 of User deploy.
+Oct 22 18:11:31 bkp-01 sshd[8341]: Accepted publickey for deploy from 10.0.5.126 port 46991 ssh2
+Oct 23 03:12:05 bkp-01 diskmon[2022]: /srv/wal used=85% (1.7T of 2.0T) threshold=85% WARNING
+Oct 23 05:04:45 bkp-01 CRON[6387]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 23 05:37:10 bkp-01 bacula-fd[1174]: backup job 5048 completed OK
+Oct 23 08:16:14 bkp-01 systemd[1]: Started Session 427 of User deploy.
+Oct 23 10:16:41 bkp-01 sshd[1866]: Accepted publickey for deploy from 10.0.8.112 port 42247 ssh2
+Oct 23 16:50:26 bkp-01 chronyd[8585]: Selected source 10.0.0.4
+Oct 24 00:17:49 bkp-01 bacula-fd[1115]: backup job 3939 completed OK
+Oct 24 03:12:05 bkp-01 diskmon[2024]: /srv/wal used=86% (1.7T of 2.0T) threshold=85% WARNING
+Oct 24 10:59:09 bkp-01 chronyd[3733]: Selected source 10.0.0.9
+Oct 24 17:51:20 bkp-01 CRON[8932]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 25 02:16:04 bkp-01 bacula-fd[5926]: backup job 2829 completed OK
+Oct 25 02:41:45 bkp-01 chronyd[463]: Selected source 10.0.0.9
+Oct 25 03:12:05 bkp-01 diskmon[2027]: /srv/wal used=87% (1.7T of 2.0T) threshold=85% WARNING
+Oct 25 08:13:30 bkp-01 CRON[7889]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 00:32:42 bkp-01 bacula-fd[2028]: backup job 5956 completed OK
+Oct 26 00:57:24 bkp-01 bacula-fd[2248]: backup job 6504 completed OK
+Oct 26 00:58:35 bkp-01 chronyd[5381]: Selected source 10.0.0.7
+Oct 26 03:12:05 bkp-01 diskmon[2030]: /srv/wal used=88% (1.8T of 2.0T) threshold=85% WARNING
+Oct 26 12:59:03 bkp-01 sshd[3508]: Accepted publickey for deploy from 10.0.6.15 port 46976 ssh2
+Oct 26 13:38:41 bkp-01 systemd[1]: Started Session 432 of User deploy.
+Oct 27 03:12:05 bkp-01 diskmon[2031]: /srv/wal used=88% (1.8T of 2.0T) threshold=85% WARNING
+Oct 27 04:35:13 bkp-01 bacula-fd[5805]: backup job 6606 completed OK
+Oct 27 05:47:41 bkp-01 bacula-fd[2037]: backup job 8172 completed OK
+Oct 27 11:09:25 bkp-01 CRON[7492]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 27 11:51:29 bkp-01 chronyd[2635]: Selected source 10.0.0.8
+Oct 28 00:51:10 bkp-01 bacula-fd[9897]: backup job 2576 completed OK
+Oct 28 02:20:27 bkp-01 CRON[3085]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 02:24:07 bkp-01 chronyd[6724]: Selected source 10.0.0.3
+Oct 28 03:12:05 bkp-01 diskmon[2035]: /srv/wal used=89% (1.8T of 2.0T) threshold=85% WARNING
+Oct 28 20:41:43 bkp-01 sshd[7400]: Accepted publickey for deploy from 10.0.6.49 port 53183 ssh2
+Oct 29 03:12:05 bkp-01 diskmon[2036]: /srv/wal used=90% (1.8T of 2.0T) threshold=85% WARNING
+Oct 29 04:00:26 bkp-01 bacula-fd[5583]: backup job 5192 completed OK
+Oct 29 04:22:14 bkp-01 chronyd[9140]: Selected source 10.0.0.9
+Oct 29 12:43:43 bkp-01 systemd[1]: Started Session 462 of User deploy.
+Oct 29 16:59:02 bkp-01 CRON[9144]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 30 03:12:05 bkp-01 diskmon[2040]: /srv/wal used=90% (1.8T of 2.0T) threshold=85% WARNING
+Oct 30 05:19:03 bkp-01 bacula-fd[2086]: backup job 7986 completed OK
+Oct 30 09:36:12 bkp-01 chronyd[4662]: Selected source 10.0.0.9
+Oct 30 15:54:39 bkp-01 systemd[1]: Started Session 489 of User deploy.
+Oct 30 18:18:44 bkp-01 CRON[8440]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 30 19:20:25 bkp-01 sshd[9875]: Accepted publickey for deploy from 10.0.7.83 port 41294 ssh2
+Oct 31 00:16:55 bkp-01 bacula-fd[5129]: backup job 6146 completed OK
+Oct 31 02:47:21 bkp-01 bacula-fd[3459]: backup job 7224 completed OK
+Oct 31 03:12:05 bkp-01 diskmon[2042]: /srv/wal used=91% (1.8T of 2.0T) threshold=85% WARNING
+Oct 31 06:47:26 bkp-01 CRON[8468]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 31 07:36:05 bkp-01 systemd[1]: Started Session 517 of User deploy.
+Oct 31 07:38:51 bkp-01 chronyd[9650]: Selected source 10.0.0.3
+Nov  1 01:09:23 bkp-01 CRON[8572]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  1 03:10:23 bkp-01 bacula-fd[5039]: backup job 3821 completed OK
+Nov  1 03:12:05 bkp-01 diskmon[2046]: /srv/wal used=92% (1.8T of 2.0T) threshold=85% WARNING
+Nov  1 04:51:23 bkp-01 bacula-fd[5868]: backup job 9309 completed OK
+Nov  1 07:13:29 bkp-01 sshd[904]: Accepted publickey for deploy from 10.0.4.14 port 45324 ssh2
+Nov  1 23:23:51 bkp-01 chronyd[862]: Selected source 10.0.0.9
+Nov  2 03:12:05 bkp-01 diskmon[2050]: /srv/wal used=93% (1.9T of 2.0T) threshold=85% WARNING
+Nov  2 04:13:46 bkp-01 bacula-fd[4335]: backup job 3126 completed OK
+Nov  2 05:47:10 bkp-01 chronyd[767]: Selected source 10.0.0.7
+Nov  2 10:46:24 bkp-01 CRON[1348]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  3 03:12:05 bkp-01 diskmon[2051]: /srv/wal used=93% (1.9T of 2.0T) threshold=85% WARNING
+Nov  3 03:22:12 bkp-01 bacula-fd[8142]: backup job 7156 completed OK
+Nov  3 07:17:37 bkp-01 systemd[1]: Started Session 534 of User deploy.
+Nov  3 16:01:13 bkp-01 chronyd[7984]: Selected source 10.0.0.9
+Nov  3 23:29:24 bkp-01 CRON[4773]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  4 02:38:31 bkp-01 chronyd[1880]: Selected source 10.0.0.4
+Nov  4 03:12:05 bkp-01 diskmon[2053]: /srv/wal used=94% (1.9T of 2.0T) threshold=85% WARNING
+Nov  4 05:50:34 bkp-01 bacula-fd[7671]: backup job 1153 completed OK
+Nov  4 10:22:13 bkp-01 CRON[3314]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  4 11:28:10 bkp-01 sshd[6707]: Accepted publickey for deploy from 10.0.5.137 port 59545 ssh2
+Nov  5 03:12:05 bkp-01 diskmon[2054]: /srv/wal used=95% (1.9T of 2.0T) threshold=85% WARNING
+Nov  5 04:09:28 bkp-01 bacula-fd[2501]: backup job 3746 completed OK
+Nov  5 12:03:41 bkp-01 chronyd[4498]: Selected source 10.0.0.6
+Nov  5 12:33:14 bkp-01 CRON[694]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  5 16:22:23 bkp-01 sshd[2463]: Accepted publickey for deploy from 10.0.2.216 port 48539 ssh2
+Nov  6 01:22:41 bkp-01 CRON[9072]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  6 01:59:35 bkp-01 bacula-fd[2684]: backup job 5695 completed OK
+Nov  6 03:12:05 bkp-01 diskmon[2056]: /srv/wal used=95% (1.9T of 2.0T) threshold=85% WARNING
+Nov  6 16:16:35 bkp-01 sshd[8958]: Accepted publickey for deploy from 10.0.3.87 port 48704 ssh2
+Nov  6 19:40:27 bkp-01 systemd[1]: Started Session 543 of User deploy.
+Nov  6 19:55:48 bkp-01 chronyd[4302]: Selected source 10.0.0.9
+Nov  7 01:40:53 bkp-01 bacula-fd[1777]: backup job 5434 completed OK
+Nov  7 03:12:05 bkp-01 diskmon[2060]: /srv/wal used=96% (1.9T of 2.0T) threshold=85% WARNING
+Nov  7 03:55:33 bkp-01 bacula-fd[1280]: backup job 6678 completed OK
+Nov  7 07:17:53 bkp-01 sshd[646]: Accepted publickey for deploy from 10.0.7.180 port 56224 ssh2
+Nov  7 12:15:49 bkp-01 CRON[7811]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  7 17:58:03 bkp-01 systemd[1]: Started Session 569 of User deploy.
+Nov  7 20:15:53 bkp-01 chronyd[4104]: Selected source 10.0.0.9
+Nov  8 00:55:37 bkp-01 bacula-fd[6134]: backup job 1257 completed OK
+Nov  8 01:31:55 bkp-01 bacula-fd[7772]: backup job 7241 completed OK
+Nov  8 03:12:05 bkp-01 diskmon[2063]: /srv/wal used=97% (1.9T of 2.0T) threshold=85% WARNING
+Nov  8 12:02:26 bkp-01 CRON[8700]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  8 13:16:04 bkp-01 chronyd[3613]: Selected source 10.0.0.9
+Nov  9 01:37:03 bkp-01 bacula-fd[4869]: backup job 8195 completed OK
+Nov  9 03:12:05 bkp-01 diskmon[2067]: /srv/wal used=98% (2.0T of 2.0T) threshold=98% CRITICAL
+Nov  9 05:00:13 bkp-01 bacula-fd[3226]: backup job 6473 completed OK
+Nov  9 05:23:46 bkp-01 chronyd[5157]: Selected source 10.0.0.5
+Nov  9 08:24:22 bkp-01 sshd[1685]: Accepted publickey for deploy from 10.0.3.61 port 53429 ssh2
+Nov  9 08:26:49 bkp-01 CRON[6202]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  9 16:17:37 bkp-01 systemd[1]: Started Session 595 of User deploy.
+Nov 10 00:35:14 bkp-01 bacula-fd[8143]: backup job 8544 completed OK
+Nov 10 03:12:05 bkp-01 diskmon[2070]: /srv/wal used=98% (2.0T of 2.0T) threshold=98% CRITICAL
+Nov 10 03:37:42 bkp-01 bacula-fd[4740]: backup job 2185 completed OK
+Nov 10 11:00:27 bkp-01 sshd[4034]: Accepted publickey for deploy from 10.0.8.73 port 59759 ssh2
+Nov 10 12:08:19 bkp-01 chronyd[3447]: Selected source 10.0.0.4
+Nov 10 12:11:05 bkp-01 CRON[6729]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 11 02:50:05 bkp-01 bacula-fd[5429]: backup job 8335 completed OK
+Nov 11 03:12:05 bkp-01 diskmon[2071]: /srv/wal used=99% (2.0T of 2.0T) threshold=98% CRITICAL
+Nov 11 03:27:08 bkp-01 bacula-fd[3865]: backup job 6990 completed OK
+Nov 11 08:16:09 bkp-01 chronyd[5468]: Selected source 10.0.0.3
+Nov 11 16:43:51 bkp-01 systemd[1]: Started Session 624 of User deploy.
+Nov 11 19:19:19 bkp-01 sshd[617]: Accepted publickey for deploy from 10.0.6.154 port 48794 ssh2
+Nov 11 19:43:05 bkp-01 CRON[2967]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 12 01:18:03 bkp-01 bacula-fd[2699]: backup job 3857 completed OK
+Nov 12 03:12:05 bkp-01 diskmon[2074]: /srv/wal used=100% (2.0T of 2.0T) threshold=98% CRITICAL
+Nov 12 10:45:19 bkp-01 CRON[7645]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 12 17:15:41 bkp-01 systemd[1]: Started Session 630 of User deploy.
+Nov 12 19:00:53 bkp-01 chronyd[6687]: Selected source 10.0.0.9
+Nov 13 01:47:40 bkp-01 bacula-fd[6482]: backup job 5029 failed: write error on /srv/wal: No space left on device
+Nov 13 03:12:05 bkp-01 diskmon[2076]: /srv/wal used=100% (2.0T of 2.0T) threshold=98% CRITICAL
+Nov 13 05:18:44 bkp-01 bacula-fd[8900]: backup job 8025 failed: write error on /srv/wal: No space left on device
+Nov 13 09:18:20 bkp-01 chronyd[650]: Selected source 10.0.0.3
+Nov 13 09:56:36 bkp-01 sshd[3556]: Accepted publickey for deploy from 10.0.8.100 port 46329 ssh2
+Nov 13 12:14:33 bkp-01 rsyncd[7600]: rsync: [receiver] write failed on "/srv/wal/000000010000003B00000060": No space left on device (28)
+Nov 14 01:04:13 bkp-01 CRON[4948]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 14 03:12:05 bkp-01 diskmon[2080]: /srv/wal used=100% (2.0T of 2.0T) threshold=98% CRITICAL
+Nov 14 04:10:32 bkp-01 bacula-fd[8898]: backup job 4699 failed: write error on /srv/wal: No space left on device
+Nov 14 15:17:43 bkp-01 chronyd[9092]: Selected source 10.0.0.8
+Nov 15 03:12:05 bkp-01 diskmon[2082]: /srv/wal used=100% (2.0T of 2.0T) threshold=98% CRITICAL
+Nov 15 03:26:59 bkp-01 bacula-fd[9965]: backup job 9209 failed: write error on /srv/wal: No space left on device
+Nov 15 04:35:14 bkp-01 bacula-fd[2852]: backup job 5312 failed: write error on /srv/wal: No space left on device
+Nov 15 08:47:47 bkp-01 CRON[4529]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 15 16:26:19 bkp-01 sshd[6045]: Accepted publickey for deploy from 10.0.3.87 port 58014 ssh2
+Nov 15 18:52:11 bkp-01 chronyd[3210]: Selected source 10.0.0.8
+Nov 16 01:38:13 bkp-01 bacula-fd[8962]: backup job 5713 failed: write error on /srv/wal: No space left on device
+Nov 16 03:12:05 bkp-01 diskmon[2085]: /srv/wal used=100% (2.0T of 2.0T) threshold=98% CRITICAL
+Nov 16 05:03:12 bkp-01 chronyd[9038]: Selected source 10.0.0.4
+Nov 16 09:34:07 bkp-01 systemd[1]: Started Session 659 of User deploy.
+Nov 16 14:14:15 bkp-01 sshd[4648]: Accepted publickey for deploy from 10.0.4.136 port 55523 ssh2
+Nov 16 18:38:14 bkp-01 CRON[3473]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 17 02:42:51 bkp-01 bacula-fd[8632]: backup job 2082 failed: write error on /srv/wal: No space left on device
+Nov 17 03:12:05 bkp-01 diskmon[2088]: /srv/wal used=100% (2.0T of 2.0T) threshold=98% CRITICAL
+Nov 17 03:33:35 bkp-01 bacula-fd[6759]: backup job 9468 failed: write error on /srv/wal: No space left on device
+Nov 17 04:14:47 bkp-01 CRON[4902]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 17 07:36:58 bkp-01 systemd[1]: Started Session 662 of User deploy.
+Nov 17 07:41:45 bkp-01 chronyd[5101]: Selected source 10.0.0.4
+Nov 18 03:12:05 bkp-01 diskmon[2092]: /srv/wal used=100% (2.0T of 2.0T) threshold=98% CRITICAL
+Nov 18 03:59:41 bkp-01 bacula-fd[5739]: backup job 2074 failed: write error on /srv/wal: No space left on device
+Nov 18 05:49:26 bkp-01 CRON[4541]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 18 10:42:45 bkp-01 chronyd[4692]: Selected source 10.0.0.6
+Nov 19 03:04:44 bkp-01 CRON[1953]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 19 03:12:05 bkp-01 diskmon[2095]: /srv/wal used=100% (2.0T of 2.0T) threshold=98% CRITICAL
+Nov 19 05:20:08 bkp-01 bacula-fd[6078]: backup job 6078 failed: write error on /srv/wal: No space left on device

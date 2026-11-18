@@ -1,9 +1,287 @@
+Oct  5 03:12:19 api-prd-02 diskmon[2734]: / used=39% (16G of 40G) threshold=85% OK
+Oct  5 10:03:36 api-prd-02 systemd[1]: Started Session 639 of User deploy.
+Oct  5 11:55:06 api-prd-02 nginx[911]: GET /v1/shipments/32709 200 139ms
 Oct  5 12:16:48 api-prd-02 api-gateway[1433]: INFO cache hit ratio 85%
+Oct  5 13:54:44 api-prd-02 chronyd[9207]: Selected source 10.0.0.3
+Oct  5 19:20:58 api-prd-02 sshd[3683]: Accepted publickey for deploy from 10.0.8.56 port 44871 ssh2
+Oct  5 19:45:39 api-prd-02 api-gateway[1433]: INFO cache hit ratio 75%
+Oct  6 03:12:19 api-prd-02 diskmon[2735]: / used=39% (16G of 40G) threshold=85% OK
+Oct  6 04:39:43 api-prd-02 CRON[9755]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 06:53:44 api-prd-02 nginx[911]: GET /v1/shipments/36961 200 34ms
+Oct  6 09:04:14 api-prd-02 sshd[887]: Accepted publickey for deploy from 10.0.7.43 port 45345 ssh2
 Oct  6 10:55:40 api-prd-02 nginx[911]: GET /v1/shipments/69768 200 62ms
 Oct  6 15:12:48 api-prd-02 nginx[911]: GET /v1/shipments/78710 200 243ms
 Oct  6 16:48:04 api-prd-02 api-gateway[1433]: INFO cache hit ratio 84%
+Oct  6 17:48:13 api-prd-02 systemd[1]: Started Session 652 of User deploy.
+Oct  6 18:38:06 api-prd-02 api-gateway[1433]: INFO cache hit ratio 74%
+Oct  6 20:21:24 api-prd-02 chronyd[4339]: Selected source 10.0.0.8
 Oct  6 23:51:20 api-prd-02 api-gateway[1433]: INFO cache hit ratio 97%
 Oct  7 00:00:56 api-prd-02 chronyd[833]: Selected source 10.0.0.8
+Oct  7 00:27:15 api-prd-02 CRON[1635]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 02:42:15 api-prd-02 nginx[911]: GET /v1/shipments/40376 200 95ms
+Oct  7 03:12:19 api-prd-02 diskmon[2736]: / used=39% (16G of 40G) threshold=85% OK
 Oct  7 06:33:09 api-prd-02 sshd[1277]: Accepted publickey for deploy from 10.0.9.157 port 43790 ssh2
 Oct  7 08:51:32 api-prd-02 nginx[911]: GET /v1/shipments/26831 200 16ms
 Oct  7 13:21:02 api-prd-02 nginx[911]: GET /v1/shipments/77634 200 41ms
+Oct  7 19:11:07 api-prd-02 api-gateway[1433]: INFO cache hit ratio 88%
+Oct  7 21:00:20 api-prd-02 chronyd[4280]: Selected source 10.0.0.7
+Oct  8 03:12:19 api-prd-02 diskmon[2740]: / used=39% (16G of 40G) threshold=85% OK
+Oct  8 08:52:11 api-prd-02 CRON[3160]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  8 13:20:34 api-prd-02 api-gateway[1433]: INFO cache hit ratio 71%
+Oct  8 17:12:05 api-prd-02 chronyd[3164]: Selected source 10.0.0.3
+Oct  8 19:33:09 api-prd-02 systemd[1]: Started Session 653 of User deploy.
+Oct  8 20:04:34 api-prd-02 nginx[911]: GET /v1/shipments/26535 200 54ms
+Oct  9 03:12:19 api-prd-02 diskmon[2741]: / used=40% (16G of 40G) threshold=85% OK
+Oct  9 14:17:13 api-prd-02 systemd[1]: Started Session 678 of User deploy.
+Oct  9 17:39:15 api-prd-02 chronyd[2090]: Selected source 10.0.0.6
+Oct  9 19:09:45 api-prd-02 nginx[911]: GET /v1/shipments/75376 200 165ms
+Oct  9 21:13:19 api-prd-02 api-gateway[1433]: INFO cache hit ratio 67%
+Oct  9 21:21:43 api-prd-02 CRON[7297]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 10 02:41:23 api-prd-02 chronyd[5080]: Selected source 10.0.0.5
+Oct 10 03:12:19 api-prd-02 diskmon[2744]: / used=39% (16G of 40G) threshold=85% OK
+Oct 10 12:29:47 api-prd-02 nginx[911]: GET /v1/shipments/75380 200 71ms
+Oct 10 17:11:56 api-prd-02 systemd[1]: Started Session 703 of User deploy.
+Oct 10 17:25:21 api-prd-02 api-gateway[1433]: INFO cache hit ratio 80%
+Oct 10 19:50:24 api-prd-02 sshd[6060]: Accepted publickey for deploy from 10.0.6.180 port 42881 ssh2
+Oct 11 02:30:57 api-prd-02 CRON[6540]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 11 03:12:19 api-prd-02 diskmon[2747]: / used=39% (16G of 40G) threshold=85% OK
+Oct 11 11:09:41 api-prd-02 api-gateway[1433]: INFO cache hit ratio 62%
+Oct 11 12:28:36 api-prd-02 nginx[911]: GET /v1/shipments/86994 200 57ms
+Oct 11 18:09:07 api-prd-02 chronyd[4609]: Selected source 10.0.0.9
+Oct 12 03:12:19 api-prd-02 diskmon[2748]: / used=39% (16G of 40G) threshold=85% OK
+Oct 12 08:57:19 api-prd-02 systemd[1]: Started Session 708 of User deploy.
+Oct 12 15:21:09 api-prd-02 chronyd[2299]: Selected source 10.0.0.3
+Oct 12 15:48:34 api-prd-02 nginx[911]: GET /v1/shipments/20168 200 38ms
+Oct 12 18:45:46 api-prd-02 CRON[5604]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 12 23:21:53 api-prd-02 api-gateway[1433]: INFO cache hit ratio 78%
+Oct 13 03:12:19 api-prd-02 diskmon[2752]: / used=38% (15G of 40G) threshold=85% OK
+Oct 13 09:49:48 api-prd-02 api-gateway[1433]: INFO cache hit ratio 65%
+Oct 13 11:48:00 api-prd-02 systemd[1]: Started Session 720 of User deploy.
+Oct 13 17:07:34 api-prd-02 nginx[911]: GET /v1/shipments/97609 200 69ms
+Oct 13 17:39:54 api-prd-02 chronyd[2148]: Selected source 10.0.0.3
+Oct 14 02:59:50 api-prd-02 chronyd[7670]: Selected source 10.0.0.7
+Oct 14 03:12:19 api-prd-02 diskmon[2756]: / used=38% (15G of 40G) threshold=85% OK
+Oct 14 03:53:13 api-prd-02 api-gateway[1433]: INFO cache hit ratio 88%
+Oct 14 11:21:06 api-prd-02 nginx[911]: GET /v1/shipments/95208 200 67ms
+Oct 15 02:22:24 api-prd-02 nginx[911]: GET /v1/shipments/49361 200 24ms
+Oct 15 03:12:19 api-prd-02 diskmon[2758]: / used=39% (16G of 40G) threshold=85% OK
+Oct 15 04:21:35 api-prd-02 chronyd[9140]: Selected source 10.0.0.6
+Oct 15 08:54:18 api-prd-02 api-gateway[1433]: INFO cache hit ratio 76%
+Oct 15 12:49:50 api-prd-02 systemd[1]: Started Session 733 of User deploy.
+Oct 15 16:31:11 api-prd-02 sshd[4427]: Accepted publickey for deploy from 10.0.6.209 port 48918 ssh2
+Oct 15 21:10:01 api-prd-02 CRON[3879]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 16 03:12:19 api-prd-02 diskmon[2761]: / used=39% (16G of 40G) threshold=85% OK
+Oct 16 10:08:32 api-prd-02 sshd[7625]: Accepted publickey for deploy from 10.0.7.192 port 45444 ssh2
+Oct 16 10:18:56 api-prd-02 nginx[911]: GET /v1/shipments/33473 200 152ms
+Oct 16 16:12:22 api-prd-02 api-gateway[1433]: INFO cache hit ratio 66%
+Oct 16 16:16:50 api-prd-02 chronyd[3682]: Selected source 10.0.0.5
+Oct 16 19:53:19 api-prd-02 systemd[1]: Started Session 734 of User deploy.
+Oct 16 21:29:33 api-prd-02 CRON[3646]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 17 03:12:19 api-prd-02 diskmon[2765]: / used=39% (16G of 40G) threshold=85% OK
+Oct 17 04:08:21 api-prd-02 nginx[911]: GET /v1/shipments/43956 200 82ms
+Oct 17 08:46:59 api-prd-02 sshd[7541]: Accepted publickey for deploy from 10.0.7.226 port 48577 ssh2
+Oct 17 09:14:08 api-prd-02 systemd[1]: Started Session 735 of User deploy.
+Oct 17 10:22:44 api-prd-02 api-gateway[1433]: INFO cache hit ratio 84%
+Oct 17 11:49:57 api-prd-02 CRON[2796]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 17 12:35:31 api-prd-02 chronyd[2492]: Selected source 10.0.0.6
+Oct 18 03:12:19 api-prd-02 diskmon[2768]: / used=41% (16G of 40G) threshold=85% OK
+Oct 18 06:43:19 api-prd-02 CRON[883]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 18 11:35:24 api-prd-02 nginx[911]: GET /v1/shipments/72043 200 73ms
+Oct 18 12:07:58 api-prd-02 chronyd[6418]: Selected source 10.0.0.6
+Oct 18 15:25:56 api-prd-02 sshd[1234]: Accepted publickey for deploy from 10.0.3.204 port 43459 ssh2
+Oct 18 22:18:58 api-prd-02 api-gateway[1433]: INFO cache hit ratio 83%
+Oct 19 03:12:19 api-prd-02 diskmon[2771]: / used=40% (16G of 40G) threshold=85% OK
+Oct 19 09:50:01 api-prd-02 systemd[1]: Started Session 752 of User deploy.
+Oct 19 11:52:05 api-prd-02 api-gateway[1433]: INFO cache hit ratio 68%
+Oct 19 16:04:06 api-prd-02 chronyd[7028]: Selected source 10.0.0.8
+Oct 19 22:48:46 api-prd-02 nginx[911]: GET /v1/shipments/11370 200 63ms
+Oct 20 03:12:19 api-prd-02 diskmon[2774]: / used=40% (16G of 40G) threshold=85% OK
+Oct 20 06:27:01 api-prd-02 CRON[6697]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 20 08:24:24 api-prd-02 api-gateway[1433]: INFO cache hit ratio 63%
+Oct 20 10:53:42 api-prd-02 systemd[1]: Started Session 753 of User deploy.
+Oct 20 14:56:55 api-prd-02 sshd[4180]: Accepted publickey for deploy from 10.0.8.127 port 42213 ssh2
+Oct 20 18:31:33 api-prd-02 nginx[911]: GET /v1/shipments/93609 200 137ms
+Oct 20 23:24:06 api-prd-02 chronyd[909]: Selected source 10.0.0.5
+Oct 21 03:12:19 api-prd-02 diskmon[2778]: / used=41% (16G of 40G) threshold=85% OK
+Oct 21 14:18:00 api-prd-02 chronyd[8118]: Selected source 10.0.0.3
+Oct 21 17:21:00 api-prd-02 sshd[8505]: Accepted publickey for deploy from 10.0.4.15 port 52923 ssh2
+Oct 21 18:02:14 api-prd-02 systemd[1]: Started Session 781 of User deploy.
+Oct 21 22:30:03 api-prd-02 api-gateway[1433]: INFO cache hit ratio 72%
+Oct 21 23:45:13 api-prd-02 nginx[911]: GET /v1/shipments/70540 200 180ms
+Oct 22 03:12:19 api-prd-02 diskmon[2782]: / used=39% (16G of 40G) threshold=85% OK
+Oct 22 05:39:05 api-prd-02 api-gateway[1433]: INFO cache hit ratio 63%
+Oct 22 10:24:37 api-prd-02 nginx[911]: GET /v1/shipments/59728 200 176ms
+Oct 22 11:09:32 api-prd-02 CRON[9405]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 22 20:00:20 api-prd-02 chronyd[2211]: Selected source 10.0.0.8
+Oct 23 01:01:28 api-prd-02 nginx[911]: GET /v1/shipments/72815 200 106ms
+Oct 23 02:46:44 api-prd-02 chronyd[7030]: Selected source 10.0.0.6
+Oct 23 03:12:19 api-prd-02 diskmon[2786]: / used=40% (16G of 40G) threshold=85% OK
+Oct 23 05:20:59 api-prd-02 CRON[2759]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 23 16:18:54 api-prd-02 systemd[1]: Started Session 797 of User deploy.
+Oct 23 19:39:18 api-prd-02 sshd[5474]: Accepted publickey for deploy from 10.0.8.92 port 56355 ssh2
+Oct 23 21:51:17 api-prd-02 api-gateway[1433]: INFO cache hit ratio 65%
+Oct 24 02:08:21 api-prd-02 api-gateway[1433]: INFO cache hit ratio 79%
+Oct 24 03:12:19 api-prd-02 diskmon[2789]: / used=40% (16G of 40G) threshold=85% OK
+Oct 24 12:20:40 api-prd-02 nginx[911]: GET /v1/shipments/95705 200 60ms
+Oct 24 13:17:10 api-prd-02 chronyd[7385]: Selected source 10.0.0.5
+Oct 24 16:30:45 api-prd-02 CRON[1687]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 24 17:11:56 api-prd-02 systemd[1]: Started Session 812 of User deploy.
+Oct 25 03:12:19 api-prd-02 diskmon[2790]: / used=40% (16G of 40G) threshold=85% OK
+Oct 25 06:34:15 api-prd-02 CRON[5576]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 25 11:12:45 api-prd-02 chronyd[8803]: Selected source 10.0.0.4
+Oct 25 11:51:19 api-prd-02 systemd[1]: Started Session 825 of User deploy.
+Oct 25 15:07:43 api-prd-02 nginx[911]: GET /v1/shipments/86912 200 88ms
+Oct 25 16:19:20 api-prd-02 api-gateway[1433]: INFO cache hit ratio 69%
+Oct 26 01:49:06 api-prd-02 nginx[911]: GET /v1/shipments/60187 200 171ms
+Oct 26 03:12:19 api-prd-02 diskmon[2793]: / used=40% (16G of 40G) threshold=85% OK
+Oct 26 05:43:34 api-prd-02 api-gateway[1433]: INFO cache hit ratio 68%
+Oct 26 06:03:49 api-prd-02 chronyd[2087]: Selected source 10.0.0.4
+Oct 26 13:25:13 api-prd-02 sshd[5931]: Accepted publickey for deploy from 10.0.7.85 port 46288 ssh2
+Oct 26 16:24:27 api-prd-02 systemd[1]: Started Session 830 of User deploy.
+Oct 26 16:25:06 api-prd-02 CRON[7149]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 27 03:12:19 api-prd-02 diskmon[2795]: / used=39% (16G of 40G) threshold=85% OK
+Oct 27 03:30:43 api-prd-02 chronyd[7048]: Selected source 10.0.0.5
+Oct 27 12:15:42 api-prd-02 sshd[2323]: Accepted publickey for deploy from 10.0.3.43 port 49438 ssh2
+Oct 27 16:54:59 api-prd-02 nginx[911]: GET /v1/shipments/62823 200 160ms
+Oct 27 22:54:28 api-prd-02 api-gateway[1433]: INFO cache hit ratio 79%
+Oct 28 02:57:00 api-prd-02 nginx[911]: GET /v1/shipments/59158 200 103ms
+Oct 28 03:12:19 api-prd-02 diskmon[2797]: / used=40% (16G of 40G) threshold=85% OK
+Oct 28 08:00:33 api-prd-02 CRON[1711]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 09:48:12 api-prd-02 systemd[1]: Started Session 835 of User deploy.
+Oct 28 12:54:13 api-prd-02 chronyd[5613]: Selected source 10.0.0.4
+Oct 28 15:53:34 api-prd-02 api-gateway[1433]: INFO cache hit ratio 62%
+Oct 28 20:55:25 api-prd-02 sshd[2617]: Accepted publickey for deploy from 10.0.8.177 port 54552 ssh2
+Oct 29 01:00:05 api-prd-02 nginx[911]: GET /v1/shipments/39091 200 119ms
+Oct 29 01:59:38 api-prd-02 CRON[5717]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 29 03:12:19 api-prd-02 diskmon[2801]: / used=39% (16G of 40G) threshold=85% OK
+Oct 29 12:22:30 api-prd-02 api-gateway[1433]: INFO cache hit ratio 77%
+Oct 29 13:21:58 api-prd-02 chronyd[6170]: Selected source 10.0.0.9
+Oct 29 13:38:25 api-prd-02 systemd[1]: Started Session 841 of User deploy.
+Oct 30 00:02:27 api-prd-02 api-gateway[1433]: INFO cache hit ratio 76%
+Oct 30 03:12:19 api-prd-02 diskmon[2805]: / used=40% (16G of 40G) threshold=85% OK
+Oct 30 08:08:28 api-prd-02 CRON[5888]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 30 10:51:18 api-prd-02 sshd[4001]: Accepted publickey for deploy from 10.0.4.179 port 41891 ssh2
+Oct 30 17:26:49 api-prd-02 nginx[911]: GET /v1/shipments/91789 200 69ms
+Oct 30 20:31:43 api-prd-02 chronyd[2612]: Selected source 10.0.0.7
+Oct 31 02:59:37 api-prd-02 chronyd[2180]: Selected source 10.0.0.9
+Oct 31 03:12:19 api-prd-02 diskmon[2809]: / used=41% (16G of 40G) threshold=85% OK
+Oct 31 07:04:31 api-prd-02 sshd[9712]: Accepted publickey for deploy from 10.0.7.72 port 55756 ssh2
+Oct 31 15:51:50 api-prd-02 api-gateway[1433]: INFO cache hit ratio 85%
+Oct 31 20:48:36 api-prd-02 nginx[911]: GET /v1/shipments/35794 200 114ms
+Oct 31 21:20:01 api-prd-02 CRON[9931]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  1 03:12:19 api-prd-02 diskmon[2811]: / used=42% (17G of 40G) threshold=85% OK
+Nov  1 10:08:45 api-prd-02 api-gateway[1433]: INFO cache hit ratio 81%
+Nov  1 10:10:48 api-prd-02 systemd[1]: Started Session 871 of User deploy.
+Nov  1 17:46:40 api-prd-02 CRON[1151]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  1 18:43:58 api-prd-02 sshd[4752]: Accepted publickey for deploy from 10.0.4.159 port 55597 ssh2
+Nov  1 20:43:22 api-prd-02 nginx[911]: GET /v1/shipments/38288 200 113ms
+Nov  1 21:57:25 api-prd-02 chronyd[4775]: Selected source 10.0.0.4
+Nov  2 01:02:36 api-prd-02 CRON[7152]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  2 03:12:19 api-prd-02 diskmon[2814]: / used=41% (16G of 40G) threshold=85% OK
+Nov  2 10:15:42 api-prd-02 api-gateway[1433]: INFO cache hit ratio 76%
+Nov  2 10:41:42 api-prd-02 nginx[911]: GET /v1/shipments/85369 200 96ms
+Nov  2 12:13:33 api-prd-02 chronyd[4098]: Selected source 10.0.0.7
+Nov  3 03:12:19 api-prd-02 diskmon[2816]: / used=41% (16G of 40G) threshold=85% OK
+Nov  3 03:35:39 api-prd-02 nginx[911]: GET /v1/shipments/21737 200 152ms
+Nov  3 03:45:36 api-prd-02 api-gateway[1433]: INFO cache hit ratio 65%
+Nov  3 11:02:53 api-prd-02 CRON[4192]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  3 11:23:47 api-prd-02 systemd[1]: Started Session 877 of User deploy.
+Nov  3 14:20:03 api-prd-02 sshd[2396]: Accepted publickey for deploy from 10.0.8.185 port 50762 ssh2
+Nov  3 19:55:02 api-prd-02 chronyd[8587]: Selected source 10.0.0.9
+Nov  4 03:12:19 api-prd-02 diskmon[2817]: / used=41% (16G of 40G) threshold=85% OK
+Nov  4 08:13:52 api-prd-02 sshd[6307]: Accepted publickey for deploy from 10.0.4.193 port 52633 ssh2
+Nov  4 08:30:42 api-prd-02 nginx[911]: GET /v1/shipments/70471 200 57ms
+Nov  4 09:52:50 api-prd-02 systemd[1]: Started Session 896 of User deploy.
+Nov  4 12:32:26 api-prd-02 api-gateway[1433]: INFO cache hit ratio 69%
+Nov  4 17:24:20 api-prd-02 CRON[997]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  4 22:09:12 api-prd-02 ansible-ansible.legacy.dnf[2733]: Invoked with name=['openssh-server', 'openssh-clients'] state=latest update_only=True
+Nov  4 22:09:49 api-prd-02 sshd[8509]: Server listening on 0.0.0.0 port 22.
+Nov  4 22:17:13 api-prd-02 chronyd[2371]: Selected source 10.0.0.8
+Nov  5 03:12:19 api-prd-02 diskmon[2818]: / used=41% (16G of 40G) threshold=85% OK
+Nov  5 06:51:56 api-prd-02 api-gateway[1433]: INFO cache hit ratio 63%
+Nov  5 08:14:31 api-prd-02 CRON[1670]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  5 10:23:05 api-prd-02 chronyd[7946]: Selected source 10.0.0.9
+Nov  5 13:16:19 api-prd-02 nginx[911]: GET /v1/shipments/84205 200 146ms
+Nov  5 14:55:27 api-prd-02 sshd[660]: Accepted publickey for deploy from 10.0.8.226 port 47352 ssh2
+Nov  5 19:45:56 api-prd-02 systemd[1]: Started Session 911 of User deploy.
+Nov  6 03:12:19 api-prd-02 diskmon[2820]: / used=42% (17G of 40G) threshold=85% OK
+Nov  6 18:54:49 api-prd-02 chronyd[8894]: Selected source 10.0.0.4
+Nov  6 19:59:49 api-prd-02 nginx[911]: GET /v1/shipments/91770 200 104ms
+Nov  6 20:25:01 api-prd-02 api-gateway[1433]: INFO cache hit ratio 81%
+Nov  6 22:07:53 api-prd-02 CRON[2571]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  7 03:12:19 api-prd-02 diskmon[2823]: / used=40% (16G of 40G) threshold=85% OK
+Nov  7 07:23:19 api-prd-02 systemd[1]: Started Session 929 of User deploy.
+Nov  7 10:51:51 api-prd-02 api-gateway[1433]: INFO cache hit ratio 80%
+Nov  7 11:18:47 api-prd-02 chronyd[542]: Selected source 10.0.0.5
+Nov  7 11:50:18 api-prd-02 CRON[5008]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  7 22:15:59 api-prd-02 nginx[911]: GET /v1/shipments/53829 200 130ms
+Nov  8 03:12:19 api-prd-02 diskmon[2827]: / used=42% (17G of 40G) threshold=85% OK
+Nov  8 04:34:10 api-prd-02 api-gateway[1433]: INFO cache hit ratio 80%
+Nov  8 07:18:13 api-prd-02 systemd[1]: Started Session 945 of User deploy.
+Nov  8 11:36:17 api-prd-02 sshd[5333]: Accepted publickey for deploy from 10.0.7.118 port 54817 ssh2
+Nov  8 19:26:25 api-prd-02 nginx[911]: GET /v1/shipments/51509 200 69ms
+Nov  8 20:19:46 api-prd-02 chronyd[9826]: Selected source 10.0.0.5
+Nov  9 03:12:19 api-prd-02 diskmon[2828]: / used=41% (16G of 40G) threshold=85% OK
+Nov  9 03:44:55 api-prd-02 api-gateway[1433]: INFO cache hit ratio 87%
+Nov  9 07:31:04 api-prd-02 CRON[7716]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  9 09:35:51 api-prd-02 chronyd[1689]: Selected source 10.0.0.3
+Nov  9 13:44:13 api-prd-02 nginx[911]: GET /v1/shipments/26054 200 122ms
+Nov  9 14:20:16 api-prd-02 sshd[6320]: Accepted publickey for deploy from 10.0.5.40 port 45049 ssh2
+Nov  9 18:13:55 api-prd-02 systemd[1]: Started Session 950 of User deploy.
+Nov 10 03:12:19 api-prd-02 diskmon[2831]: / used=40% (16G of 40G) threshold=85% OK
+Nov 10 07:03:33 api-prd-02 nginx[911]: GET /v1/shipments/92590 200 24ms
+Nov 10 12:30:51 api-prd-02 CRON[2128]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 10 17:01:21 api-prd-02 systemd[1]: Started Session 976 of User deploy.
+Nov 10 19:21:35 api-prd-02 chronyd[3517]: Selected source 10.0.0.9
+Nov 10 19:44:19 api-prd-02 api-gateway[1433]: INFO cache hit ratio 80%
+Nov 11 01:20:21 api-prd-02 api-gateway[1433]: INFO cache hit ratio 87%
+Nov 11 03:12:19 api-prd-02 diskmon[2834]: / used=41% (16G of 40G) threshold=85% OK
+Nov 11 05:06:44 api-prd-02 chronyd[8805]: Selected source 10.0.0.3
+Nov 11 06:51:17 api-prd-02 nginx[911]: GET /v1/shipments/57068 200 24ms
+Nov 12 00:24:52 api-prd-02 chronyd[6710]: Selected source 10.0.0.6
+Nov 12 03:12:19 api-prd-02 diskmon[2836]: / used=43% (17G of 40G) threshold=85% OK
+Nov 12 03:24:51 api-prd-02 CRON[1475]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 12 07:41:54 api-prd-02 nginx[911]: GET /v1/shipments/70490 200 180ms
+Nov 12 07:57:58 api-prd-02 systemd[1]: Started Session 983 of User deploy.
+Nov 12 14:57:48 api-prd-02 sshd[8914]: Accepted publickey for deploy from 10.0.3.51 port 53132 ssh2
+Nov 12 23:55:00 api-prd-02 api-gateway[1433]: INFO cache hit ratio 62%
+Nov 13 03:05:53 api-prd-02 api-gateway[1433]: INFO cache hit ratio 73%
+Nov 13 03:12:19 api-prd-02 diskmon[2838]: / used=42% (17G of 40G) threshold=85% OK
+Nov 13 14:02:37 api-prd-02 systemd[1]: Started Session 996 of User deploy.
+Nov 13 14:18:13 api-prd-02 nginx[911]: GET /v1/shipments/69041 200 151ms
+Nov 13 19:30:03 api-prd-02 chronyd[9085]: Selected source 10.0.0.9
+Nov 13 20:12:36 api-prd-02 CRON[1092]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 14 00:55:45 api-prd-02 chronyd[6420]: Selected source 10.0.0.6
+Nov 14 03:12:19 api-prd-02 diskmon[2842]: / used=41% (16G of 40G) threshold=85% OK
+Nov 14 09:01:41 api-prd-02 nginx[911]: GET /v1/shipments/42480 200 96ms
+Nov 14 09:10:02 api-prd-02 CRON[6689]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 14 15:13:42 api-prd-02 systemd[1]: Started Session 1006 of User deploy.
+Nov 14 15:16:33 api-prd-02 sshd[9396]: Accepted publickey for deploy from 10.0.5.65 port 45523 ssh2
+Nov 14 20:47:44 api-prd-02 api-gateway[1433]: INFO cache hit ratio 65%
+Nov 15 03:12:19 api-prd-02 diskmon[2843]: / used=43% (17G of 40G) threshold=85% OK
+Nov 15 09:23:13 api-prd-02 nginx[911]: GET /v1/shipments/84548 200 22ms
+Nov 15 15:25:31 api-prd-02 api-gateway[1433]: INFO cache hit ratio 78%
+Nov 15 15:48:59 api-prd-02 sshd[8152]: Accepted publickey for deploy from 10.0.3.225 port 53224 ssh2
+Nov 15 15:59:15 api-prd-02 chronyd[8728]: Selected source 10.0.0.5
+Nov 15 17:00:13 api-prd-02 systemd[1]: Started Session 1031 of User deploy.
+Nov 15 18:46:18 api-prd-02 CRON[9859]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 16 03:12:19 api-prd-02 diskmon[2847]: / used=42% (17G of 40G) threshold=85% OK
+Nov 16 05:45:42 api-prd-02 api-gateway[1433]: INFO cache hit ratio 73%
+Nov 16 10:01:42 api-prd-02 systemd[1]: Started Session 1040 of User deploy.
+Nov 16 15:08:17 api-prd-02 sshd[2602]: Accepted publickey for deploy from 10.0.5.39 port 57952 ssh2
+Nov 16 15:37:26 api-prd-02 nginx[911]: GET /v1/shipments/87370 200 70ms
+Nov 16 18:39:27 api-prd-02 CRON[8584]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 16 23:50:14 api-prd-02 chronyd[9296]: Selected source 10.0.0.3
+Nov 17 03:12:19 api-prd-02 diskmon[2849]: / used=43% (17G of 40G) threshold=85% OK
+Nov 17 08:06:22 api-prd-02 CRON[6796]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 17 08:30:36 api-prd-02 nginx[911]: GET /v1/shipments/21952 200 121ms
+Nov 17 10:32:12 api-prd-02 sshd[6170]: Accepted publickey for deploy from 10.0.2.162 port 48229 ssh2
+Nov 17 21:06:21 api-prd-02 chronyd[5394]: Selected source 10.0.0.3
+Nov 17 21:16:55 api-prd-02 api-gateway[1433]: INFO cache hit ratio 76%
+Nov 18 03:12:19 api-prd-02 diskmon[2853]: / used=41% (16G of 40G) threshold=85% OK
+Nov 18 04:46:50 api-prd-02 chronyd[4639]: Selected source 10.0.0.8
+Nov 18 12:37:26 api-prd-02 api-gateway[1433]: INFO cache hit ratio 75%
+Nov 18 13:13:04 api-prd-02 nginx[911]: GET /v1/shipments/67518 200 20ms
+Nov 19 03:12:19 api-prd-02 diskmon[2855]: / used=42% (17G of 40G) threshold=85% OK
+Nov 19 03:18:02 api-prd-02 chronyd[2575]: Selected source 10.0.0.4
+Nov 19 06:55:56 api-prd-02 CRON[5190]: (root) CMD (/usr/local/bin/health-report.sh)

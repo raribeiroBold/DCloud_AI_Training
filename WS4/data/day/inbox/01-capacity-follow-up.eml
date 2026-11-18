@@ -1,0 +1,15 @@
+From: Ana Costa <ana.costa@corp.example>
+To: you@corp.example
+Subject: Capacity numbers for today's follow-up
+Date: Wed, 18 Nov 2026 18:44:02 +0000
+Message-ID: <01-capacity-follow-up@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi,
+
+For the capacity follow-up tomorrow at 14:00 I need two lines: for db-prd-02, the current usage of the PostgreSQL volume and when it will be full at the current rate; and the same for /srv/wal on bkp-01. Before 13:00, please, so I can add them to the slides.
+
+Thanks,
+Ana

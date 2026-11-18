@@ -7,7 +7,10 @@ The K+N operations training folder: the logs and runbooks of our hosts, and the 
 - runbooks/: RB-01.html to RB-10.html, one procedure each, also indexed in the runbooks collection of the rag server.
 - tickets/: draft tickets. The create_ticket tool writes them here.
 - notes/: notes the agents keep between sessions. Not in Git.
-- data/day/: one working day, Wednesday 21 October 2026, exported from Outlook: calendar.ics and inbox/ (one .eml file per mail).
+- data/day/: one working day, Thursday 19 November 2026 (today), exported from Outlook: calendar.ics and inbox/ (one .eml file per mail).
+- data/mail-archive/: older mails, 5 October to 18 November 2026, one .eml file per mail, the date and time at the start of the file name.
+- data/jsm/: export of the JSM tickets: index.csv (one line per ticket) and <key>.md (for example data/jsm/INC-20934.md).
+- data/applogs/: application logs (billing on app-prd-03).
 
 ## How to work here
 - For a question about a host, read logs/<host>.log first. Do not search for the words of the question.

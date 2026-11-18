@@ -1,0 +1,16 @@
+From: Change Management <change.management@corp.example>
+To: you@corp.example
+Subject: CHG-4170 approved: OS patching on bkp-01
+Date: Thu, 15 Oct 2026 16:40:00 +0100
+Message-ID: <202610151640-chg-4170@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+CHG-4170 - OS patching on bkp-01 (OpenSSH)
+Window: Friday 16 Oct, 06:00-07:00
+Risk: low. Rollback: snapshot before patching.
+
+Approved by the CAB.
+
+Change Management

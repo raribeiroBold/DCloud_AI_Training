@@ -1,0 +1,15 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-21047 assigned to you: billing timeouts reported by users
+Date: Thu, 19 Nov 2026 07:52:30 +0000
+Message-ID: <04-inc-21047@corp.example>
+Importance: High
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-21047 has been assigned to your group.
+Priority: P2. Resolution target: 8 business hours (by 16:00 today).
+
+Description: users of the tracking portal report billing timeouts at night. app-prd-03 restarted billing twice this week. Possibly linked to PRB-0412.
+
+Service Desk

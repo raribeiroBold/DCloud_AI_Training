@@ -1,0 +1,15 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: PRB-0412 opened: billing JVM killed by the OOM killer since 4.18
+Date: Tue, 17 Nov 2026 09:40:00 +0000
+Message-ID: <202611170940-prb-0412@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Problem record PRB-0412 has been opened for team-app.
+
+Billing was killed by the OOM killer on app-prd-03 (12 Nov), app-prd-05 (14 Nov) and app-prd-07 (17 Nov), each time around the nightly export. Linked: INC-21031, INC-21038, INC-21044. Suspected: billing 4.18 (CHG-4209).
+Problem review: Thursday 19 Nov, 11:30.
+
+Service Desk

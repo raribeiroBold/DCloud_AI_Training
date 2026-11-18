@@ -1,9 +1,239 @@
+Oct  5 03:12:38 web-prd-05.corp.local diskmon[2375]: /var/log used=67% (13.4G of 20G) threshold=85% OK
+Oct  5 08:55:16 web-prd-05.corp.local chronyd[3500]: Selected source 10.0.0.9
 Oct  5 09:13:28 web-prd-05.corp.local CRON[7303]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  5 12:43:23 web-prd-05.corp.local systemd[1]: Started Session 552 of User deploy.
+Oct  5 15:04:22 web-prd-05.corp.local CRON[6187]: (root) CMD (/usr/local/bin/health-report.sh)
 Oct  5 20:48:15 web-prd-05.corp.local nginx[6328]: GET /tracking 200 280ms
+Oct  5 22:22:19 web-prd-05.corp.local nginx[1524]: GET /tracking 200 78ms
 Oct  6 00:58:25 web-prd-05.corp.local nginx[4559]: GET /tracking 200 5ms
+Oct  6 03:12:38 web-prd-05.corp.local diskmon[2376]: /var/log used=67% (13.4G of 20G) threshold=85% OK
+Oct  6 08:20:51 web-prd-05.corp.local chronyd[6630]: Selected source 10.0.0.3
+Oct  6 10:46:21 web-prd-05.corp.local CRON[7651]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 11:56:44 web-prd-05.corp.local nginx[1524]: GET /tracking 200 154ms
+Oct  6 14:21:29 web-prd-05.corp.local sshd[6917]: Accepted publickey for deploy from 10.0.3.175 port 55589 ssh2
 Oct  6 16:28:53 web-prd-05.corp.local systemd[1]: Started Session 676 of User deploy.
+Oct  6 16:36:04 web-prd-05.corp.local nginx[3333]: GET /tracking 200 161ms
 Oct  7 01:14:37 web-prd-05.corp.local nginx[7192]: GET /tracking 200 64ms
+Oct  7 01:43:49 web-prd-05.corp.local CRON[6032]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 03:12:38 web-prd-05.corp.local diskmon[2380]: /var/log used=67% (13.4G of 20G) threshold=85% OK
 Oct  7 03:29:31 web-prd-05.corp.local CRON[1751]: (root) CMD (/usr/local/bin/health-report.sh)
 Oct  7 06:40:11 web-prd-05.corp.local CRON[1659]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  7 12:05:29 web-prd-05.corp.local systemd[1]: Started Session 558 of User deploy.
+Oct  7 15:17:21 web-prd-05.corp.local sshd[4620]: Accepted publickey for deploy from 10.0.5.71 port 54792 ssh2
 Oct  7 18:06:01 web-prd-05.corp.local nginx[9201]: worker process 8 started
+Oct  7 19:31:53 web-prd-05.corp.local chronyd[1417]: Selected source 10.0.0.9
+Oct  7 19:33:54 web-prd-05.corp.local nginx[1524]: GET /tracking 200 182ms
 Oct  7 23:26:32 web-prd-05.corp.local chronyd[597]: Selected source 10.0.0.7
+Oct  8 03:12:38 web-prd-05.corp.local diskmon[2382]: /var/log used=66% (13.2G of 20G) threshold=85% OK
+Oct  8 09:29:08 web-prd-05.corp.local CRON[2210]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  8 20:18:01 web-prd-05.corp.local chronyd[8343]: Selected source 10.0.0.7
+Oct  8 22:54:05 web-prd-05.corp.local nginx[3333]: GET /tracking 200 82ms
+Oct  9 00:22:59 web-prd-05.corp.local CRON[6341]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  9 03:12:38 web-prd-05.corp.local diskmon[2383]: /var/log used=67% (13.4G of 20G) threshold=85% OK
+Oct  9 09:38:24 web-prd-05.corp.local chronyd[497]: Selected source 10.0.0.8
+Oct  9 10:13:01 web-prd-05.corp.local systemd[1]: Started Session 582 of User deploy.
+Oct  9 20:20:19 web-prd-05.corp.local nginx[3333]: GET /tracking 200 142ms
+Oct 10 03:12:38 web-prd-05.corp.local diskmon[2385]: /var/log used=68% (13.6G of 20G) threshold=85% OK
+Oct 10 07:23:29 web-prd-05.corp.local nginx[3333]: GET /tracking 200 174ms
+Oct 10 08:10:13 web-prd-05.corp.local sshd[3242]: Accepted publickey for deploy from 10.0.6.195 port 56919 ssh2
+Oct 10 09:26:04 web-prd-05.corp.local chronyd[3191]: Selected source 10.0.0.9
+Oct 10 12:54:09 web-prd-05.corp.local systemd[1]: Started Session 584 of User deploy.
+Oct 10 14:01:37 web-prd-05.corp.local CRON[7806]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 11 01:33:37 web-prd-05.corp.local chronyd[2938]: Selected source 10.0.0.9
+Oct 11 03:12:38 web-prd-05.corp.local diskmon[2389]: /var/log used=68% (13.6G of 20G) threshold=85% OK
+Oct 11 09:57:26 web-prd-05.corp.local systemd[1]: Started Session 609 of User deploy.
+Oct 11 12:52:27 web-prd-05.corp.local CRON[2341]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 11 21:51:35 web-prd-05.corp.local nginx[3333]: GET /tracking 200 86ms
+Oct 12 01:53:55 web-prd-05.corp.local nginx[1524]: GET /tracking 200 124ms
+Oct 12 02:58:33 web-prd-05.corp.local chronyd[1656]: Selected source 10.0.0.7
+Oct 12 03:12:38 web-prd-05.corp.local diskmon[2390]: /var/log used=67% (13.4G of 20G) threshold=85% OK
+Oct 12 09:31:57 web-prd-05.corp.local sshd[2749]: Accepted publickey for deploy from 10.0.3.64 port 53883 ssh2
+Oct 12 12:24:41 web-prd-05.corp.local systemd[1]: Started Session 627 of User deploy.
+Oct 12 13:40:48 web-prd-05.corp.local nginx[1524]: GET /tracking 200 59ms
+Oct 13 03:12:38 web-prd-05.corp.local diskmon[2391]: /var/log used=66% (13.2G of 20G) threshold=85% OK
+Oct 13 09:34:30 web-prd-05.corp.local chronyd[3276]: Selected source 10.0.0.6
+Oct 13 23:33:14 web-prd-05.corp.local nginx[1524]: GET /tracking 200 168ms
+Oct 14 03:12:38 web-prd-05.corp.local diskmon[2393]: /var/log used=66% (13.2G of 20G) threshold=85% OK
+Oct 14 09:58:56 web-prd-05.corp.local systemd[1]: Started Session 642 of User deploy.
+Oct 14 10:34:49 web-prd-05.corp.local CRON[4157]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 14 12:49:26 web-prd-05.corp.local chronyd[7904]: Selected source 10.0.0.8
+Oct 14 15:04:26 web-prd-05.corp.local nginx[3333]: GET /tracking 200 150ms
+Oct 14 17:03:04 web-prd-05.corp.local nginx[1524]: GET /tracking 200 24ms
+Oct 15 02:47:25 web-prd-05.corp.local nginx[1524]: GET /tracking 200 197ms
+Oct 15 03:12:38 web-prd-05.corp.local diskmon[2396]: /var/log used=66% (13.2G of 20G) threshold=85% OK
+Oct 15 08:11:45 web-prd-05.corp.local systemd[1]: Started Session 648 of User deploy.
+Oct 15 12:05:31 web-prd-05.corp.local CRON[5535]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 15 15:12:00 web-prd-05.corp.local sshd[7777]: Accepted publickey for deploy from 10.0.2.79 port 57671 ssh2
+Oct 15 17:57:46 web-prd-05.corp.local chronyd[5521]: Selected source 10.0.0.7
+Oct 16 03:12:38 web-prd-05.corp.local diskmon[2399]: /var/log used=67% (13.4G of 20G) threshold=85% OK
+Oct 16 03:23:42 web-prd-05.corp.local chronyd[926]: Selected source 10.0.0.4
+Oct 16 05:59:39 web-prd-05.corp.local nginx[1524]: GET /tracking 200 132ms
+Oct 16 11:14:30 web-prd-05.corp.local sshd[2980]: Accepted publickey for deploy from 10.0.8.56 port 59204 ssh2
+Oct 16 15:42:23 web-prd-05.corp.local systemd[1]: Started Session 652 of User deploy.
+Oct 16 23:02:54 web-prd-05.corp.local nginx[1524]: GET /tracking 200 116ms
+Oct 17 03:12:38 web-prd-05.corp.local diskmon[2403]: /var/log used=67% (13.4G of 20G) threshold=85% OK
+Oct 17 03:22:29 web-prd-05.corp.local nginx[1524]: GET /tracking 200 170ms
+Oct 17 05:51:29 web-prd-05.corp.local chronyd[4179]: Selected source 10.0.0.3
+Oct 17 07:51:02 web-prd-05.corp.local systemd[1]: Started Session 680 of User deploy.
+Oct 18 03:12:38 web-prd-05.corp.local diskmon[2405]: /var/log used=68% (13.6G of 20G) threshold=85% OK
+Oct 18 05:57:03 web-prd-05.corp.local CRON[4275]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 18 08:29:50 web-prd-05.corp.local sshd[6353]: Accepted publickey for deploy from 10.0.5.115 port 49733 ssh2
+Oct 18 17:06:46 web-prd-05.corp.local nginx[1524]: GET /tracking 200 176ms
+Oct 18 21:50:26 web-prd-05.corp.local chronyd[9717]: Selected source 10.0.0.5
+Oct 19 03:10:37 web-prd-05.corp.local chronyd[2901]: Selected source 10.0.0.7
+Oct 19 03:12:38 web-prd-05.corp.local diskmon[2406]: /var/log used=68% (13.6G of 20G) threshold=85% OK
+Oct 19 04:39:28 web-prd-05.corp.local CRON[2939]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 19 07:36:48 web-prd-05.corp.local nginx[3333]: GET /tracking 200 163ms
+Oct 20 03:12:38 web-prd-05.corp.local diskmon[2410]: /var/log used=68% (13.6G of 20G) threshold=85% OK
+Oct 20 03:47:36 web-prd-05.corp.local chronyd[8583]: Selected source 10.0.0.6
+Oct 20 07:29:37 web-prd-05.corp.local nginx[1524]: GET /tracking 200 145ms
+Oct 20 10:59:54 web-prd-05.corp.local nginx[1524]: GET /tracking 200 159ms
+Oct 20 19:10:36 web-prd-05.corp.local systemd[1]: Started Session 682 of User deploy.
+Oct 20 20:42:07 web-prd-05.corp.local sshd[6637]: Accepted publickey for deploy from 10.0.8.129 port 47988 ssh2
+Oct 21 03:12:38 web-prd-05.corp.local diskmon[2411]: /var/log used=68% (13.6G of 20G) threshold=85% OK
+Oct 21 04:30:44 web-prd-05.corp.local CRON[7615]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 21 11:59:52 web-prd-05.corp.local chronyd[1085]: Selected source 10.0.0.6
+Oct 21 23:10:03 web-prd-05.corp.local nginx[1524]: GET /tracking 200 184ms
+Oct 22 03:12:38 web-prd-05.corp.local diskmon[2413]: /var/log used=67% (13.4G of 20G) threshold=85% OK
+Oct 22 04:37:18 web-prd-05.corp.local chronyd[9473]: Selected source 10.0.0.9
+Oct 22 12:13:30 web-prd-05.corp.local nginx[1524]: GET /tracking 200 143ms
+Oct 23 01:04:15 web-prd-05.corp.local chronyd[6011]: Selected source 10.0.0.5
+Oct 23 03:12:38 web-prd-05.corp.local diskmon[2415]: /var/log used=67% (13.4G of 20G) threshold=85% OK
+Oct 23 06:29:04 web-prd-05.corp.local nginx[3333]: GET /tracking 200 78ms
+Oct 23 12:03:41 web-prd-05.corp.local nginx[3333]: GET /tracking 200 169ms
+Oct 23 21:59:24 web-prd-05.corp.local CRON[8149]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 24 03:12:38 web-prd-05.corp.local diskmon[2418]: /var/log used=67% (13.4G of 20G) threshold=85% OK
+Oct 24 09:45:23 web-prd-05.corp.local chronyd[9488]: Selected source 10.0.0.3
+Oct 24 09:58:04 web-prd-05.corp.local nginx[3333]: GET /tracking 200 182ms
+Oct 24 15:48:52 web-prd-05.corp.local systemd[1]: Started Session 696 of User deploy.
+Oct 24 18:31:34 web-prd-05.corp.local nginx[3333]: GET /tracking 200 20ms
+Oct 24 18:36:54 web-prd-05.corp.local sshd[6509]: Accepted publickey for deploy from 10.0.3.224 port 56578 ssh2
+Oct 25 03:12:38 web-prd-05.corp.local diskmon[2421]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Oct 25 05:44:35 web-prd-05.corp.local nginx[1524]: GET /tracking 200 160ms
+Oct 25 18:17:37 web-prd-05.corp.local chronyd[6805]: Selected source 10.0.0.8
+Oct 25 18:30:40 web-prd-05.corp.local nginx[1524]: GET /tracking 200 135ms
+Oct 25 19:24:30 web-prd-05.corp.local sshd[4158]: Accepted publickey for deploy from 10.0.2.111 port 46932 ssh2
+Oct 25 22:32:36 web-prd-05.corp.local CRON[9587]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 03:12:38 web-prd-05.corp.local diskmon[2423]: /var/log used=68% (13.6G of 20G) threshold=85% OK
+Oct 26 09:08:02 web-prd-05.corp.local nginx[3333]: GET /tracking 200 170ms
+Oct 26 09:12:47 web-prd-05.corp.local CRON[1766]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 09:36:35 web-prd-05.corp.local chronyd[8774]: Selected source 10.0.0.7
+Oct 26 11:09:14 web-prd-05.corp.local sshd[7863]: Accepted publickey for deploy from 10.0.5.43 port 55375 ssh2
+Oct 26 11:29:49 web-prd-05.corp.local nginx[1524]: GET /tracking 200 78ms
+Oct 26 17:23:03 web-prd-05.corp.local systemd[1]: Started Session 722 of User deploy.
+Oct 27 03:12:38 web-prd-05.corp.local diskmon[2426]: /var/log used=67% (13.4G of 20G) threshold=85% OK
+Oct 27 03:45:37 web-prd-05.corp.local CRON[3113]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 27 09:16:46 web-prd-05.corp.local nginx[3333]: GET /tracking 200 85ms
+Oct 27 09:34:27 web-prd-05.corp.local nginx[3333]: GET /tracking 200 177ms
+Oct 27 10:45:54 web-prd-05.corp.local systemd[1]: Started Session 741 of User deploy.
+Oct 27 15:39:52 web-prd-05.corp.local chronyd[446]: Selected source 10.0.0.7
+Oct 28 03:12:38 web-prd-05.corp.local diskmon[2430]: /var/log used=68% (13.6G of 20G) threshold=85% OK
+Oct 28 09:57:03 web-prd-05.corp.local chronyd[3639]: Selected source 10.0.0.6
+Oct 28 13:34:43 web-prd-05.corp.local systemd[1]: Started Session 757 of User deploy.
+Oct 28 19:55:02 web-prd-05.corp.local nginx[3333]: GET /tracking 200 195ms
+Oct 29 01:36:55 web-prd-05.corp.local CRON[937]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 29 03:12:38 web-prd-05.corp.local diskmon[2431]: /var/log used=67% (13.4G of 20G) threshold=85% OK
+Oct 29 08:50:06 web-prd-05.corp.local sshd[6582]: Accepted publickey for deploy from 10.0.6.65 port 55517 ssh2
+Oct 29 17:02:07 web-prd-05.corp.local nginx[3333]: GET /tracking 200 60ms
+Oct 29 21:59:36 web-prd-05.corp.local chronyd[2328]: Selected source 10.0.0.8
+Oct 30 03:12:38 web-prd-05.corp.local diskmon[2432]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Oct 30 14:19:43 web-prd-05.corp.local systemd[1]: Started Session 785 of User deploy.
+Oct 30 16:05:06 web-prd-05.corp.local nginx[1524]: GET /tracking 200 139ms
+Oct 30 16:44:22 web-prd-05.corp.local chronyd[5676]: Selected source 10.0.0.6
+Oct 31 03:12:38 web-prd-05.corp.local diskmon[2434]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Oct 31 05:34:53 web-prd-05.corp.local CRON[4535]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 31 06:58:30 web-prd-05.corp.local nginx[1524]: GET /tracking 200 131ms
+Oct 31 15:58:49 web-prd-05.corp.local systemd[1]: Started Session 799 of User deploy.
+Oct 31 18:46:28 web-prd-05.corp.local nginx[1524]: GET /tracking 200 151ms
+Oct 31 21:45:34 web-prd-05.corp.local chronyd[8514]: Selected source 10.0.0.3
+Nov  1 00:23:53 web-prd-05.corp.local chronyd[565]: Selected source 10.0.0.8
+Nov  1 03:12:38 web-prd-05.corp.local diskmon[2437]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Nov  1 07:08:35 web-prd-05.corp.local systemd[1]: Started Session 825 of User deploy.
+Nov  1 14:38:05 web-prd-05.corp.local nginx[3333]: GET /tracking 200 195ms
+Nov  1 15:11:27 web-prd-05.corp.local sshd[9965]: Accepted publickey for deploy from 10.0.3.130 port 58868 ssh2
+Nov  2 03:12:38 web-prd-05.corp.local diskmon[2439]: /var/log used=70% (14.0G of 20G) threshold=85% OK
+Nov  2 04:49:15 web-prd-05.corp.local chronyd[478]: Selected source 10.0.0.4
+Nov  2 12:47:07 web-prd-05.corp.local sshd[9948]: Accepted publickey for deploy from 10.0.8.113 port 40084 ssh2
+Nov  2 14:37:35 web-prd-05.corp.local nginx[3333]: GET /tracking 200 134ms
+Nov  2 19:20:25 web-prd-05.corp.local nginx[3333]: GET /tracking 200 108ms
+Nov  3 03:12:38 web-prd-05.corp.local diskmon[2440]: /var/log used=70% (14.0G of 20G) threshold=85% OK
+Nov  3 06:02:49 web-prd-05.corp.local nginx[3333]: GET /tracking 200 196ms
+Nov  3 10:02:57 web-prd-05.corp.local systemd[1]: Started Session 843 of User deploy.
+Nov  3 12:08:45 web-prd-05.corp.local CRON[1407]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  3 12:31:41 web-prd-05.corp.local sshd[1114]: Accepted publickey for deploy from 10.0.2.169 port 54776 ssh2
+Nov  3 15:40:50 web-prd-05.corp.local nginx[1524]: GET /tracking 200 48ms
+Nov  3 21:54:07 web-prd-05.corp.local chronyd[6947]: Selected source 10.0.0.6
+Nov  4 00:53:05 web-prd-05.corp.local CRON[2403]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  4 03:06:02 web-prd-05.corp.local nginx[1524]: GET /tracking 200 127ms
+Nov  4 03:12:38 web-prd-05.corp.local diskmon[2442]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Nov  4 07:42:37 web-prd-05.corp.local systemd[1]: Started Session 866 of User deploy.
+Nov  4 14:39:17 web-prd-05.corp.local chronyd[7606]: Selected source 10.0.0.4
+Nov  4 16:57:07 web-prd-05.corp.local nginx[3333]: GET /tracking 200 152ms
+Nov  4 22:45:07 web-prd-05.corp.local ansible-ansible.legacy.dnf[5186]: Invoked with name=['openssh-server', 'openssh-clients'] state=latest update_only=True
+Nov  4 22:45:44 web-prd-05.corp.local sshd[6999]: Server listening on 0.0.0.0 port 22.
+Nov  5 01:30:56 web-prd-05.corp.local chronyd[5274]: Selected source 10.0.0.5
+Nov  5 03:12:38 web-prd-05.corp.local diskmon[2444]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Nov  5 09:37:10 web-prd-05.corp.local CRON[6853]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  5 14:07:09 web-prd-05.corp.local systemd[1]: Started Session 883 of User deploy.
+Nov  5 19:52:23 web-prd-05.corp.local nginx[3333]: GET /tracking 200 118ms
+Nov  6 00:51:39 web-prd-05.corp.local chronyd[8051]: Selected source 10.0.0.5
+Nov  6 03:12:38 web-prd-05.corp.local diskmon[2448]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Nov  6 14:07:55 web-prd-05.corp.local nginx[3333]: GET /tracking 200 63ms
+Nov  7 03:12:38 web-prd-05.corp.local diskmon[2450]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Nov  7 04:45:06 web-prd-05.corp.local nginx[3333]: GET /tracking 200 132ms
+Nov  7 09:58:26 web-prd-05.corp.local systemd[1]: Started Session 890 of User deploy.
+Nov  7 13:39:19 web-prd-05.corp.local chronyd[1784]: Selected source 10.0.0.6
+Nov  7 18:58:25 web-prd-05.corp.local CRON[7708]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  8 03:12:38 web-prd-05.corp.local diskmon[2454]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Nov  8 07:03:13 web-prd-05.corp.local nginx[3333]: GET /tracking 200 50ms
+Nov  8 17:46:17 web-prd-05.corp.local systemd[1]: Started Session 894 of User deploy.
+Nov  8 19:19:51 web-prd-05.corp.local CRON[4072]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  8 21:35:45 web-prd-05.corp.local chronyd[4489]: Selected source 10.0.0.7
+Nov  9 03:12:38 web-prd-05.corp.local diskmon[2457]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Nov  9 03:53:26 web-prd-05.corp.local chronyd[1093]: Selected source 10.0.0.9
+Nov  9 10:19:01 web-prd-05.corp.local nginx[1524]: GET /tracking 200 100ms
+Nov  9 12:03:12 web-prd-05.corp.local systemd[1]: Started Session 898 of User deploy.
+Nov  9 13:08:39 web-prd-05.corp.local nginx[3333]: GET /tracking 200 56ms
+Nov  9 19:54:47 web-prd-05.corp.local CRON[2614]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 10 03:12:38 web-prd-05.corp.local diskmon[2460]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Nov 10 11:23:48 web-prd-05.corp.local CRON[1816]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 10 11:56:49 web-prd-05.corp.local nginx[3333]: GET /tracking 200 103ms
+Nov 10 22:17:54 web-prd-05.corp.local chronyd[3915]: Selected source 10.0.0.4
+Nov 11 03:12:38 web-prd-05.corp.local diskmon[2462]: /var/log used=69% (13.8G of 20G) threshold=85% OK
+Nov 11 13:28:50 web-prd-05.corp.local systemd[1]: Started Session 907 of User deploy.
+Nov 11 16:54:09 web-prd-05.corp.local chronyd[9426]: Selected source 10.0.0.6
+Nov 11 21:24:41 web-prd-05.corp.local nginx[1524]: GET /tracking 200 30ms
+Nov 12 03:12:38 web-prd-05.corp.local diskmon[2464]: /var/log used=71% (14.2G of 20G) threshold=85% OK
+Nov 12 04:05:18 web-prd-05.corp.local nginx[3333]: GET /tracking 200 32ms
+Nov 12 14:14:34 web-prd-05.corp.local systemd[1]: Started Session 916 of User deploy.
+Nov 12 21:30:53 web-prd-05.corp.local chronyd[3120]: Selected source 10.0.0.3
+Nov 13 01:45:16 web-prd-05.corp.local nginx[1524]: GET /tracking 200 21ms
+Nov 13 03:12:38 web-prd-05.corp.local diskmon[2465]: /var/log used=70% (14.0G of 20G) threshold=85% OK
+Nov 13 10:34:40 web-prd-05.corp.local systemd[1]: Started Session 939 of User deploy.
+Nov 13 16:08:21 web-prd-05.corp.local sshd[5548]: Accepted publickey for deploy from 10.0.3.227 port 48653 ssh2
+Nov 13 18:20:44 web-prd-05.corp.local chronyd[6397]: Selected source 10.0.0.7
+Nov 14 03:12:38 web-prd-05.corp.local diskmon[2468]: /var/log used=70% (14.0G of 20G) threshold=85% OK
+Nov 14 07:37:21 web-prd-05.corp.local sshd[6433]: Accepted publickey for deploy from 10.0.2.132 port 46479 ssh2
+Nov 14 13:47:33 web-prd-05.corp.local chronyd[5002]: Selected source 10.0.0.6
+Nov 14 16:15:55 web-prd-05.corp.local CRON[3547]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 14 19:01:18 web-prd-05.corp.local nginx[3333]: GET /tracking 200 61ms
+Nov 15 03:03:43 web-prd-05.corp.local CRON[3617]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 15 03:12:38 web-prd-05.corp.local diskmon[2470]: /var/log used=70% (14.0G of 20G) threshold=85% OK
+Nov 15 10:10:10 web-prd-05.corp.local chronyd[4892]: Selected source 10.0.0.7
+Nov 15 11:17:17 web-prd-05.corp.local systemd[1]: Started Session 958 of User deploy.
+Nov 15 12:39:43 web-prd-05.corp.local nginx[3333]: GET /tracking 200 30ms
+Nov 15 21:04:14 web-prd-05.corp.local nginx[3333]: GET /tracking 200 62ms
+Nov 16 00:54:09 web-prd-05.corp.local nginx[1524]: GET /tracking 200 42ms
+Nov 16 03:12:38 web-prd-05.corp.local diskmon[2474]: /var/log used=71% (14.2G of 20G) threshold=85% OK
+Nov 16 18:42:09 web-prd-05.corp.local systemd[1]: Started Session 966 of User deploy.
+Nov 16 20:27:24 web-prd-05.corp.local chronyd[538]: Selected source 10.0.0.3
+Nov 17 03:12:38 web-prd-05.corp.local diskmon[2477]: /var/log used=70% (14.0G of 20G) threshold=85% OK
+Nov 17 10:56:35 web-prd-05.corp.local chronyd[6802]: Selected source 10.0.0.5
+Nov 17 13:25:36 web-prd-05.corp.local nginx[3333]: GET /tracking 200 90ms
+Nov 17 15:04:19 web-prd-05.corp.local CRON[6628]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 18 01:09:29 web-prd-05.corp.local chronyd[3398]: Selected source 10.0.0.7
+Nov 18 01:58:16 web-prd-05.corp.local nginx[1524]: upstream timed out (110: Connection timed out) while reading response header from upstream "billing"
+Nov 18 03:12:38 web-prd-05.corp.local diskmon[2479]: /var/log used=70% (14.0G of 20G) threshold=85% OK
+Nov 18 08:00:11 web-prd-05.corp.local nginx[3333]: GET /tracking 200 53ms
+Nov 18 22:12:49 web-prd-05.corp.local CRON[3383]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 19 03:12:38 web-prd-05.corp.local diskmon[2480]: /var/log used=70% (14.0G of 20G) threshold=85% OK

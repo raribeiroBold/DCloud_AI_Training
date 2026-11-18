@@ -1,9 +1,253 @@
+Oct  5 01:32:29 bkp-02 bacula-fd[992]: backup job 2897 completed OK
+Oct  5 03:12:41 bkp-02 diskmon[2803]: /srv/wal used=28% (0.6T of 2.0T) threshold=85% OK
 Oct  5 03:24:18 bkp-02 CRON[6648]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  5 05:14:17 bkp-02 CRON[5208]: (root) CMD (/usr/local/bin/health-report.sh)
 Oct  5 07:06:03 bkp-02 sshd[2965]: Accepted publickey for deploy from 10.0.3.168 port 40868 ssh2
+Oct  5 09:08:15 bkp-02 chronyd[8684]: Selected source 10.0.0.9
 Oct  5 14:15:36 bkp-02 bacula-fd[7777]: backup job 1301 completed OK
+Oct  5 14:23:37 bkp-02 systemd[1]: Started Session 493 of User deploy.
+Oct  5 15:06:31 bkp-02 sshd[2359]: Accepted publickey for deploy from 10.0.3.146 port 46859 ssh2
 Oct  5 19:53:59 bkp-02 CRON[3294]: (root) CMD (/usr/local/bin/health-report.sh)
 Oct  5 23:10:18 bkp-02 chronyd[657]: Selected source 10.0.0.7
 Oct  6 02:38:00 bkp-02 bacula-fd[9095]: backup job 4277 completed OK
+Oct  6 03:12:41 bkp-02 diskmon[2806]: /srv/wal used=28% (0.6T of 2.0T) threshold=85% OK
+Oct  6 03:31:38 bkp-02 bacula-fd[4136]: backup job 8104 completed OK
+Oct  6 04:28:19 bkp-02 CRON[4029]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  6 05:07:42 bkp-02 bacula-fd[6284]: backup job 6081 completed OK
+Oct  6 06:58:26 bkp-02 chronyd[1157]: Selected source 10.0.0.8
 Oct  6 14:59:49 bkp-02 bacula-fd[3754]: backup job 7067 completed OK
+Oct  6 18:39:57 bkp-02 sshd[1845]: Accepted publickey for deploy from 10.0.7.115 port 40053 ssh2
+Oct  7 03:12:41 bkp-02 diskmon[2810]: /srv/wal used=27% (0.5T of 2.0T) threshold=85% OK
+Oct  7 04:40:45 bkp-02 bacula-fd[3398]: backup job 5271 completed OK
+Oct  7 05:04:27 bkp-02 bacula-fd[2331]: backup job 3464 completed OK
+Oct  7 14:34:17 bkp-02 chronyd[1240]: Selected source 10.0.0.6
 Oct  7 16:37:36 bkp-02 systemd[1]: Started Session 429 of User deploy.
 Oct  7 20:11:10 bkp-02 CRON[7256]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  8 00:07:56 bkp-02 bacula-fd[9028]: backup job 9682 completed OK
+Oct  8 03:12:41 bkp-02 diskmon[2813]: /srv/wal used=28% (0.6T of 2.0T) threshold=85% OK
+Oct  8 07:44:52 bkp-02 CRON[2087]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct  8 13:56:09 bkp-02 systemd[1]: Started Session 522 of User deploy.
+Oct  8 19:08:28 bkp-02 chronyd[4580]: Selected source 10.0.0.5
+Oct  9 02:09:23 bkp-02 bacula-fd[7493]: backup job 8717 completed OK
+Oct  9 03:12:41 bkp-02 diskmon[2815]: /srv/wal used=28% (0.6T of 2.0T) threshold=85% OK
+Oct  9 14:26:14 bkp-02 chronyd[2382]: Selected source 10.0.0.7
+Oct  9 16:14:49 bkp-02 sshd[4359]: Accepted publickey for deploy from 10.0.7.60 port 46872 ssh2
+Oct 10 03:12:12 bkp-02 bacula-fd[8590]: backup job 4651 completed OK
+Oct 10 03:12:41 bkp-02 diskmon[2816]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Oct 10 11:48:55 bkp-02 systemd[1]: Started Session 546 of User deploy.
+Oct 10 12:41:09 bkp-02 chronyd[8929]: Selected source 10.0.0.4
+Oct 11 02:21:05 bkp-02 bacula-fd[2925]: backup job 3001 completed OK
+Oct 11 03:12:41 bkp-02 diskmon[2817]: /srv/wal used=28% (0.6T of 2.0T) threshold=85% OK
+Oct 11 16:41:43 bkp-02 chronyd[4317]: Selected source 10.0.0.3
+Oct 11 20:34:17 bkp-02 sshd[1931]: Accepted publickey for deploy from 10.0.7.233 port 42210 ssh2
+Oct 11 22:27:44 bkp-02 CRON[7003]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 12 00:29:38 bkp-02 bacula-fd[6278]: backup job 9418 completed OK
+Oct 12 03:12:41 bkp-02 diskmon[2821]: /srv/wal used=27% (0.5T of 2.0T) threshold=85% OK
+Oct 12 05:22:23 bkp-02 bacula-fd[9931]: backup job 6012 completed OK
+Oct 12 06:36:25 bkp-02 CRON[2514]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 12 07:23:54 bkp-02 chronyd[2460]: Selected source 10.0.0.8
+Oct 12 15:02:45 bkp-02 sshd[7539]: Accepted publickey for deploy from 10.0.4.21 port 46893 ssh2
+Oct 13 01:06:27 bkp-02 bacula-fd[8968]: backup job 1829 completed OK
+Oct 13 03:12:41 bkp-02 diskmon[2824]: /srv/wal used=28% (0.6T of 2.0T) threshold=85% OK
+Oct 13 09:03:34 bkp-02 chronyd[5380]: Selected source 10.0.0.3
+Oct 13 09:15:02 bkp-02 sshd[5691]: Accepted publickey for deploy from 10.0.4.45 port 52920 ssh2
+Oct 13 13:37:27 bkp-02 CRON[6844]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 13 17:42:59 bkp-02 systemd[1]: Started Session 559 of User deploy.
+Oct 14 00:34:06 bkp-02 bacula-fd[3537]: backup job 5872 completed OK
+Oct 14 00:35:55 bkp-02 chronyd[9732]: Selected source 10.0.0.8
+Oct 14 01:28:14 bkp-02 bacula-fd[8081]: backup job 3293 completed OK
+Oct 14 03:12:41 bkp-02 diskmon[2825]: /srv/wal used=27% (0.5T of 2.0T) threshold=85% OK
+Oct 14 08:56:04 bkp-02 systemd[1]: Started Session 586 of User deploy.
+Oct 14 21:55:25 bkp-02 CRON[3108]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 15 00:00:54 bkp-02 chronyd[4621]: Selected source 10.0.0.8
+Oct 15 01:17:20 bkp-02 bacula-fd[4806]: backup job 8012 completed OK
+Oct 15 03:12:41 bkp-02 diskmon[2828]: /srv/wal used=27% (0.5T of 2.0T) threshold=85% OK
+Oct 15 03:31:16 bkp-02 bacula-fd[3659]: backup job 7295 completed OK
+Oct 15 04:10:48 bkp-02 CRON[4737]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 16 03:12:41 bkp-02 diskmon[2830]: /srv/wal used=28% (0.6T of 2.0T) threshold=85% OK
+Oct 16 05:01:52 bkp-02 bacula-fd[6128]: backup job 1355 completed OK
+Oct 16 13:02:11 bkp-02 systemd[1]: Started Session 606 of User deploy.
+Oct 16 16:38:54 bkp-02 chronyd[4326]: Selected source 10.0.0.8
+Oct 16 19:04:22 bkp-02 CRON[8585]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 17 01:30:39 bkp-02 bacula-fd[2007]: backup job 4347 completed OK
+Oct 17 03:12:41 bkp-02 diskmon[2833]: /srv/wal used=28% (0.6T of 2.0T) threshold=85% OK
+Oct 17 05:23:07 bkp-02 bacula-fd[3352]: backup job 3477 completed OK
+Oct 17 08:49:47 bkp-02 sshd[9176]: Accepted publickey for deploy from 10.0.5.21 port 44017 ssh2
+Oct 17 10:37:18 bkp-02 chronyd[4280]: Selected source 10.0.0.4
+Oct 18 01:11:12 bkp-02 bacula-fd[2070]: backup job 6730 completed OK
+Oct 18 03:12:41 bkp-02 diskmon[2837]: /srv/wal used=28% (0.6T of 2.0T) threshold=85% OK
+Oct 18 03:19:00 bkp-02 bacula-fd[9051]: backup job 8049 completed OK
+Oct 18 04:02:56 bkp-02 chronyd[3176]: Selected source 10.0.0.9
+Oct 18 13:05:54 bkp-02 sshd[6567]: Accepted publickey for deploy from 10.0.3.206 port 53285 ssh2
+Oct 18 14:49:49 bkp-02 systemd[1]: Started Session 629 of User deploy.
+Oct 18 17:43:25 bkp-02 CRON[4238]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 19 00:58:11 bkp-02 bacula-fd[4199]: backup job 1510 completed OK
+Oct 19 03:12:41 bkp-02 diskmon[2840]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Oct 19 06:20:01 bkp-02 chronyd[801]: Selected source 10.0.0.3
+Oct 19 14:31:30 bkp-02 systemd[1]: Started Session 649 of User deploy.
+Oct 19 16:41:37 bkp-02 sshd[4859]: Accepted publickey for deploy from 10.0.4.100 port 57166 ssh2
+Oct 20 02:11:50 bkp-02 bacula-fd[747]: backup job 2050 completed OK
+Oct 20 03:12:41 bkp-02 diskmon[2841]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Oct 20 08:06:37 bkp-02 chronyd[2267]: Selected source 10.0.0.8
+Oct 20 17:40:01 bkp-02 systemd[1]: Started Session 679 of User deploy.
+Oct 21 01:46:43 bkp-02 bacula-fd[4533]: backup job 9707 completed OK
+Oct 21 03:12:41 bkp-02 diskmon[2843]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Oct 21 05:10:07 bkp-02 chronyd[2895]: Selected source 10.0.0.3
+Oct 21 08:45:45 bkp-02 sshd[4317]: Accepted publickey for deploy from 10.0.7.99 port 56786 ssh2
+Oct 21 13:16:06 bkp-02 systemd[1]: Started Session 690 of User deploy.
+Oct 21 19:07:16 bkp-02 CRON[2794]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 22 02:47:41 bkp-02 bacula-fd[1258]: backup job 2194 completed OK
+Oct 22 03:12:41 bkp-02 diskmon[2845]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Oct 22 12:42:33 bkp-02 chronyd[7469]: Selected source 10.0.0.3
+Oct 22 16:07:16 bkp-02 systemd[1]: Started Session 710 of User deploy.
+Oct 23 01:40:48 bkp-02 bacula-fd[3471]: backup job 7094 completed OK
+Oct 23 02:58:06 bkp-02 bacula-fd[8472]: backup job 7338 completed OK
+Oct 23 03:12:41 bkp-02 diskmon[2849]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Oct 23 06:31:25 bkp-02 CRON[974]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 23 12:02:48 bkp-02 chronyd[4468]: Selected source 10.0.0.5
+Oct 23 15:06:34 bkp-02 systemd[1]: Started Session 717 of User deploy.
+Oct 24 00:08:29 bkp-02 chronyd[1840]: Selected source 10.0.0.7
+Oct 24 03:12:41 bkp-02 diskmon[2850]: /srv/wal used=28% (0.6T of 2.0T) threshold=85% OK
+Oct 24 04:57:28 bkp-02 bacula-fd[3576]: backup job 9243 completed OK
+Oct 24 05:45:57 bkp-02 bacula-fd[8623]: backup job 8845 completed OK
+Oct 24 09:24:40 bkp-02 sshd[8389]: Accepted publickey for deploy from 10.0.7.101 port 44936 ssh2
+Oct 24 10:11:45 bkp-02 systemd[1]: Started Session 743 of User deploy.
+Oct 24 22:46:48 bkp-02 CRON[2169]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 25 02:14:52 bkp-02 bacula-fd[7480]: backup job 6261 completed OK
+Oct 25 03:12:41 bkp-02 diskmon[2853]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Oct 25 05:03:06 bkp-02 bacula-fd[3924]: backup job 5722 completed OK
+Oct 25 05:13:53 bkp-02 chronyd[6791]: Selected source 10.0.0.6
+Oct 25 07:41:57 bkp-02 systemd[1]: Started Session 758 of User deploy.
+Oct 25 09:45:45 bkp-02 CRON[9759]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 25 09:50:13 bkp-02 sshd[3587]: Accepted publickey for deploy from 10.0.3.172 port 45526 ssh2
+Oct 26 00:13:35 bkp-02 bacula-fd[7070]: backup job 9677 completed OK
+Oct 26 00:26:39 bkp-02 bacula-fd[4030]: backup job 3038 completed OK
+Oct 26 03:12:41 bkp-02 diskmon[2854]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Oct 26 08:07:15 bkp-02 CRON[3670]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 26 10:02:54 bkp-02 chronyd[9533]: Selected source 10.0.0.5
+Oct 26 18:46:18 bkp-02 sshd[7690]: Accepted publickey for deploy from 10.0.8.223 port 56348 ssh2
+Oct 27 00:55:56 bkp-02 bacula-fd[5641]: backup job 9833 completed OK
+Oct 27 03:12:41 bkp-02 diskmon[2857]: /srv/wal used=30% (0.6T of 2.0T) threshold=85% OK
+Oct 27 13:47:04 bkp-02 systemd[1]: Started Session 761 of User deploy.
+Oct 27 15:20:18 bkp-02 CRON[2247]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 27 19:13:18 bkp-02 chronyd[7561]: Selected source 10.0.0.5
+Oct 28 01:27:54 bkp-02 bacula-fd[1145]: backup job 9359 completed OK
+Oct 28 03:12:41 bkp-02 diskmon[2861]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Oct 28 05:58:45 bkp-02 bacula-fd[5990]: backup job 1699 completed OK
+Oct 28 09:41:31 bkp-02 CRON[2796]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 28 11:54:36 bkp-02 chronyd[4482]: Selected source 10.0.0.8
+Oct 28 14:21:12 bkp-02 sshd[6830]: Accepted publickey for deploy from 10.0.2.122 port 54939 ssh2
+Oct 28 16:07:51 bkp-02 systemd[1]: Started Session 771 of User deploy.
+Oct 29 02:21:35 bkp-02 bacula-fd[3569]: backup job 9595 completed OK
+Oct 29 02:48:24 bkp-02 bacula-fd[9799]: backup job 5585 completed OK
+Oct 29 03:12:41 bkp-02 diskmon[2864]: /srv/wal used=30% (0.6T of 2.0T) threshold=85% OK
+Oct 29 03:59:53 bkp-02 chronyd[9521]: Selected source 10.0.0.6
+Oct 29 09:16:05 bkp-02 CRON[6464]: (root) CMD (/usr/local/bin/health-report.sh)
+Oct 29 12:01:25 bkp-02 sshd[2104]: Accepted publickey for deploy from 10.0.8.234 port 52593 ssh2
+Oct 30 01:04:31 bkp-02 bacula-fd[8223]: backup job 6616 completed OK
+Oct 30 02:50:02 bkp-02 bacula-fd[7257]: backup job 5461 completed OK
+Oct 30 03:12:41 bkp-02 diskmon[2868]: /srv/wal used=30% (0.6T of 2.0T) threshold=85% OK
+Oct 30 06:35:31 bkp-02 chronyd[564]: Selected source 10.0.0.4
+Oct 30 10:38:06 bkp-02 sshd[7704]: Accepted publickey for deploy from 10.0.8.60 port 54931 ssh2
+Oct 30 16:41:25 bkp-02 systemd[1]: Started Session 796 of User deploy.
+Oct 31 00:50:47 bkp-02 chronyd[1288]: Selected source 10.0.0.6
+Oct 31 01:13:50 bkp-02 bacula-fd[1562]: backup job 4426 completed OK
+Oct 31 03:12:41 bkp-02 diskmon[2869]: /srv/wal used=30% (0.6T of 2.0T) threshold=85% OK
+Oct 31 12:01:03 bkp-02 systemd[1]: Started Session 817 of User deploy.
+Nov  1 01:32:44 bkp-02 bacula-fd[4014]: backup job 3024 completed OK
+Nov  1 03:12:41 bkp-02 diskmon[2871]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Nov  1 08:44:33 bkp-02 chronyd[7935]: Selected source 10.0.0.5
+Nov  1 12:06:03 bkp-02 CRON[5281]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  1 18:12:09 bkp-02 systemd[1]: Started Session 836 of User deploy.
+Nov  1 20:57:39 bkp-02 sshd[706]: Accepted publickey for deploy from 10.0.2.24 port 56247 ssh2
+Nov  2 01:54:33 bkp-02 bacula-fd[1821]: backup job 7680 completed OK
+Nov  2 03:12:41 bkp-02 diskmon[2875]: /srv/wal used=30% (0.6T of 2.0T) threshold=85% OK
+Nov  2 07:41:59 bkp-02 CRON[8955]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  2 09:28:58 bkp-02 systemd[1]: Started Session 849 of User deploy.
+Nov  2 14:22:15 bkp-02 chronyd[1251]: Selected source 10.0.0.3
+Nov  3 03:12:41 bkp-02 diskmon[2879]: /srv/wal used=30% (0.6T of 2.0T) threshold=85% OK
+Nov  3 05:36:28 bkp-02 bacula-fd[4961]: backup job 3699 completed OK
+Nov  3 12:44:50 bkp-02 chronyd[5792]: Selected source 10.0.0.6
+Nov  3 23:51:31 bkp-02 CRON[2387]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  4 00:29:32 bkp-02 CRON[6498]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  4 00:45:12 bkp-02 bacula-fd[4362]: backup job 8334 completed OK
+Nov  4 00:50:54 bkp-02 bacula-fd[864]: backup job 2961 completed OK
+Nov  4 03:12:41 bkp-02 diskmon[2881]: /srv/wal used=30% (0.6T of 2.0T) threshold=85% OK
+Nov  4 12:24:30 bkp-02 systemd[1]: Started Session 868 of User deploy.
+Nov  4 19:03:54 bkp-02 chronyd[7004]: Selected source 10.0.0.5
+Nov  5 01:42:52 bkp-02 bacula-fd[4849]: backup job 6140 completed OK
+Nov  5 03:12:41 bkp-02 diskmon[2883]: /srv/wal used=30% (0.6T of 2.0T) threshold=85% OK
+Nov  5 09:22:24 bkp-02 chronyd[1587]: Selected source 10.0.0.7
+Nov  6 01:19:59 bkp-02 CRON[9740]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  6 03:12:41 bkp-02 diskmon[2887]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Nov  6 03:31:03 bkp-02 bacula-fd[4754]: backup job 9616 completed OK
+Nov  6 09:28:43 bkp-02 systemd[1]: Started Session 890 of User deploy.
+Nov  6 16:32:23 bkp-02 sshd[7423]: Accepted publickey for deploy from 10.0.3.117 port 58392 ssh2
+Nov  6 20:41:38 bkp-02 chronyd[5168]: Selected source 10.0.0.9
+Nov  7 00:00:24 bkp-02 bacula-fd[8813]: backup job 7606 completed OK
+Nov  7 03:12:41 bkp-02 diskmon[2888]: /srv/wal used=31% (0.6T of 2.0T) threshold=85% OK
+Nov  7 06:21:02 bkp-02 chronyd[4338]: Selected source 10.0.0.3
+Nov  7 17:08:13 bkp-02 CRON[5255]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  7 20:42:35 bkp-02 sshd[3003]: Accepted publickey for deploy from 10.0.4.230 port 53260 ssh2
+Nov  8 03:12:41 bkp-02 diskmon[2892]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Nov  8 03:15:44 bkp-02 bacula-fd[3655]: backup job 3955 completed OK
+Nov  8 06:04:18 bkp-02 chronyd[4920]: Selected source 10.0.0.5
+Nov  8 12:39:56 bkp-02 CRON[4574]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  9 00:11:02 bkp-02 bacula-fd[8808]: backup job 6348 completed OK
+Nov  9 03:12:41 bkp-02 diskmon[2894]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Nov  9 13:28:33 bkp-02 CRON[4564]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov  9 14:01:00 bkp-02 chronyd[3218]: Selected source 10.0.0.9
+Nov 10 02:22:37 bkp-02 bacula-fd[2598]: backup job 6117 completed OK
+Nov 10 03:08:50 bkp-02 bacula-fd[9160]: backup job 7642 completed OK
+Nov 10 03:12:41 bkp-02 diskmon[2897]: /srv/wal used=29% (0.6T of 2.0T) threshold=85% OK
+Nov 10 10:34:13 bkp-02 chronyd[6583]: Selected source 10.0.0.4
+Nov 10 12:31:14 bkp-02 systemd[1]: Started Session 915 of User deploy.
+Nov 10 12:52:44 bkp-02 sshd[7886]: Accepted publickey for deploy from 10.0.3.176 port 40129 ssh2
+Nov 10 23:36:05 bkp-02 CRON[5425]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 11 03:12:41 bkp-02 diskmon[2901]: /srv/wal used=31% (0.6T of 2.0T) threshold=85% OK
+Nov 11 04:12:04 bkp-02 bacula-fd[5096]: backup job 5016 completed OK
+Nov 11 09:14:19 bkp-02 CRON[6138]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 11 15:24:34 bkp-02 chronyd[2810]: Selected source 10.0.0.5
+Nov 12 03:12:41 bkp-02 diskmon[2905]: /srv/wal used=31% (0.6T of 2.0T) threshold=85% OK
+Nov 12 04:54:03 bkp-02 bacula-fd[1022]: backup job 5915 completed OK
+Nov 12 08:21:39 bkp-02 chronyd[7421]: Selected source 10.0.0.4
+Nov 12 09:35:59 bkp-02 sshd[1738]: Accepted publickey for deploy from 10.0.7.179 port 59542 ssh2
+Nov 12 10:20:07 bkp-02 systemd[1]: Started Session 920 of User deploy.
+Nov 13 01:56:59 bkp-02 bacula-fd[3473]: backup job 9821 completed OK
+Nov 13 03:12:41 bkp-02 diskmon[2907]: /srv/wal used=32% (0.6T of 2.0T) threshold=85% OK
+Nov 13 07:52:41 bkp-02 CRON[1034]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 13 16:52:31 bkp-02 systemd[1]: Started Session 924 of User deploy.
+Nov 13 21:00:08 bkp-02 chronyd[9955]: Selected source 10.0.0.9
+Nov 14 03:12:41 bkp-02 diskmon[2908]: /srv/wal used=31% (0.6T of 2.0T) threshold=85% OK
+Nov 14 05:49:14 bkp-02 bacula-fd[3952]: backup job 8596 completed OK
+Nov 14 14:24:35 bkp-02 sshd[4004]: Accepted publickey for deploy from 10.0.3.146 port 47206 ssh2
+Nov 14 15:04:58 bkp-02 chronyd[4431]: Selected source 10.0.0.5
+Nov 14 15:14:29 bkp-02 systemd[1]: Started Session 954 of User deploy.
+Nov 15 03:10:00 bkp-02 bacula-fd[4673]: backup job 8377 completed OK
+Nov 15 03:12:41 bkp-02 diskmon[2911]: /srv/wal used=31% (0.6T of 2.0T) threshold=85% OK
+Nov 15 04:25:07 bkp-02 CRON[8016]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 15 08:36:50 bkp-02 chronyd[1660]: Selected source 10.0.0.8
+Nov 15 15:01:34 bkp-02 systemd[1]: Started Session 982 of User deploy.
+Nov 16 01:15:33 bkp-02 bacula-fd[1772]: backup job 9071 completed OK
+Nov 16 03:00:19 bkp-02 bacula-fd[2138]: backup job 5877 completed OK
+Nov 16 03:12:41 bkp-02 diskmon[2912]: /srv/wal used=30% (0.6T of 2.0T) threshold=85% OK
+Nov 16 09:18:12 bkp-02 CRON[1750]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 16 13:46:25 bkp-02 systemd[1]: Started Session 1004 of User deploy.
+Nov 16 14:10:49 bkp-02 sshd[5088]: Accepted publickey for deploy from 10.0.6.35 port 49092 ssh2
+Nov 16 18:41:58 bkp-02 chronyd[9803]: Selected source 10.0.0.7
+Nov 17 02:24:50 bkp-02 chronyd[3821]: Selected source 10.0.0.9
+Nov 17 03:12:41 bkp-02 diskmon[2913]: /srv/wal used=30% (0.6T of 2.0T) threshold=85% OK
+Nov 17 03:20:01 bkp-02 bacula-fd[4042]: backup job 7406 completed OK
+Nov 17 05:28:30 bkp-02 bacula-fd[2815]: backup job 7129 completed OK
+Nov 17 18:07:35 bkp-02 sshd[6650]: Accepted publickey for deploy from 10.0.4.249 port 44078 ssh2
+Nov 18 02:45:15 bkp-02 bacula-fd[7318]: backup job 8547 completed OK
+Nov 18 03:12:41 bkp-02 diskmon[2915]: /srv/wal used=30% (0.6T of 2.0T) threshold=85% OK
+Nov 18 05:29:54 bkp-02 bacula-fd[3280]: backup job 3082 completed OK
+Nov 18 05:34:41 bkp-02 CRON[7773]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 18 08:13:07 bkp-02 systemd[1]: Started Session 1011 of User deploy.
+Nov 18 10:40:20 bkp-02 sshd[5059]: Accepted publickey for deploy from 10.0.8.17 port 58278 ssh2
+Nov 18 21:41:30 bkp-02 chronyd[3269]: Selected source 10.0.0.5
+Nov 19 01:04:37 bkp-02 chronyd[9601]: Selected source 10.0.0.9
+Nov 19 01:20:17 bkp-02 bacula-fd[2035]: backup job 5771 completed OK
+Nov 19 01:46:39 bkp-02 CRON[4247]: (root) CMD (/usr/local/bin/health-report.sh)
+Nov 19 03:12:41 bkp-02 diskmon[2918]: /srv/wal used=31% (0.6T of 2.0T) threshold=85% OK

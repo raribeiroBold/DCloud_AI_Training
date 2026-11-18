@@ -1,0 +1,14 @@
+From: Rui Santos <rui.santos@corp.example>
+To: you@corp.example
+Subject: On-call handover, week ending 06 Nov
+Date: Fri, 06 Nov 2026 17:41:00 +0000
+Message-ID: <202611061741-oncall-handover-1106@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi all,
+
+OpenSSH patching done (CHG-4201). bkp-01 /srv/wal at 95%, INC-20962 still waiting for storage.
+
+Rui

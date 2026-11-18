@@ -1,0 +1,16 @@
+From: Service Desk <servicedesk@corp.example>
+To: you@corp.example
+Subject: INC-20877 resolved: db-prd-02 PostgreSQL crashed
+Date: Wed, 07 Oct 2026 16:02:00 +0100
+Message-ID: <202610071602-inc-20877-resolved@corp.example>
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+INC-20877 is resolved.
+
+Root cause: /srv/wal on bkp-01 was not mounted after the reboot of 4 Oct, so every WAL archive attempt from db-prd-02 failed from 5 Oct 01:02 and pg_wal grew until the volume was full. The CRITICAL alert at 03:12 on 6 Oct was not acted on.
+Fix: /srv/wal mounted (fstab corrected); archiving caught up overnight.
+Follow-up: incident review on 21 Oct.
+
+Service Desk
